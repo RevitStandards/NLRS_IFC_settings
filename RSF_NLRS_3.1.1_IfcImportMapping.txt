@@ -1,0 +1,1543 @@
+# IFC Class Name and Type to Revit Category/Sub-Category Table			
+# Maps IFC Class and Type to Revit Category/Sub-Category			
+# You may edit using File -> Import/Export Settings -> IFC Options... .			
+# NLRS 3.1.1			
+# -----------------------------------------------------			
+IfcActuator		Mechanical Equipment	Equipment
+IfcActuator	ELECTRICACTUATOR	Electrical Equipment	Equipment
+IfcActuator	HANDOPERATEDACTUATOR	Mechanical Equipment	Equipment
+IfcActuator	HYDRAULICACTUATOR	Mechanical Equipment	Equipment
+IfcActuator	NOTDEFINED	Mechanical Equipment	Equipment
+IfcActuator	PNEUMATICACTUATOR	Mechanical Equipment	Equipment
+IfcActuator	THERMOSTATICACTUATOR	Mechanical Equipment	Equipment
+IfcActuator	USERDEFINED	Mechanical Equipment	Equipment
+IfcActuatorType	ELECTRICACTUATOR	Electrical Equipment	Equipment
+IfcActuatorType	HANDOPERATEDACTUATOR	Mechanical Equipment	Equipment
+IfcActuatorType	HYDRAULICACTUATOR	Mechanical Equipment	Equipment
+IfcActuatorType	NOTDEFINED	Mechanical Equipment	Equipment
+IfcActuatorType	PNEUMATICACTUATOR	Mechanical Equipment	Equipment
+IfcActuatorType	THERMOSTATICACTUATOR	Mechanical Equipment	Equipment
+IfcActuatorType	USERDEFINED	Mechanical Equipment	Equipment
+IfcAirTerminal		Air Terminals	Terminals
+IfcAirTerminal	DIFFUSER	Air Terminals	Terminals
+IfcAirTerminal	GRILLE	Air Terminals	Terminals
+IfcAirTerminal	LOUVRE	Air Terminals	Terminals
+IfcAirTerminal	NOTDEFINED	Air Terminals	Terminals
+IfcAirTerminal	REGISTER	Air Terminals	Terminals
+IfcAirTerminal	USERDEFINED	Air Terminals	Terminals
+IfcAirTerminalBox		Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalBox	CONSTANTFLOW	Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalBox	NOTDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalBox	USERDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalBox	VARIABLEFLOWPRESSUREDEPENDANT	Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalBox	VARIABLEFLOWPRESSUREINDEPENDANT	Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalBoxType	CONSTANTFLOW	Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalBoxType	NOTDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalBoxType	USERDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalBoxType	VARIABLEFLOWPRESSUREDEPENDANT	Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalBoxType	VARIABLEFLOWPRESSUREINDEPENDANT	Mechanical Equipment	Air Handling Equipment
+IfcAirTerminalType	DIFFUSER	Air Terminals	Terminals
+IfcAirTerminalType	GRILLE	Air Terminals	Terminals
+IfcAirTerminalType	LOUVRE	Air Terminals	Terminals
+IfcAirTerminalType	NOTDEFINED	Air Terminals	Terminals
+IfcAirTerminalType	REGISTER	Air Terminals	Terminals
+IfcAirTerminalType	USERDEFINED	Air Terminals	Terminals
+IfcAirToAirHeatRecovery		Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	FIXEDPLATECOUNTERFLOWEXCHANGER	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	FIXEDPLATECROSSFLOWEXCHANGER	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	FIXEDPLATEPARALLELFLOWEXCHANGER	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	HEATPIPE	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	NOTDEFINED	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	ROTARYWHEEL	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	RUNAROUNDCOILLOOP	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	THERMOSIPHONCOILTYPEHEATEXCHANGERS	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	THERMOSIPHONSEALEDTUBEHEATEXCHANGERS	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	TWINTOWERENTHALPYRECOVERYLOOPS	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecovery	USERDEFINED	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType		Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	FIXEDPLATECOUNTERFLOWEXCHANGER	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	FIXEDPLATECROSSFLOWEXCHANGER	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	FIXEDPLATEPARALLELFLOWEXCHANGER	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	HEATPIPE	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	NOTDEFINED	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	ROTARYWHEEL	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	RUNAROUNDCOILLOOP	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	THERMOSIPHONCOILTYPEHEATEXCHANGERS	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	THERMOSIPHONSEALEDTUBEHEATEXCHANGERS	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	TWINTOWERENTHALPYRECOVERYLOOPS	Mechanical Equipment	Heating Equipment
+IfcAirToAirHeatRecoveryType	USERDEFINED	Mechanical Equipment	Heating Equipment
+IfcAlarm		Security Devices	Devices
+IfcAlarm	BELL	Security Devices	Devices
+IfcAlarm	BREAKGLASSBUTTON	Security Devices	Devices
+IfcAlarm	LIGHT	Security Devices	Devices
+IfcAlarm	MANUALPULLBOX	Security Devices	Devices
+IfcAlarm	NOTDEFINED	Security Devices	Devices
+IfcAlarm	SIREN	Security Devices	Devices
+IfcAlarm	USERDEFINED	Security Devices	Devices
+IfcAlarm	WHISTLE	Security Devices	Devices
+IfcAlarmType		Security Devices	Devices
+IfcAlarmType	BELL	Security Devices	Devices
+IfcAlarmType	BREAKGLASSBUTTON	Security Devices	Devices
+IfcAlarmType	LIGHT	Security Devices	Devices
+IfcAlarmType	MANUALPULLBOX	Security Devices	Devices
+IfcAlarmType	NOTDEFINED	Security Devices	Devices
+IfcAlarmType	SIREN	Security Devices	Devices
+IfcAlarmType	USERDEFINED	Security Devices	Devices
+IfcAlarmType	WHISTLE	Security Devices	Devices
+IfcAnnotation		Generic Annotations	
+IfcAudioVisualAppliance		Communication Devices	Devices
+IfcAudioVisualAppliance	AMPLIFIER	Electrical Equipment	Multimedia Equipment
+IfcAudioVisualAppliance	CAMERA	Electrical Equipment	Camera Surveillance Equipment
+IfcAudioVisualAppliance	DISPLAY	Communication Devices	Building Management Devices
+IfcAudioVisualAppliance	MICROPHONE	Communication Devices	Multimedia Devices
+IfcAudioVisualAppliance	NOTDEFINED	Communication Devices	Devices
+IfcAudioVisualAppliance	PLAYER	Communication Devices	Multimedia Devices
+IfcAudioVisualAppliance	PROJECTOR	Communication Devices	Multimedia Devices
+IfcAudioVisualAppliance	RECEIVER	Electrical Equipment	Multimedia Equipment
+IfcAudioVisualAppliance	SPEAKER	Electrical Equipment	Multimedia Equipment
+IfcAudioVisualAppliance	SWITCHER	Electrical Equipment	Telephony Equipment
+IfcAudioVisualAppliance	TELEPHONE	Communication Devices	Communication Devices
+IfcAudioVisualAppliance	TUNER	Communication Devices	Multimedia Devices
+IfcAudioVisualAppliance	USERDEFINED	Communication Devices	Devices
+IfcAudioVisualApplianceType		Communication Devices	Devices
+IfcAudioVisualApplianceType	AMPLIFIER	Electrical Equipment	Multimedia Equipment
+IfcAudioVisualApplianceType	CAMERA	Electrical Equipment	Camera Surveillance Equipment
+IfcAudioVisualApplianceType	DISPLAY	Communication Devices	Building Management Devices
+IfcAudioVisualApplianceType	MICROPHONE	Communication Devices	Multimedia Devices
+IfcAudioVisualApplianceType	NOTDEFINED	Communication Devices	Devices
+IfcAudioVisualApplianceType	PLAYER	Communication Devices	Multimedia Devices
+IfcAudioVisualApplianceType	PROJECTOR	Communication Devices	Multimedia Devices
+IfcAudioVisualApplianceType	RECEIVER	Electrical Equipment	Multimedia Equipment
+IfcAudioVisualApplianceType	SPEAKER	Electrical Equipment	Multimedia Equipment
+IfcAudioVisualApplianceType	SWITCHER	Electrical Equipment	Telephony Equipment
+IfcAudioVisualApplianceType	TELEPHONE	Communication Devices	Communication Devices
+IfcAudioVisualApplianceType	TUNER	Communication Devices	Multimedia Devices
+IfcAudioVisualApplianceType	USERDEFINED	Communication Devices	Devices
+IfcBeam		Structural Framing	Other
+IfcBeam	BEAM	Structural Framing	Other
+IfcBeam	HOLLOWCORE	Structural Framing	Other
+IfcBeam	JOIST	Structural Framing	Joist
+IfcBeam	LINTEL	Structural Framing	Other
+IfcBeam	NOTDEFINED	Structural Framing	Other
+IfcBeam	SPANDREL	Structural Framing	Other
+IfcBeam	T_BEAM	Structural Framing	Other
+IfcBeam	USERDEFINED	Structural Framing	Other
+IfcBeamType		Structural Framing	Other
+IfcBeamType	BEAM	Structural Framing	Other
+IfcBeamType	HOLLOWCORE	Structural Framing	Other
+IfcBeamType	JOIST	Structural Framing	Joist
+IfcBeamType	LINTEL	Structural Framing	Other
+IfcBeamType	NOTDEFINED	Structural Framing	Other
+IfcBeamType	SPANDREL	Structural Framing	Other
+IfcBeamType	T_BEAM	Structural Framing	Other
+IfcBeamType	USERDEFINED	Structural Framing	Other
+IfcBoiler		Mechanical Equipment	Heating Equipment
+IfcBoiler	NOTDEFINED	Mechanical Equipment	Heating Equipment
+IfcBoiler	STEAM	Mechanical Equipment	Heating Equipment
+IfcBoiler	USERDEFINED	Mechanical Equipment	Heating Equipment
+IfcBoiler	WATER	Mechanical Equipment	Heating Equipment
+IfcBoilerType		Mechanical Equipment	Heating Equipment
+IfcBoilerType	NOTDEFINED	Mechanical Equipment	Heating Equipment
+IfcBoilerType	STEAM	Mechanical Equipment	Heating Equipment
+IfcBoilerType	USERDEFINED	Mechanical Equipment	Heating Equipment
+IfcBoilerType	WATER	Mechanical Equipment	Heating Equipment
+IfcBoundingBox		Generic Models	Bounding Boxes
+IfcBuilding		New	Wide Lines
+IfcBuildingElementPart		Parts	
+IfcBuildingElementProxy		Generic Models	Models
+IfcBuildingElementProxy	COMPLEX	Generic Models	Models
+IfcBuildingElementProxy	ELEMENT	Generic Models	Models
+IfcBuildingElementProxy	NOTDEFINED	Generic Models	Models
+IfcBuildingElementProxy	PARTIAL	Generic Models	Models
+IfcBuildingElementProxy	PROVISIONFORVOID	Generic Models	Clearance Zones
+IfcBuildingElementProxy	USERDEFINED	Generic Models	Models
+IfcBuildingElementProxyType		Generic Models	Models
+IfcBuildingElementProxyType	COMPLEX	Generic Models	Models
+IfcBuildingElementProxyType	ELEMENT	Generic Models	Models
+IfcBuildingElementProxyType	NOTDEFINED	Generic Models	Models
+IfcBuildingElementProxyType	PARTIAL	Generic Models	Models
+IfcBuildingElementProxyType	PROVISIONFORVOID	Generic Models	Clearance Zones
+IfcBuildingElementProxyType	USERDEFINED	Generic Models	Models
+IfcBuildingStorey		Levels	
+IfcBurner		Mechanical Equipment	Gas Treatment Equipment
+IfcCableCarrierFitting		Cable Tray Fittings	Fittings
+IfcCableCarrierFitting	BEND	Cable Tray Fittings	Fittings
+IfcCableCarrierFitting	CROSS	Cable Tray Fittings	Fittings
+IfcCableCarrierFitting	NOTDEFINED	Cable Tray Fittings	Fittings
+IfcCableCarrierFitting	REDUCER	Cable Tray Fittings	Fittings
+IfcCableCarrierFitting	TEE	Cable Tray Fittings	Fittings
+IfcCableCarrierFitting	USERDEFINED	Cable Tray Fittings	Fittings
+IfcCableCarrierFittingType		Cable Tray Fittings	Fittings
+IfcCableCarrierFittingType	BEND	Cable Tray Fittings	Fittings
+IfcCableCarrierFittingType	CROSS	Cable Tray Fittings	Fittings
+IfcCableCarrierFittingType	NOTDEFINED	Cable Tray Fittings	Fittings
+IfcCableCarrierFittingType	REDUCER	Cable Tray Fittings	Fittings
+IfcCableCarrierFittingType	TEE	Cable Tray Fittings	Fittings
+IfcCableCarrierFittingType	USERDEFINED	Cable Tray Fittings	Fittings
+IfcCableCarrierSegment		Cable Trays	
+IfcCableCarrierSegment	CABLELADDERSEGMENT	Cable Tray	
+IfcCableCarrierSegment	CABLETRAYSEGMENT	Cable Tray	
+IfcCableCarrierSegment	CABLETRUNKINGSEGMENT	Cable Tray	
+IfcCableCarrierSegment	CONDUITSEGMENT	Cable Tray	
+IfcCableCarrierSegment	NOTDEFINED	Cable Tray	
+IfcCableCarrierSegment	USERDEFINED	Cable Tray	
+IfcCableCarrierSegmentType		Cable Tray	
+IfcCableCarrierSegmentType	CABLELADDERSEGMENT	Cable Tray	
+IfcCableCarrierSegmentType	CABLETRAYSEGMENT	Cable Tray	
+IfcCableCarrierSegmentType	CABLETRUNKINGSEGMENT	Cable Tray	
+IfcCableCarrierSegmentType	CONDUITSEGMENT	Cable Tray	
+IfcCableCarrierSegmentType	NOTDEFINED	Cable Tray	
+IfcCableCarrierSegmentType	USERDEFINED	Cable Tray	
+IfcCableFitting		Conduit Fittings	Fittings
+IfcCableFitting	CONNECTOR	Conduit Fittings	Fittings
+IfcCableFitting	ENTRY	Conduit Fittings	Fittings
+IfcCableFitting	EXIT	Conduit Fittings	Fittings
+IfcCableFitting	JUNCTION	Conduit Fittings	Fittings
+IfcCableFitting	NOTDEFINED	Conduit Fittings	Fittings
+IfcCableFitting	TRANSITION	Conduit Fittings	Fittings
+IfcCableFitting	USERDEFINED	Conduit Fittings	Fittings
+IfcCableFittingType		Conduit Fittings	Fittings
+IfcCableFittingType	CONNECTOR	Conduit Fittings	Fittings
+IfcCableFittingType	ENTRY	Conduit Fittings	Fittings
+IfcCableFittingType	EXIT	Conduit Fittings	Fittings
+IfcCableFittingType	JUNCTION	Conduit Fittings	Fittings
+IfcCableFittingType	NOTDEFINED	Conduit Fittings	Fittings
+IfcCableFittingType	TRANSITION	Conduit Fittings	Fittings
+IfcCableFittingType	USERDEFINED	Conduit Fittings	Fittings
+IfcCableSegment		Conduits	
+IfcCableSegment	BUSBARSEGMENT	Wires	
+IfcCableSegment	CABLESEGMENT	Wires	
+IfcCableSegment	CONDUCTORSEGMENT	Wires	
+IfcCableSegment	CORESEGMENT	Wires	
+IfcCableSegment	NOTDEFINED	Wires	
+IfcCableSegment	USERDEFINED	Wires	
+IfcCableSegmentType		Wires	
+IfcCableSegmentType	BUSBARSEGMENT	Wires	
+IfcCableSegmentType	CABLESEGMENT	Wires	
+IfcCableSegmentType	CONDUCTORSEGMENT	Wires	
+IfcCableSegmentType	CORESEGMENT	Wires	
+IfcCableSegmentType	NOTDEFINED	Wires	
+IfcCableSegmentType	USERDEFINED	Wires	
+IfcChiller		Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChiller	AIRCOOLED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChiller	HEATRECOVERY	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChiller	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChiller	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChiller	WATERCOOLED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChillerType		Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChillerType	AIRCOOLED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChillerType	HEATRECOVERY	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChillerType	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChillerType	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcChillerType	WATERCOOLED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoil		Mechanical Equipment	Equipment
+IfcCoil	DXCOOLINGCOIL	Mechanical Equipment	Cooling Elements
+IfcCoil	ELECTRICHEATINGCOIL	Electrical Equipment	Equipment
+IfcCoil	GASHEATINGCOIL	Mechanical Equipment	Gas Treatment Equipment
+IfcCoil	HYDRONICCOIL	Mechanical Equipment	Heating Elements
+IfcCoil	NOTDEFINED	Mechanical Equipment	Equipment
+IfcCoil	STEAMHEATINGCOIL	Mechanical Equipment	Cooling Elements
+IfcCoil	USERDEFINED	Mechanical Equipment	Equipment
+IfcCoil	WATERCOOLINGCOIL	Mechanical Equipment	Cooling Elements
+IfcCoil	WATERHEATINGCOIL	Mechanical Equipment	Heating Elements
+IfcCoilType	DXCOOLINGCOIL	Mechanical Equipment	Cooling Elements
+IfcCoilType	ELECTRICHEATINGCOIL	Electrical Equipment	Equipment
+IfcCoilType	GASHEATINGCOIL	Mechanical Equipment	Gas Treatment Equipment
+IfcCoilType	HYDRONICCOIL	Mechanical Equipment	Heating Elements
+IfcCoilType	NOTDEFINED	Mechanical Equipment	Equipment
+IfcCoilType	STEAMHEATINGCOIL	Mechanical Equipment	Cooling Elements
+IfcCoilType	USERDEFINED	Mechanical Equipment	Equipment
+IfcCoilType	WATERCOOLINGCOIL	Mechanical Equipment	Cooling Elements
+IfcCoilType	WATERHEATINGCOIL	Mechanical Equipment	Heating Elements
+IfcColumn		Columns	Column Coverings
+IfcColumn	[LoadBearing]	Structural Columns	Columns
+IfcColumn	COLUMN	Columns	Columns
+IfcColumn	NOTDEFINED	Columns	Columns
+IfcColumn	USERDEFINED	Columns	Columns
+IfcColumnType		Columns	Column Coverings
+IfcColumnType	[LoadBearing]	Structural Columns	Columns
+IfcColumnType	COLUMN	Columns	Columns
+IfcColumnType	NOTDEFINED	Columns	Columns
+IfcColumnType	USERDEFINED	Columns	Columns
+IfcCommunicationsAppliance		Communication Devices	Communication Devices
+IfcCompressor		Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	BOOSTER	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	DYNAMIC	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	HERMETIC	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	NOTDEFINED	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	OPENTYPE	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	RECIPROCATING	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	ROLLINGPISTON	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	ROTARY	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	ROTARYVANE	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	SCROLL	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	SEMIHERMETIC	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	SINGLESCREW	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	SINGLESTAGE	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	TROCHOIDAL	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	TWINSCREW	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	USERDEFINED	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressor	WELDEDSHELLHERMETIC	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType		Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	BOOSTER	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	DYNAMIC	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	HERMETIC	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	NOTDEFINED	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	OPENTYPE	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	RECIPROCATING	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	ROLLINGPISTON	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	ROTARY	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	ROTARYVANE	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	SCROLL	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	SEMIHERMETIC	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	SINGLESCREW	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	SINGLESTAGE	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	TROCHOIDAL	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	TWINSCREW	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	USERDEFINED	Mechanical Equipment	Fluid Supply Equipment
+IfcCompressorType	WELDEDSHELLHERMETIC	Mechanical Equipment	Fluid Supply Equipment
+IfcCondenser		Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenser	AIRCOOLED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenser	EVAPORATIVECOOLED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenser	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenser	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenser	WATERCOOLED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenser	WATERCOOLEDBRAZEDPLATE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenser	WATERCOOLEDSHELLCOIL	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenser	WATERCOOLEDSHELLTUBE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenser	WATERCOOLEDTUBEINTUBE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenserType		Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenserType	AIRCOOLED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenserType	EVAPORATIVECOOLED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenserType	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenserType	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenserType	WATERCOOLED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenserType	WATERCOOLEDBRAZEDPLATE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenserType	WATERCOOLEDSHELLCOIL	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenserType	WATERCOOLEDSHELLTUBE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCondenserType	WATERCOOLEDTUBEINTUBE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcController		Electrical Equipment	Building Management Accessories
+IfcController	FLOATING	Electrical Equipment	Building Management Accessories
+IfcController	MULTIPOSITION	Electrical Equipment	Building Management Accessories
+IfcController	NOTDEFINED	Electrical Equipment	Building Management Accessories
+IfcController	PROGRAMMABLE	Electrical Equipment	Building Management Accessories
+IfcController	PROPORTIONAL	Electrical Equipment	Building Management Accessories
+IfcController	TWOPOSITION	Electrical Equipment	Building Management Accessories
+IfcController	USERDEFINED	Electrical Equipment	Building Management Accessories
+IfcControllerType		Electrical Equipment	Building Management Accessories
+IfcControllerType	FLOATING	Electrical Equipment	Building Management Accessories
+IfcControllerType	MULTIPOSITION	Electrical Equipment	Building Management Accessories
+IfcControllerType	NOTDEFINED	Electrical Equipment	Building Management Accessories
+IfcControllerType	PROGRAMMABLE	Electrical Equipment	Building Management Accessories
+IfcControllerType	PROPORTIONAL	Electrical Equipment	Building Management Accessories
+IfcControllerType	TWOPOSITION	Electrical Equipment	Building Management Accessories
+IfcControllerType	USERDEFINED	Electrical Equipment	Building Management Accessories
+IfcCooledBeam		Mechanical Equipment	Cooling and Refrigeration Elements
+IfcCooledBeam	ACTIVE	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcCooledBeam	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcCooledBeam	PASSIVE	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcCooledBeam	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcCooledBeamType		Mechanical Equipment	Cooling and Refrigeration Elements
+IfcCooledBeamType	ACTIVE	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcCooledBeamType	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcCooledBeamType	PASSIVE	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcCooledBeamType	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcCoolingTower		Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTower	MECHANICALFORCEDDRAFT	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTower	MECHANICALINDUCEDDRAFT	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTower	NATURALDRAFT	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTower	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTower	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTowerType		Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTowerType	MECHANICALFORCEDDRAFT	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTowerType	MECHANICALINDUCEDDRAFT	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTowerType	NATURALDRAFT	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTowerType	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCoolingTowerType	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcCovering		Generic Models	Models
+IfcCovering	CEILING	Ceilings	Finish 2 [5]
+IfcCovering	CLADDING	Roofs	Finish 1 [4]
+IfcCovering	FLOORING	Floors	Finish 2 [5]
+IfcCovering	NOTDEFINED	Generic Models	Models
+IfcCovering	ROOFING	Roofs	Finish 2 [5]
+IfcCovering	USERDEFINED	Generic Models	Models
+IfcCoveringType		Generic Models	Models
+IfcCoveringType	CEILING	Ceilings	Finish 2 [5]
+IfcCoveringType	CLADDING	Roofs	Finish 1 [4]
+IfcCoveringType	FLOORING	Floors	Finish 2 [5]
+IfcCoveringType	NOTDEFINED	Generic Models	Models
+IfcCoveringType	ROOFING	Roofs	Finish 2 [5]
+IfcCoveringType	USERDEFINED	Generic Models	Models
+IfcCurtainWall		Curtain Systems	
+IfcCurtainWall	NOTDEFINED	Curtain Systems	
+IfcCurtainWall	USERDEFINED	Curtain Systems	Sealant
+IfcCurtainWallType		Curtain Systems	
+IfcCurtainWallType	NOTDEFINED	Curtain Systems	
+IfcCurtainWallType	USERDEFINED	Curtain Systems	Sealant
+IfcDamper		Duct Accessories	Accessories
+IfcDamper	BACKDRAFTDAMPER	Duct Accessories	Accessories
+IfcDamper	BALANCINGDAMPER	Duct Accessories	Accessories
+IfcDamper	BLASTDAMPER	Duct Accessories	Accessories
+IfcDamper	CONTROLDAMPER	Duct Accessories	Accessories
+IfcDamper	FIREDAMPER	Duct Accessories	Accessories
+IfcDamper	FIRESMOKEDAMPER	Duct Accessories	Accessories
+IfcDamper	FUMEHOODEXHAUST	Duct Accessories	Accessories
+IfcDamper	GRAVITYDAMPER	Duct Accessories	Accessories
+IfcDamper	GRAVITYRELIEFDAMPER	Duct Accessories	Accessories
+IfcDamper	NOTDEFINED	Duct Accessories	Accessories
+IfcDamper	RELIEFDAMPER	Duct Accessories	Accessories
+IfcDamper	SMOKEDAMPER	Duct Accessories	Accessories
+IfcDamper	USERDEFINED	Duct Accessories	Accessories
+IfcDamperType		Duct Accessories	Accessories
+IfcDamperType	BACKDRAFTDAMPER	Duct Accessories	Accessories
+IfcDamperType	BALANCINGDAMPER	Duct Accessories	Accessories
+IfcDamperType	BLASTDAMPER	Duct Accessories	Accessories
+IfcDamperType	CONTROLDAMPER	Duct Accessories	Accessories
+IfcDamperType	FIREDAMPER	Duct Accessories	Accessories
+IfcDamperType	FIRESMOKEDAMPER	Duct Accessories	Accessories
+IfcDamperType	FUMEHOODEXHAUST	Duct Accessories	Accessories
+IfcDamperType	GRAVITYDAMPER	Duct Accessories	Accessories
+IfcDamperType	GRAVITYRELIEFDAMPER	Duct Accessories	Accessories
+IfcDamperType	NOTDEFINED	Duct Accessories	Accessories
+IfcDamperType	RELIEFDAMPER	Duct Accessories	Accessories
+IfcDamperType	SMOKEDAMPER	Duct Accessories	Accessories
+IfcDamperType	USERDEFINED	Duct Accessories	Accessories
+IfcDiscreteAccessory		Generic Models	Models
+IfcDistributionChamberElement		Generic Models	Models
+IfcDistributionChamberElement	FORMEDDUCT	Site	Other
+IfcDistributionChamberElement	INSPECTIONCHAMBER	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElement	INSPECTIONPIT	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElement	MANHOLE	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElement	METERCHAMBER	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElement	NOTDEFINED	Generic Models	Models
+IfcDistributionChamberElement	SUMP	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElement	TRENCH	Site	Other
+IfcDistributionChamberElement	USERDEFINED	Generic Models	Models
+IfcDistributionChamberElement	VALVECHAMBER	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElementType		Generic Models	Models
+IfcDistributionChamberElementType	FORMEDDUCT	Site	Other
+IfcDistributionChamberElementType	INSPECTIONCHAMBER	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElementType	INSPECTIONPIT	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElementType	MANHOLE	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElementType	METERCHAMBER	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElementType	NOTDEFINED	Generic Models	Models
+IfcDistributionChamberElementType	SUMP	Generic Models	Prefabricated Assemblies
+IfcDistributionChamberElementType	TRENCH	Site	Other
+IfcDistributionChamberElementType	USERDEFINED	Generic Models	Models
+IfcDistributionChamberElementType	VALVECHAMBER	Generic Models	Prefabricated Assemblies
+IfcDistributionCircuit		Electrical Equipment	Low Voltage Accessories
+IfcDistributionControlElement		Generic Models	Models
+IfcDistributionElement		Generic Models	Models
+IfcDistributionFlowElement		Generic Models	Models
+IfcDistributionPort		Electrical Equipment	Data Equipment
+IfcDistributionPort	CABLE	Conduits	
+IfcDistributionPort	CABLECARRIER	Cable Trays	
+IfcDistributionPort	DUCT	Ducts	
+IfcDistributionPort	NOTDEFINED	Generic Models	
+IfcDistributionPort	PIPE	Pipes	
+IfcDistributionPort	USERDEFINED	Generic Models	
+IfcDistributionSystem		Electrical Circuits	
+IfcDistributionSystem	AIRCONDITIONING	Duct Systems	
+IfcDistributionSystem	AUDIOVISUAL	Electrical Circuits	
+IfcDistributionSystem	CHEMICAL	Pipe Systems	
+IfcDistributionSystem	CHILLEDWATER	Pipe Systems	
+IfcDistributionSystem	COMPRESSEDAIR	Pipe Systems	
+IfcDistributionSystem	CONDENSERWATER	Pipe Systems	
+IfcDistributionSystem	CONTROL	Electrical Circuits	
+IfcDistributionSystem	DATA	Electrical Circuits	
+IfcDistributionSystem	DOMESTICCOLDWATER	Pipe Systems	
+IfcDistributionSystem	DOMESTICHOTWATER	Pipe Systems	
+IfcDistributionSystem	DRAINAGE	Pipe Systems	
+IfcDistributionSystem	EARTHING	Electrical Circuits	
+IfcDistributionSystem	ELECTRICAL	Electrical Circuits	
+IfcDistributionSystem	ELECTROACCOUSTIC	Electrical Circuits	
+IfcDistributionSystem	EXHAUST	Duct Systems	
+IfcDistributionSystem	FIREPROTECTION	Pipe Systems	
+IfcDistributionSystem	GAS	Pipe Systems	
+IfcDistributionSystem	HAZARDOUS	Pipe Systems	
+IfcDistributionSystem	HEATING	Pipe Systems	
+IfcDistributionSystem	LIGHTING	Electrical Circuits	
+IfcDistributionSystem	LIGHTNINGPROTECTION	Electrical Circuits	
+IfcDistributionSystem	OIL	Pipe Systems	
+IfcDistributionSystem	POWERGENERATION	Electrical Circuits	
+IfcDistributionSystem	RAINWATER	Pipe Systems	
+IfcDistributionSystem	REFRIGERATION	Pipe Systems	
+IfcDistributionSystem	SECURITY	Electrical Circuits	
+IfcDistributionSystem	SEWAGE	Pipe Systems	
+IfcDistributionSystem	SIGNAL	Electrical Circuits	
+IfcDistributionSystem	STORMWATER	Pipe Systems	
+IfcDistributionSystem	TELEPHONE	Electrical Circuits	
+IfcDistributionSystem	TV	Electrical Circuits	
+IfcDistributionSystem	VACUUM	Pipe Systems	
+IfcDistributionSystem	VENT	Pipe Systems	
+IfcDistributionSystem	VENTILATION	Duct Systems	
+IfcDistributionSystem	WASTE	Pipe Systems	
+IfcDoor		Doors	
+IfcDoor	DOOR	Doors	Panel
+IfcDoor	GATE	Doors	
+IfcDoor	NOTDEFINED	Doors	
+IfcDoor	TRAPDOOR	Doors	
+IfcDoor	USERDEFINED	Doors	
+IfcDoorType		Doors	
+IfcDoorType	DOOR	Doors	Panel
+IfcDoorType	GATE		
+IfcDoorType	NOTDEFINED	Doors	
+IfcDoorType	TRAPDOOR		
+IfcDoorType	USERDEFINED	Doors	
+IfcDuctFitting		Duct Fittings	Fittings
+IfcDuctFitting	BEND	Duct Fittings	Fittings
+IfcDuctFitting	CONNECTOR	Duct Fittings	Fittings
+IfcDuctFitting	ENTRY	Duct Fittings	Fittings
+IfcDuctFitting	EXIT	Duct Fittings	Fittings
+IfcDuctFitting	JUNCTION	Duct Fittings	Fittings
+IfcDuctFitting	NOTDEFINED	Duct Fittings	Fittings
+IfcDuctFitting	OBSTRUCTION	Duct Fittings	
+IfcDuctFitting	TRANSITION	Duct Fittings	Fittings
+IfcDuctFitting	USERDEFINED	Duct Fittings	Fittings
+IfcDuctFittingType		Duct Fittings	Fittings
+IfcDuctFittingType	BEND	Duct Fittings	Fittings
+IfcDuctFittingType	CONNECTOR	Duct Fittings	Fittings
+IfcDuctFittingType	ENTRY	Duct Fittings	Fittings
+IfcDuctFittingType	EXIT	Duct Fittings	Fittings
+IfcDuctFittingType	JUNCTION	Duct Fittings	Fittings
+IfcDuctFittingType	NOTDEFINED	Duct Fittings	Fittings
+IfcDuctFittingType	OBSTRUCTION	Duct Fittings	
+IfcDuctFittingType	TRANSITION	Duct Fittings	Fittings
+IfcDuctFittingType	USERDEFINED	Duct Fittings	Fittings
+IfcDuctSegment		Ducts	
+IfcDuctSegment	FLEXIBLESEGMENT	Flex Ducts	
+IfcDuctSegment	NOTDEFINED	Ducts	
+IfcDuctSegment	RIGIDSEGMENT	Ducts	
+IfcDuctSegment	USERDEFINED	Ducts	
+IfcDuctSegmentType		Ducts	
+IfcDuctSegmentType	FLEXIBLESEGMENT	Flex Ducts	
+IfcDuctSegmentType	NOTDEFINED	Ducts	
+IfcDuctSegmentType	RIGIDSEGMENT	Ducts	
+IfcDuctSegmentType	USERDEFINED	Ducts	
+IfcDuctSilencer		Duct Accessories	Accessories
+IfcDuctSilencer	FLATOVAL	Duct Accessories	Accessories
+IfcDuctSilencer	NOTDEFINED	Duct Accessories	Accessories
+IfcDuctSilencer	RECTANGULAR	Duct Accessories	Accessories
+IfcDuctSilencer	ROUND	Duct Accessories	Accessories
+IfcDuctSilencer	USERDEFINED	Duct Accessories	Accessories
+IfcDuctSilencerType		Duct Accessories	Accessories
+IfcDuctSilencerType	FLATOVAL	Duct Accessories	Accessories
+IfcDuctSilencerType	NOTDEFINED	Duct Accessories	Accessories
+IfcDuctSilencerType	RECTANGULAR	Duct Accessories	Accessories
+IfcDuctSilencerType	ROUND	Duct Accessories	Accessories
+IfcDuctSilencerType	USERDEFINED	Duct Accessories	Accessories
+IfcElectricAppliance		Specialty Equipment	Appliances
+IfcElectricAppliance	DISHWASHER	Specialty Equipment	Appliances
+IfcElectricAppliance	ELECTRICCOOKER	Specialty Equipment	Appliances
+IfcElectricAppliance	FREESTANDINGELECTRICHEATER	Specialty Equipment	Appliances
+IfcElectricAppliance	FREESTANDINGFAN	Specialty Equipment	Appliances
+IfcElectricAppliance	FREESTANDINGWATERCOOLER	Specialty Equipment	Appliances
+IfcElectricAppliance	FREESTANDINGWATERHEATER	Specialty Equipment	Appliances
+IfcElectricAppliance	FREEZER	Specialty Equipment	Appliances
+IfcElectricAppliance	FRIDGE_FREEZER	Specialty Equipment	Appliances
+IfcElectricAppliance	HANDDRYER	Specialty Equipment	Appliances
+IfcElectricAppliance	KITCHENMACHINE	Specialty Equipment	Appliances
+IfcElectricAppliance	MICROWAVE	Specialty Equipment	Appliances
+IfcElectricAppliance	NOTDEFINED	Specialty Equipment	Appliances
+IfcElectricAppliance	PHOTOCOPIER	Specialty Equipment	Appliances
+IfcElectricAppliance	REFRIGERATOR	Specialty Equipment	Appliances
+IfcElectricAppliance	TUMBLEDRYER	Specialty Equipment	Appliances
+IfcElectricAppliance	USERDEFINED	Specialty Equipment	Appliances
+IfcElectricAppliance	VENDINGMACHINE	Specialty Equipment	Appliances
+IfcElectricAppliance	WASHINGMACHINE	Specialty Equipment	Appliances
+IfcElectricApplianceType		Specialty Equipment	Appliances
+IfcElectricApplianceType	DISHWASHER	Specialty Equipment	Appliances
+IfcElectricApplianceType	ELECTRICCOOKER	Specialty Equipment	Appliances
+IfcElectricApplianceType	FREESTANDINGELECTRICHEATER	Specialty Equipment	Appliances
+IfcElectricApplianceType	FREESTANDINGFAN	Specialty Equipment	Appliances
+IfcElectricApplianceType	FREESTANDINGWATERCOOLER	Specialty Equipment	Appliances
+IfcElectricApplianceType	FREESTANDINGWATERHEATER	Specialty Equipment	Appliances
+IfcElectricApplianceType	FREEZER	Specialty Equipment	Appliances
+IfcElectricApplianceType	FRIDGE_FREEZER	Specialty Equipment	Appliances
+IfcElectricApplianceType	HANDDRYER	Specialty Equipment	Appliances
+IfcElectricApplianceType	KITCHENMACHINE	Specialty Equipment	Appliances
+IfcElectricApplianceType	MICROWAVE	Specialty Equipment	Appliances
+IfcElectricApplianceType	NOTDEFINED	Specialty Equipment	Appliances
+IfcElectricApplianceType	PHOTOCOPIER	Specialty Equipment	Appliances
+IfcElectricApplianceType	REFRIGERATOR	Specialty Equipment	Appliances
+IfcElectricApplianceType	TUMBLEDRYER	Specialty Equipment	Appliances
+IfcElectricApplianceType	USERDEFINED	Specialty Equipment	Appliances
+IfcElectricApplianceType	VENDINGMACHINE	Specialty Equipment	Appliances
+IfcElectricApplianceType	WASHINGMACHINE	Specialty Equipment	Appliances
+IfcElectricFlowStorageDevice		Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDevice	BATTERY	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDevice	CAPACITORBANK	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDevice	HARMONICFILTER	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDevice	INDUCTORBANK	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDevice	NOTDEFINED	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDevice	UPS	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDevice	USERDEFINED	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDeviceType		Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDeviceType	BATTERY	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDeviceType	CAPACITORBANK	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDeviceType	HARMONICFILTER	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDeviceType	INDUCTORBANK	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDeviceType	NOTDEFINED	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDeviceType	UPS	Electrical Equipment	Electrical Safety Equipment
+IfcElectricFlowStorageDeviceType	USERDEFINED	Electrical Equipment	Electrical Safety Equipment
+IfcElectricGenerator		Electrical Equipment	High Voltage Equipment
+IfcElectricGenerator	CHP	Electrical Equipment	High Voltage Equipment
+IfcElectricGenerator	ENGINEGENERATOR	Electrical Equipment	High Voltage Equipment
+IfcElectricGenerator	NOTDEFINED	Electrical Equipment	High Voltage Equipment
+IfcElectricGenerator	STANDALONE	Electrical Equipment	High Voltage Equipment
+IfcElectricGenerator	USERDEFINED	Electrical Equipment	High Voltage Equipment
+IfcElectricGeneratorType		Electrical Equipment	High Voltage Equipment
+IfcElectricGeneratorType	CHP	Electrical Equipment	High Voltage Equipment
+IfcElectricGeneratorType	ENGINEGENERATOR	Electrical Equipment	High Voltage Equipment
+IfcElectricGeneratorType	NOTDEFINED	Electrical Equipment	High Voltage Equipment
+IfcElectricGeneratorType	STANDALONE	Electrical Equipment	High Voltage Equipment
+IfcElectricGeneratorType	USERDEFINED	Electrical Equipment	High Voltage Equipment
+IfcElectricMotor		Electrical Equipment	Equipment
+IfcElectricMotor	DC	Electrical Equipment	Equipment
+IfcElectricMotor	INDUCTION	Electrical Equipment	Equipment
+IfcElectricMotor	NOTDEFINED	Electrical Equipment	Equipment
+IfcElectricMotor	POLYPHASE	Electrical Equipment	Equipment
+IfcElectricMotor	RELUCTANCESYNCHRONOUS	Electrical Equipment	Equipment
+IfcElectricMotor	SYNCHRONOUS	Electrical Equipment	Equipment
+IfcElectricMotor	USERDEFINED	Electrical Equipment	Equipment
+IfcElectricMotorType		Electrical Equipment	Equipment
+IfcElectricMotorType	DC	Electrical Equipment	Equipment
+IfcElectricMotorType	INDUCTION	Electrical Equipment	Equipment
+IfcElectricMotorType	NOTDEFINED	Electrical Equipment	Equipment
+IfcElectricMotorType	POLYPHASE	Electrical Equipment	Equipment
+IfcElectricMotorType	RELUCTANCESYNCHRONOUS	Electrical Equipment	Equipment
+IfcElectricMotorType	SYNCHRONOUS	Electrical Equipment	Equipment
+IfcElectricMotorType	USERDEFINED	Electrical Equipment	Equipment
+IfcElectricTimeControl		Electrical Equipment	Building Management Accessories
+IfcElectricTimeControl	NOTDEFINED	Electrical Equipment	Building Management Accessories
+IfcElectricTimeControl	RELAY	Electrical Equipment	Building Management Accessories
+IfcElectricTimeControl	TIMECLOCK	Electrical Equipment	Building Management Accessories
+IfcElectricTimeControl	TIMEDELAY	Electrical Equipment	Building Management Accessories
+IfcElectricTimeControl	USERDEFINED	Electrical Equipment	Building Management Accessories
+IfcElectricTimeControlType		Electrical Equipment	Building Management Accessories
+IfcElectricTimeControlType	NOTDEFINED	Electrical Equipment	Building Management Accessories
+IfcElectricTimeControlType	RELAY	Electrical Equipment	Building Management Accessories
+IfcElectricTimeControlType	TIMECLOCK	Electrical Equipment	Building Management Accessories
+IfcElectricTimeControlType	TIMEDELAY	Electrical Equipment	Building Management Accessories
+IfcElectricTimeControlType	USERDEFINED	Electrical Equipment	Building Management Accessories
+IfcElement		Generic Models	Models
+IfcElementAssembly		Assemblies	
+IfcElementAssembly	ACCESSORY_ASSEMBLY	Assemblies	Vertical Bracing
+IfcElementAssembly	ARCH	Generic Models	Prefabricated Structural Assemblies
+IfcElementAssembly	BEAM_GRID	Structural Framing	Other
+IfcElementAssembly	BRACED_FRAME	Generic Models	Prefabricated Structural Assemblies
+IfcElementAssembly	GIRDER	Structural Framing	Girder
+IfcElementAssembly	NOTDEFINED	Assemblies	
+IfcElementAssembly	REINFORCEMENT_UNIT	Generic Models	Prefabricated Structural Assemblies
+IfcElementAssembly	RIGID_FRAME	Generic Models	Prefabricated Structural Assemblies
+IfcElementAssembly	SLAB_FIELD	Generic Models	Floors
+IfcElementAssembly	TRUSS	Structural Trusses	
+IfcElementAssembly	USERDEFINED	Assemblies	
+IfcElementAssemblyType		Assemblies	
+IfcElementAssemblyType	ACCESSORY_ASSEMBLY	Assemblies	Vertical Bracing
+IfcElementAssemblyType	ARCH	Generic Models	Prefabricated Structural Assemblies
+IfcElementAssemblyType	BEAM_GRID	Structural Framing	Other
+IfcElementAssemblyType	BRACED_FRAME	Generic Models	Prefabricated Structural Assemblies
+IfcElementAssemblyType	GIRDER	Structural Framing	Girder
+IfcElementAssemblyType	NOTDEFINED	Assemblies	
+IfcElementAssemblyType	REINFORCEMENT_UNIT	Generic Models	Prefabricated Structural Assemblies
+IfcElementAssemblyType	RIGID_FRAME	Generic Models	Prefabricated Structural Assemblies
+IfcElementAssemblyType	SLAB_FIELD	Generic Models	Floors
+IfcElementAssemblyType	TRUSS	Structural Trusses	
+IfcElementAssemblyType	USERDEFINED	Assemblies	
+IfcEnergyConversionDevice		Mechanical Equipment	Equipment
+IfcEvaporativeCooler		Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	DIRECTEVAPORATIVEAIRWASHER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	INDIRECTDIRECTCOMBINATION	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	INDIRECTEVAPORATIVEPACKAGEAIRCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	INDIRECTEVAPORATIVEWETCOIL	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCooler	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType		Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	DIRECTEVAPORATIVEAIRWASHER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	INDIRECTDIRECTCOMBINATION	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	INDIRECTEVAPORATIVEPACKAGEAIRCOOLER	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	INDIRECTEVAPORATIVEWETCOIL	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporativeCoolerType	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Elements
+IfcEvaporator		Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporator	DIRECTEXPANSION	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporator	DIRECTEXPANSIONBRAZEDPLATE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporator	DIRECTEXPANSIONSHELLANDTUBE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporator	DIRECTEXPANSIONTUBEINTUBE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporator	FLOODEDSHELLANDTUBE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporator	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporator	SHELLANDCOIL	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporator	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporatorType		Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporatorType	DIRECTEXPANSION	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporatorType	DIRECTEXPANSIONBRAZEDPLATE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporatorType	DIRECTEXPANSIONSHELLANDTUBE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporatorType	DIRECTEXPANSIONTUBEINTUBE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporatorType	FLOODEDSHELLANDTUBE	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporatorType	NOTDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporatorType	SHELLANDCOIL	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcEvaporatorType	USERDEFINED	Mechanical Equipment	Cooling and Refrigeration Equipment
+IfcFan		Mechanical Equipment	Air Handling Equipment
+IfcFan	CENTRIFUGALAIRFOIL	Mechanical Equipment	Air Handling Equipment
+IfcFan	CENTRIFUGALBACKWARDINCLINEDCURVED	Mechanical Equipment	Air Handling Equipment
+IfcFan	CENTRIFUGALFORWARDCURVED	Mechanical Equipment	Air Handling Equipment
+IfcFan	CENTRIFUGALRADIAL	Mechanical Equipment	Air Handling Equipment
+IfcFan	NOTDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcFan	PROPELLORAXIAL	Mechanical Equipment	Air Handling Equipment
+IfcFan	TUBEAXIAL	Mechanical Equipment	Air Handling Equipment
+IfcFan	USERDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcFan	VANEAXIAL	Mechanical Equipment	Air Handling Equipment
+IfcFanType		Mechanical Equipment	Air Handling Equipment
+IfcFanType	CENTRIFUGALAIRFOIL	Mechanical Equipment	Air Handling Equipment
+IfcFanType	CENTRIFUGALBACKWARDINCLINEDCURVED	Mechanical Equipment	Air Handling Equipment
+IfcFanType	CENTRIFUGALFORWARDCURVED	Mechanical Equipment	Air Handling Equipment
+IfcFanType	CENTRIFUGALRADIAL	Mechanical Equipment	Air Handling Equipment
+IfcFanType	NOTDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcFanType	PROPELLORAXIAL	Mechanical Equipment	Air Handling Equipment
+IfcFanType	TUBEAXIAL	Mechanical Equipment	Air Handling Equipment
+IfcFanType	USERDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcFanType	VANEAXIAL	Mechanical Equipment	Air Handling Equipment
+IfcFastener		Structural Connections	Connections
+IfcFilter		Pipe Accessories	Accessories
+IfcFilter	AIRPARTICLEFILTER	Duct Accessories	Accessories
+IfcFilter	COMPRESSEDAIRFILTER	Pipe Accessories	Accessories
+IfcFilter	NOTDEFINED	Pipe Accessories	Accessories
+IfcFilter	ODORFILTER	Duct Accessories	Accessories
+IfcFilter	OILFILTER	Pipe Accessories	Accessories
+IfcFilter	STRAINER	Pipe Accessories	Accessories
+IfcFilter	USERDEFINED	Pipe Accessories	Accessories
+IfcFilter	WATERFILTER	Pipe Accessories	Accessories
+IfcFilterType		Pipe Accessories	Accessories
+IfcFilterType	AIRPARTICLEFILTER	Duct Accessories	Accessories
+IfcFilterType	COMPRESSEDAIRFILTER	Pipe Accessories	Accessories
+IfcFilterType	NOTDEFINED	Pipe Accessories	Accessories
+IfcFilterType	ODORFILTER	Duct Accessories	Accessories
+IfcFilterType	OILFILTER	Pipe Accessories	Accessories
+IfcFilterType	STRAINER	Pipe Accessories	Accessories
+IfcFilterType	USERDEFINED	Pipe Accessories	Accessories
+IfcFilterType	WATERFILTER	Pipe Accessories	Accessories
+IfcFireSuppressionTerminal		Mechanical Equipment	Fire Protection Equipment
+IfcFireSuppressionTerminal	BREECHINGINLET	Pipe Accessories	Accessories
+IfcFireSuppressionTerminal	FIREHYDRANT	Mechanical Equipment	Fire Protection Equipment
+IfcFireSuppressionTerminal	HOSEREEL	Mechanical Equipment	Fire Protection Equipment
+IfcFireSuppressionTerminal	NOTDEFINED	Mechanical Equipment	Fire Protection Equipment
+IfcFireSuppressionTerminal	SPRINKLER	Sprinklers	Sprinklers
+IfcFireSuppressionTerminal	SPRINKLERDEFLECTOR	Sprinklers	Fittings
+IfcFireSuppressionTerminal	USERDEFINED	Mechanical Equipment	Fire Protection Equipment
+IfcFireSuppressionTerminalType		Mechanical Equipment	Fire Protection Equipment
+IfcFireSuppressionTerminalType	BREECHINGINLET	Pipe Accessories	Accessories
+IfcFireSuppressionTerminalType	FIREHYDRANT	Mechanical Equipment	Fire Protection Equipment
+IfcFireSuppressionTerminalType	HOSEREEL	Mechanical Equipment	Fire Protection Equipment
+IfcFireSuppressionTerminalType	NOTDEFINED	Mechanical Equipment	Fire Protection Equipment
+IfcFireSuppressionTerminalType	SPRINKLER	Sprinklers	Sprinklers
+IfcFireSuppressionTerminalType	SPRINKLERDEFLECTOR	Sprinklers	Fittings
+IfcFireSuppressionTerminalType	USERDEFINED	Mechanical Equipment	Fire Protection Equipment
+IfcFlowController		Pipe Accessories	Accessories
+IfcFlowFitting		Pipe Fittings	Accessories
+IfcFlowInstrument		Pipe Accessories	Accessories
+IfcFlowInstrument	AMMETER	Electrical Equipment	Building Management Accessories
+IfcFlowInstrument	FREQUENCYMETER	Electrical Equipment	Building Management Accessories
+IfcFlowInstrument	NOTDEFINED	Pipe Accessories	Accessories
+IfcFlowInstrument	PHASEANGLEMETER	Electrical Equipment	Building Management Accessories
+IfcFlowInstrument	POWERFACTORMETER	Electrical Equipment	Building Management Accessories
+IfcFlowInstrument	PRESSUREGAUGE	Pipe Accessories	Accessories
+IfcFlowInstrument	THERMOMETER	Pipe Accessories	Accessories
+IfcFlowInstrument	USERDEFINED	Pipe Accessories	Accessories
+IfcFlowInstrument	VOLTMETER_PEAK	Electrical Equipment	Building Management Accessories
+IfcFlowInstrument	VOLTMETER_RMS	Electrical Equipment	Building Management Accessories
+IfcFlowInstrumentType		Pipe Accessories	Accessories
+IfcFlowInstrumentType	AMMETER	Electrical Equipment	Building Management Accessories
+IfcFlowInstrumentType	FREQUENCYMETER	Electrical Equipment	Building Management Accessories
+IfcFlowInstrumentType	NOTDEFINED	Pipe Accessories	Accessories
+IfcFlowInstrumentType	PHASEANGLEMETER	Electrical Equipment	Building Management Accessories
+IfcFlowInstrumentType	POWERFACTORMETER	Electrical Equipment	Building Management Accessories
+IfcFlowInstrumentType	PRESSUREGAUGE	Pipe Accessories	Accessories
+IfcFlowInstrumentType	THERMOMETER	Pipe Accessories	Accessories
+IfcFlowInstrumentType	USERDEFINED	Pipe Accessories	Accessories
+IfcFlowInstrumentType	VOLTMETER_PEAK	Electrical Equipment	Building Management Accessories
+IfcFlowInstrumentType	VOLTMETER_RMS	Electrical Equipment	Building Management Accessories
+IfcFlowMeter		Pipe Accessories	Accessories
+IfcFlowMeter	ENERGYMETER	Electrical Equipment	Building Management Accessories
+IfcFlowMeter	GASMETER	Pipe Accessories	Accessories
+IfcFlowMeter	NOTDEFINED	Pipe Accessories	Accessories
+IfcFlowMeter	OILMETER	Pipe Accessories	Accessories
+IfcFlowMeter	USERDEFINED	Pipe Accessories	Accessories
+IfcFlowMeter	WATERMETER	Pipe Accessories	Accessories
+IfcFlowMeterType		Pipe Accessories	Accessories
+IfcFlowMeterType	ENERGYMETER	Electrical Equipment	Building Management Accessories
+IfcFlowMeterType	GASMETER	Pipe Accessories	Accessories
+IfcFlowMeterType	NOTDEFINED	Pipe Accessories	Accessories
+IfcFlowMeterType	OILMETER	Pipe Accessories	Accessories
+IfcFlowMeterType	USERDEFINED	Pipe Accessories	Accessories
+IfcFlowMeterType	WATERMETER	Pipe Accessories	Accessories
+IfcFlowMovingDevice		Mechanical Equipment	Equipment
+IfcFlowSegment		Mechanical Equipment	Equipment
+IfcFlowStorageDevice		Mechanical Equipment	Equipment
+IfcFlowTerminal		Mechanical Equipment	Equipment
+IfcFlowTreatmentDevice		Mechanical Equipment	Equipment
+IfcFooting		Structural Foundations	Foundation
+IfcFooting	CAISSON_FOUNDATION	Structural Foundations	Foundation Slab
+IfcFooting	FOOTING_BEAM	Structural Foundations	Wall Foundation
+IfcFooting	NOTDEFINED	Structural Foundations	Foundation
+IfcFooting	PAD_FOOTING	Structural Foundations	Foundation Slab
+IfcFooting	PILE_CAP	Structural Foundations	Pile
+IfcFooting	STRIP_FOOTING	Structural Foundations	Wall Foundation
+IfcFooting	USERDEFINED	Structural Foundations	Foundation
+IfcFootingType		Structural Foundations	Foundation
+IfcFootingType	CAISSON_FOUNDATION	Structural Foundations	Foundation Slab
+IfcFootingType	FOOTING_BEAM	Structural Foundations	Wall Foundation
+IfcFootingType	NOTDEFINED	Structural Foundations	Foundation
+IfcFootingType	PAD_FOOTING	Structural Foundations	Foundation Slab
+IfcFootingType	PILE_CAP	Structural Foundations	Pile
+IfcFootingType	STRIP_FOOTING	Structural Foundations	Wall Foundation
+IfcFootingType	USERDEFINED	Structural Foundations	Foundation
+IfcFurnishingElement		Entourage	Sundries
+IfcFurniture		Furniture	Furniture
+IfcFurniture	BED	Furniture	Bedding
+IfcFurniture	CHAIR	Furniture	Seating_Freestanding
+IfcFurniture	DESK	Furniture Systems	Workstations
+IfcFurniture	FILECABINET	Furniture	Storage
+IfcFurniture	NOTDEFINED	Furniture	Furniture
+IfcFurniture	SHELF	Casework	Shelving_Fixed
+IfcFurniture	SOFA	Furniture	Seating_Freestanding
+IfcFurniture	TABLE	Furniture	Tables_Fixed
+IfcFurniture	USERDEFINED	Furniture	Drawers / Dressers
+IfcFurnitureType		Furniture	Furniture
+IfcFurnitureType	BED	Furniture	Bedding
+IfcFurnitureType	CHAIR	Furniture	Seating_Freestanding
+IfcFurnitureType	DESK	Furniture Systems	Workstations
+IfcFurnitureType	FILECABINET	Furniture	Storage
+IfcFurnitureType	NOTDEFINED	Furniture	Furniture
+IfcFurnitureType	SHELF	Casework	Shelving_Fixed
+IfcFurnitureType	SOFA	Furniture	Seating_Freestanding
+IfcFurnitureType	TABLE	Furniture	Tables_Fixed
+IfcFurnitureType	USERDEFINED	Furniture	Drawers / Dressers
+IfcGrid		Grids	
+IfcHeatExchanger		Mechanical Equipment	Heating Equipment
+IfcHeatExchanger	NOTDEFINED	Mechanical Equipment	Heating Equipment
+IfcHeatExchanger	PLATE	Mechanical Equipment	Heating Equipment
+IfcHeatExchanger	SHELLANDTUBE	Mechanical Equipment	Heating Equipment
+IfcHeatExchanger	USERDEFINED	Mechanical Equipment	Heating Equipment
+IfcHeatExchangerType		Mechanical Equipment	Heating Equipment
+IfcHeatExchangerType	NOTDEFINED	Mechanical Equipment	Heating Equipment
+IfcHeatExchangerType	PLATE	Mechanical Equipment	Heating Equipment
+IfcHeatExchangerType	SHELLANDTUBE	Mechanical Equipment	Heating Equipment
+IfcHeatExchangerType	USERDEFINED	Mechanical Equipment	Heating Equipment
+IfcHumidifier		Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ADIABATICAIRWASHER	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ADIABATICATOMIZING	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ADIABATICCOMPRESSEDAIRNOZZLE	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ADIABATICPAN	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ADIABATICRIGIDMEDIA	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ADIABATICULTRASONIC	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ADIABATICWETTEDELEMENT	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ASSISTEDBUTANE	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ASSISTEDELECTRIC	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ASSISTEDNATURALGAS	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ASSISTEDPROPANE	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	ASSISTEDSTEAM	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	NOTDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	STEAMINJECTION	Mechanical Equipment	Air Handling Equipment
+IfcHumidifier	USERDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType		Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ADIABATICAIRWASHER	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ADIABATICATOMIZING	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ADIABATICCOMPRESSEDAIRNOZZLE	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ADIABATICPAN	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ADIABATICRIGIDMEDIA	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ADIABATICULTRASONIC	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ADIABATICWETTEDELEMENT	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ASSISTEDBUTANE	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ASSISTEDELECTRIC	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ASSISTEDNATURALGAS	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ASSISTEDPROPANE	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	ASSISTEDSTEAM	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	NOTDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	STEAMINJECTION	Mechanical Equipment	Air Handling Equipment
+IfcHumidifierType	USERDEFINED	Mechanical Equipment	Air Handling Equipment
+IfcJunctionBox		Electrical Fixtures	Fixtures
+IfcJunctionBox	DATA	Electrical Fixtures	Fixtures
+IfcJunctionBox	NOTDEFINED	Electrical Fixtures	Fixtures
+IfcJunctionBox	POWER	Electrical Fixtures	Fixtures
+IfcJunctionBox	USERDEFINED	Electrical Fixtures	Fixtures
+IfcJunctionBoxType		Electrical Fixtures	Fixtures
+IfcJunctionBoxType	DATA	Electrical Fixtures	Fixtures
+IfcJunctionBoxType	NOTDEFINED	Electrical Fixtures	Fixtures
+IfcJunctionBoxType	POWER	Electrical Fixtures	Fixtures
+IfcJunctionBoxType	USERDEFINED	Electrical Fixtures	Fixtures
+IfcLamp		Lighting Fixtures	Light Source
+IfcLamp	COMPACTFLUORESCENT	Lighting Fixtures	Light Source
+IfcLamp	FLUORESCENT	Lighting Fixtures	Light Source
+IfcLamp	HALOGEN	Lighting Fixtures	Light Source
+IfcLamp	HIGHPRESSUREMERCURY	Lighting Fixtures	Light Source
+IfcLamp	HIGHPRESSURESODIUM	Lighting Fixtures	Light Source
+IfcLamp	LED	Lighting Fixtures	Light Source
+IfcLamp	METALHALIDE	Lighting Fixtures	Light Source
+IfcLamp	NOTDEFINED	Lighting Fixtures	Light Source
+IfcLamp	OLED	Lighting Fixtures	Light Source
+IfcLamp	TUNGSTENFILAMENT	Lighting Fixtures	Light Source
+IfcLamp	USERDEFINED	Lighting Fixtures	Light Source
+IfcLampType		Lighting Fixtures	Light Source
+IfcLampType	COMPACTFLUORESCENT	Lighting Fixtures	Light Source
+IfcLampType	FLUORESCENT	Lighting Fixtures	Light Source
+IfcLampType	HALOGEN	Lighting Fixtures	Light Source
+IfcLampType	HIGHPRESSUREMERCURY	Lighting Fixtures	Light Source
+IfcLampType	HIGHPRESSURESODIUM	Lighting Fixtures	Light Source
+IfcLampType	LED	Lighting Fixtures	Light Source
+IfcLampType	METALHALIDE	Lighting Fixtures	Light Source
+IfcLampType	NOTDEFINED	Lighting Fixtures	Light Source
+IfcLampType	OLED	Lighting Fixtures	Light Source
+IfcLampType	TUNGSTENFILAMENT	Lighting Fixtures	Light Source
+IfcLampType	USERDEFINED	Lighting Fixtures	Light Source
+IfcLightFixture		Lighting Fixtures	Fixtures
+IfcLightFixture	DIRECTIONSOURCE	Lighting Fixtures	Light Source
+IfcLightFixture	NOTDEFINED	Lighting Fixtures	Fixtures
+IfcLightFixture	POINTSOURCE	Lighting Fixtures	Light Source
+IfcLightFixture	SECURITYLIGHTING	Lighting Fixtures	Emergency Fixtures
+IfcLightFixture	USERDEFINED	Lighting Fixtures	Fixtures
+IfcLightFixtureType		Lighting Fixtures	Fixtures
+IfcLightFixtureType	DIRECTIONSOURCE	Lighting Fixtures	Light Source
+IfcLightFixtureType	NOTDEFINED	Lighting Fixtures	Fixtures
+IfcLightFixtureType	POINTSOURCE	Lighting Fixtures	Light Source
+IfcLightFixtureType	SECURITYLIGHTING	Lighting Fixtures	Emergency Fixtures
+IfcLightFixtureType	USERDEFINED	Lighting Fixtures	Fixtures
+IfcMechanicalFastener		Structural Connections	Connections
+IfcMechanicalFastener	ANCHORBOLT	Structural Connections	Bolts
+IfcMechanicalFastener	BOLT	Structural Connections	Bolts
+IfcMechanicalFastener	DOWEL	Structural Connections	Dowels
+IfcMechanicalFastener	NAIL	Structural Connections	Nails
+IfcMechanicalFastener	NAILPLATE	Structural Connections	Plates
+IfcMechanicalFastener	NOTDEFINED	Structural Connections	Connections
+IfcMechanicalFastener	RIVET	Structural Connections	
+IfcMechanicalFastener	SCREW	Structural Connections	Screws
+IfcMechanicalFastener	SHEARCONNECTOR	Structural Connections	
+IfcMechanicalFastener	STAPLE	Structural Connections	Nails
+IfcMechanicalFastener	STUDSHEARCONNECTOR	Structural Connections	
+IfcMechanicalFastener	USERDEFINED	Structural Connections	Connections
+IfcMechanicalFastenerType		Structural Connections	Connections
+IfcMechanicalFastenerType	ANCHORBOLT	Structural Connections	Bolts
+IfcMechanicalFastenerType	BOLT	Structural Connections	Bolts
+IfcMechanicalFastenerType	DOWEL	Structural Connections	Dowels
+IfcMechanicalFastenerType	NAIL	Structural Connections	Nails
+IfcMechanicalFastenerType	NAILPLATE	Structural Connections	Plates
+IfcMechanicalFastenerType	NOTDEFINED	Structural Connections	Connections
+IfcMechanicalFastenerType	RIVET	Structural Connections	
+IfcMechanicalFastenerType	SCREW	Structural Connections	Screws
+IfcMechanicalFastenerType	SHEARCONNECTOR	Structural Connections	
+IfcMechanicalFastenerType	STAPLE	Structural Connections	Nails
+IfcMechanicalFastenerType	STUDSHEARCONNECTOR	Structural Connections	
+IfcMechanicalFastenerType	USERDEFINED	Structural Connections	Connections
+IfcMember		Structural Framing	Other
+IfcMember	BRACE	Structural Framing	Kicker Bracing
+IfcMember	CHORD	Structural Framing	Chord
+IfcMember	COLLAR	Structural Framing	Other
+IfcMember	MEMBER	Structural Framing	Other
+IfcMember	MULLION	Curtain Wall Mullions	
+IfcMember	NOTDEFINED	Structural Framing	Other
+IfcMember	PLATE	Structural Framing	Plates
+IfcMember	POST	Structural Framing	Vertical Bracing
+IfcMember	PURLIN	Structural Framing	Purlin
+IfcMember	RAFTER	Structural Framing	Other
+IfcMember	STRINGER	Ramps	Stringers
+IfcMember	STRUT	Structural Framing	Vertical Bracing
+IfcMember	STUD	Structural Columns	Columns
+IfcMember	USERDEFINED	Structural Framing	Other
+IfcMemberType		Structural Framing	Other
+IfcMemberType	BRACE	Structural Framing	Kicker Bracing
+IfcMemberType	CHORD	Structural Framing	Chord
+IfcMemberType	COLLAR	Structural Framing	Other
+IfcMemberType	MEMBER	Structural Framing	Other
+IfcMemberType	MULLION	Curtain Wall Mullions	
+IfcMemberType	NOTDEFINED	Structural Framing	Other
+IfcMemberType	PLATE	Structural Framing	Plates
+IfcMemberType	POST	Structural Framing	Vertical Bracing
+IfcMemberType	PURLIN	Structural Framing	Purlin
+IfcMemberType	RAFTER	Structural Framing	Other
+IfcMemberType	STRINGER	Ramps	Stringers
+IfcMemberType	STRUT	Structural Framing	Vertical Bracing
+IfcMemberType	STUD	Structural Columns	Columns
+IfcMemberType	USERDEFINED	Structural Framing	Other
+IfcMotorConnection		Mechanical Equipment	Equipment
+IfcMotorConnection	BELTDRIVE	Mechanical Equipment	Equipment
+IfcMotorConnection	COUPLING	Mechanical Equipment	Equipment
+IfcMotorConnection	DIRECTDRIVE	Mechanical Equipment	Equipment
+IfcMotorConnection	NOTDEFINED	Mechanical Equipment	Equipment
+IfcMotorConnection	USERDEFINED	Mechanical Equipment	Equipment
+IfcMotorConnectionType		Mechanical Equipment	Equipment
+IfcMotorConnectionType	BELTDRIVE	Mechanical Equipment	Equipment
+IfcMotorConnectionType	COUPLING	Mechanical Equipment	Equipment
+IfcMotorConnectionType	DIRECTDRIVE	Mechanical Equipment	Equipment
+IfcMotorConnectionType	NOTDEFINED	Mechanical Equipment	Equipment
+IfcMotorConnectionType	USERDEFINED	Mechanical Equipment	Equipment
+IfcOpeningElement		Generic Models	Openings
+IfcOutlet		Electrical Fixtures	Fixtures
+IfcOutlet	AUDIOVISUALOUTLET	Communication Devices	Multimedia Devices
+IfcOutlet	COMMUNICATIONSOUTLET	Communication Devices	
+IfcOutlet	DATAOUTLET	Data Devices	Devices
+IfcOutlet	NOTDEFINED	Electrical Fixtures	Fixtures
+IfcOutlet	POWEROUTLET	Electrical Fixtures	Fixtures
+IfcOutlet	TELEPHONEOUTLET	Telephone Devices	Devices
+IfcOutlet	USERDEFINED	Electrical Fixtures	Fixtures
+IfcOutletType		Electrical Fixtures	Fixtures
+IfcOutletType	AUDIOVISUALOUTLET	Communication Devices	Multimedia Devices
+IfcOutletType	COMMUNICATIONSOUTLET	Communication Devices	
+IfcOutletType	DATAOUTLET	Data Devices	Devices
+IfcOutletType	NOTDEFINED	Electrical Fixtures	Fixtures
+IfcOutletType	POWEROUTLET	Electrical Fixtures	Fixtures
+IfcOutletType	TELEPHONEOUTLET	Telephone Devices	Devices
+IfcOutletType	USERDEFINED	Electrical Fixtures	Fixtures
+IfcPile		Structural Foundations	Pile
+IfcPile	BORED	Structural Foundations	Pile
+IfcPile	COHESION	Structural Foundations	Pile
+IfcPile	DRIVEN	Structural Foundations	Pile
+IfcPile	FRICTION	Structural Foundations	Pile
+IfcPile	JETGROUTING	Structural Foundations	Pile
+IfcPile	NOTDEFINED	Structural Foundations	Pile
+IfcPile	SUPPORT	Structural Foundations	Pile
+IfcPile	USERDEFINED	Structural Foundations	Pile
+IfcPileType		Structural Foundations	Pile
+IfcPileType	BORED	Structural Foundations	Pile
+IfcPileType	COHESION	Structural Foundations	Pile
+IfcPileType	DRIVEN	Structural Foundations	Pile
+IfcPileType	FRICTION	Structural Foundations	Pile
+IfcPileType	JETGROUTING	Structural Foundations	Pile
+IfcPileType	NOTDEFINED	Structural Foundations	Pile
+IfcPileType	SUPPORT	Structural Foundations	Pile
+IfcPileType	USERDEFINED	Structural Foundations	Pile
+IfcPipeFitting		Pipe Fittings	Fittings
+IfcPipeFitting	BEND	Pipe Fittings	Fittings
+IfcPipeFitting	CONNECTOR	Pipe Fittings	Fittings
+IfcPipeFitting	ENTRY	Pipe Fittings	Fittings
+IfcPipeFitting	EXIT	Pipe Fittings	Fittings
+IfcPipeFitting	JUNCTION	Pipe Fittings	Fittings
+IfcPipeFitting	NOTDEFINED	Pipe Fittings	Fittings
+IfcPipeFitting	OBSTRUCTION	Pipe Fittings	Fittings
+IfcPipeFitting	TRANSITION	Pipe Fittings	Fittings
+IfcPipeFitting	USERDEFINED	Pipe Fittings	Fittings
+IfcPipeFittingType		Pipe Fittings	Fittings
+IfcPipeFittingType	BEND	Pipe Fittings	Fittings
+IfcPipeFittingType	CONNECTOR	Pipe Fittings	Fittings
+IfcPipeFittingType	ENTRY	Pipe Fittings	Fittings
+IfcPipeFittingType	EXIT	Pipe Fittings	Fittings
+IfcPipeFittingType	JUNCTION	Pipe Fittings	Fittings
+IfcPipeFittingType	NOTDEFINED	Pipe Fittings	Fittings
+IfcPipeFittingType	OBSTRUCTION	Pipe Fittings	Fittings
+IfcPipeFittingType	TRANSITION	Pipe Fittings	Fittings
+IfcPipeFittingType	USERDEFINED	Pipe Fittings	Fittings
+IfcPipeSegment		Pipes	Clearance Zones
+IfcPipeSegment	CULVERT	Pipes	
+IfcPipeSegment	FLEXIBLESEGMENT	Flex Pipes	
+IfcPipeSegment	NOTDEFINED	Pipes	
+IfcPipeSegment	RIGIDSEGMENT	Pipes	
+IfcPipeSegment	SPOOL	Pipes	
+IfcPipeSegment	USERDEFINED	Pipes	
+IfcPipeSegmentType		Pipes	Clearance Zones
+IfcPipeSegmentType	CULVERT	Pipes	
+IfcPipeSegmentType	FLEXIBLESEGMENT	Flex Pipes	
+IfcPipeSegmentType	NOTDEFINED	Pipes	
+IfcPipeSegmentType	RIGIDSEGMENT	Pipes	
+IfcPipeSegmentType	SPOOL	Pipes	
+IfcPipeSegmentType	USERDEFINED	Pipes	
+IfcPlate		Structural Connections	
+IfcPlate	CURTAIN_PANEL	Curtain Panels	Panel
+IfcPlate	NOTDEFINED	Structural Connections	
+IfcPlate	SHEET	Structural Connections	Plates
+IfcPlate	USERDEFINED	Structural Connections	Placement Zones
+IfcPlateType		Structural Connections	
+IfcPlateType	CURTAIN_PANEL	Curtain Panels	Panel
+IfcPlateType	NOTDEFINED	Structural Connections	
+IfcPlateType	SHEET	Structural Connections	Plates
+IfcPlateType	USERDEFINED	Structural Connections	Placement Zones
+IfcProtectiveDevice		Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDevice	CIRCUITBREAKER	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDevice	EARTHINGSWITCH	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDevice	EARTHLEAKAGECIRCUITBREAKER	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDevice	FUSEDISCONNECTOR	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDevice	NOTDEFINED	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDevice	RESIDUALCURRENTCIRCUITBREAKER	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDevice	RESIDUALCURRENTSWITCH	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDevice	USERDEFINED	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDevice	VARISTOR	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDeviceType		Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDeviceType	CIRCUITBREAKER	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDeviceType	EARTHINGSWITCH	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDeviceType	EARTHLEAKAGECIRCUITBREAKER	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDeviceType	FUSEDISCONNECTOR	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDeviceType	NOTDEFINED	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDeviceType	RESIDUALCURRENTCIRCUITBREAKER	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDeviceType	RESIDUALCURRENTSWITCH	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDeviceType	USERDEFINED	Electrical Equipment	Electrical Safety Equipment
+IfcProtectiveDeviceType	VARISTOR	Electrical Equipment	Electrical Safety Equipment
+IfcPump		Pipe Accessories	
+IfcPump	CIRCULATOR	Pipe Accessories	Accessories
+IfcPump	ENDSUCTION	Pipe Accessories	Accessories
+IfcPump	NOTDEFINED	Pipe Accessories	Accessories
+IfcPump	SPLITCASE	Pipe Accessories	Accessories
+IfcPump	SUBMERSIBLEPUMP	Pipe Accessories	Accessories
+IfcPump	SUMPPUMP	Pipe Accessories	Accessories
+IfcPump	USERDEFINED	Pipe Accessories	Accessories
+IfcPump	VERTICALINLINE	Pipe Accessories	Accessories
+IfcPump	VERTICALTURBINE	Pipe Accessories	Accessories
+IfcPumpType		Pipe Accessories	
+IfcPumpType	CIRCULATOR	Pipe Accessories	Accessories
+IfcPumpType	ENDSUCTION	Pipe Accessories	Accessories
+IfcPumpType	NOTDEFINED	Pipe Accessories	Accessories
+IfcPumpType	SPLITCASE	Pipe Accessories	Accessories
+IfcPumpType	SUBMERSIBLEPUMP	Pipe Accessories	Accessories
+IfcPumpType	SUMPPUMP	Pipe Accessories	Accessories
+IfcPumpType	USERDEFINED	Pipe Accessories	Accessories
+IfcPumpType	VERTICALINLINE	Pipe Accessories	Accessories
+IfcPumpType	VERTICALTURBINE	Pipe Accessories	Accessories
+IfcRailing		Railings	
+IfcRailing	BALUSTRADE	Railings	
+IfcRailing	GUARDRAIL	Railings	
+IfcRailing	HANDRAIL	Railings	Handrails
+IfcRailing	NOTDEFINED	Railings	
+IfcRailing	USERDEFINED	Railings	<Above> Top Rails
+IfcRailingType		Railings	
+IfcRailingType	BALUSTRADE	Railings	
+IfcRailingType	GUARDRAIL	Railings	
+IfcRailingType	HANDRAIL	Railings	Handrails
+IfcRailingType	NOTDEFINED	Railings	
+IfcRailingType	USERDEFINED	Railings	
+IfcRamp		Ramps	Top Rails
+IfcRampFlight		Generic Models	Ramps
+IfcReinforcingBar		Structural Rebar	
+IfcReinforcingBar	ANCHORING	Structural Path Reinforcement	
+IfcReinforcingBar	EDGE	Structural Path Reinforcement	
+IfcReinforcingBar	LIGATURE	Structural Path Reinforcement	
+IfcReinforcingBar	MAIN	Structural Rebar	
+IfcReinforcingBar	NOTDEFINED	Structural Rebar	
+IfcReinforcingBar	PUNCHING	Structural Rebar	
+IfcReinforcingBar	RING	Structural Rebar	
+IfcReinforcingBar	SHEAR	Structural Rebar	
+IfcReinforcingBar	STUD	Structural Rebar	
+IfcReinforcingBar	USERDEFINED	Structural Rebar	Boundary
+IfcReinforcingBarType		Structural Rebar	
+IfcReinforcingBarType	ANCHORING	Structural Path Reinforcement	
+IfcReinforcingBarType	EDGE	Structural Path Reinforcement	
+IfcReinforcingBarType	LIGATURE	Structural Path Reinforcement	
+IfcReinforcingBarType	MAIN	Structural Rebar	
+IfcReinforcingBarType	NOTDEFINED	Structural Rebar	
+IfcReinforcingBarType	PUNCHING	Structural Rebar	
+IfcReinforcingBarType	RING	Structural Rebar	
+IfcReinforcingBarType	SHEAR	Structural Rebar	
+IfcReinforcingBarType	STUD	Structural Rebar	
+IfcReinforcingBarType	USERDEFINED	Structural Rebar	
+IfcReinforcingMesh		Structural Area Reinforcement	Treads/Risers
+IfcRoof		Roofs	
+IfcSanitaryTerminal		Plumbing Fixtures	
+IfcSanitaryTerminal	BATH	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	BIDET	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	CISTERN	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	NOTDEFINED	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	SANITARYFOUNTAIN	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	SHOWER	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	SINK	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	TOILETPAN	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	URINAL	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	USERDEFINED	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	WASHHANDBASIN	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminal	WCSEAT	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType		Plumbing Fixtures	
+IfcSanitaryTerminalType	BATH	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	BIDET	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	CISTERN	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	NOTDEFINED	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	SANITARYFOUNTAIN	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	SHOWER	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	SINK	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	TOILETPAN	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	URINAL	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	USERDEFINED	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	WASHHANDBASIN	Plumbing Fixtures	Sanitary Fixtures
+IfcSanitaryTerminalType	WCSEAT	Plumbing Fixtures	Sanitary Fixtures
+IfcSensor		Electrical Equipment	Equipment
+IfcSensor	CONDUCTANCESENSOR	Electrical Equipment	Burglary and Escape Prevention Equipment
+IfcSensor	CONTACTSENSOR	Electrical Equipment	Burglary and Escape Prevention Equipment
+IfcSensor	FIRESENSOR	Electrical Equipment	Fire Safety Equipment
+IfcSensor	FLOWSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	GASSENSOR	Electrical Equipment	Gas Safety Equipment
+IfcSensor	HEATSENSOR	Electrical Equipment	Fire Safety Equipment
+IfcSensor	HUMIDITYSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	IONCONCENTRATIONSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	LEVELSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	LIGHTSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	MOISTURESENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	MOVEMENTSENSOR	Electrical Equipment	Burglary and Escape Prevention Equipment
+IfcSensor	NOTDEFINED	Electrical Equipment	Equipment
+IfcSensor	PHSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	PRESSURESENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	RADIATIONSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	RADIOACTIVITYSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	SMOKESENSOR	Electrical Equipment	Fire Safety Equipment
+IfcSensor	SOUNDSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	TEMPERATURESENSOR	Electrical Equipment	Building Management Equipment
+IfcSensor	USERDEFINED	Electrical Equipment	Equipment
+IfcSensor	WINDSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType		Electrical Equipment	Equipment
+IfcSensorType	CONDUCTANCESENSOR	Electrical Equipment	Burglary and Escape Prevention Equipment
+IfcSensorType	CONTACTSENSOR	Electrical Equipment	Burglary and Escape Prevention Equipment
+IfcSensorType	FIRESENSOR	Electrical Equipment	Fire Safety Equipment
+IfcSensorType	FLOWSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	GASSENSOR	Electrical Equipment	Gas Safety Equipment
+IfcSensorType	HEATSENSOR	Electrical Equipment	Fire Safety Equipment
+IfcSensorType	HUMIDITYSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	IONCONCENTRATIONSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	LEVELSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	LIGHTSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	MOISTURESENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	MOVEMENTSENSOR	Electrical Equipment	Burglary and Escape Prevention Equipment
+IfcSensorType	NOTDEFINED	Electrical Equipment	Equipment
+IfcSensorType	PHSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	PRESSURESENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	RADIATIONSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	RADIOACTIVITYSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	SMOKESENSOR	Electrical Equipment	Fire Safety Equipment
+IfcSensorType	SOUNDSENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	TEMPERATURESENSOR	Electrical Equipment	Building Management Equipment
+IfcSensorType	USERDEFINED	Electrical Equipment	Equipment
+IfcSensorType	WINDSENSOR	Electrical Equipment	Building Management Equipment
+IfcShadingDevice		Generic Models	Shading Devices
+IfcShadingDevice	AWNING	Generic Models	Shading Devices
+IfcShadingDevice	JALOUSIE	Generic Models	Shading Devices
+IfcShadingDevice	NOTDEFINED	Generic Models	Shading Devices
+IfcShadingDevice	SHUTTER	Generic Models	Shading Devices
+IfcShadingDevice	USERDEFINED	Generic Models	Shading Devices
+IfcShadingDeviceType		Generic Models	Shading Devices
+IfcShadingDeviceType	AWNING	Generic Models	Shading Devices
+IfcShadingDeviceType	JALOUSIE	Generic Models	Shading Devices
+IfcShadingDeviceType	NOTDEFINED	Generic Models	Shading Devices
+IfcShadingDeviceType	SHUTTER	Generic Models	Shading Devices
+IfcShadingDeviceType	USERDEFINED	Generic Models	Shading Devices
+IfcShapeRepresentation		Floors	Interior Edges
+IfcSite		Topography	Connection Zones
+IfcSlab		Floors	
+IfcSlab	BASESLAB	Structural Foundations	
+IfcSlab	FLOOR	Floors	Substrate [2]
+IfcSlab	LANDING	Generic Models	Stairs
+IfcSlab	NOTDEFINED	Floors	
+IfcSlab	ROOF	Floors	
+IfcSlab	USERDEFINED	Floors	Connection Zones
+IfcSlabElementedCase		Floors	Structure [1]
+IfcSlabType		Floors	Finish 1 [4]
+IfcSlabType	BASESLAB	Structural Foundations	
+IfcSlabType	FLOOR	Floors	Substrate [2]
+IfcSlabType	LANDING	Generic Models	Stairs
+IfcSlabType	NOTDEFINED	Floors	
+IfcSlabType	ROOF	Floors	
+IfcSlabType	USERDEFINED	Floors	Connection Zones
+IfcSpace		Rooms	
+IfcSpace	EXTERNAL	Rooms	
+IfcSpace	GFA	Rooms	
+IfcSpace	INTERNAL	Rooms	
+IfcSpace	NOTDEFINED	Rooms	
+IfcSpace	PARKING	Rooms	
+IfcSpace	SPACE	Rooms	
+IfcSpace	USERDEFINED	Rooms	
+IfcSpaceHeater		Mechanical Equipment	Heating Elements
+IfcSpaceHeater	CONVECTOR	Mechanical Equipment	
+IfcSpaceHeater	NOTDEFINED		
+IfcSpaceHeater	RADIATOR	Mechanical Equipment	
+IfcSpaceHeater	USERDEFINED	Mechanical Equipment	
+IfcSpaceHeaterType		Mechanical Equipment	Heating Elements
+IfcSpaceHeaterType	CONVECTOR	Mechanical Equipment	
+IfcSpaceHeaterType	NOTDEFINED		
+IfcSpaceHeaterType	RADIATOR	Mechanical Equipment	
+IfcSpaceHeaterType	USERDEFINED	Mechanical Equipment	
+IfcSpaceType		Rooms	
+IfcSpaceType	EXTERNAL	Rooms	
+IfcSpaceType	GFA	Rooms	
+IfcSpaceType	INTERNAL	Rooms	
+IfcSpaceType	NOTDEFINED	Rooms	
+IfcSpaceType	PARKING	Rooms	
+IfcSpaceType	SPACE	Rooms	
+IfcSpaceType	USERDEFINED	Rooms	
+IfcSpatialZone		Areas	
+IfcSpatialZone	CONSTRUCTION	Areas	CONSTRUCTION
+IfcSpatialZone	FIRESAFETY	Areas	FIRESAFETY
+IfcSpatialZone	LIGHTING	Areas	LIGHTING
+IfcSpatialZone	NOTDEFINED	Areas	
+IfcSpatialZone	OCCUPANCY	Areas	OCCUPANCY
+IfcSpatialZone	SECURITY	Areas	SECURITY
+IfcSpatialZone	THERMAL	Areas	THERMAL
+IfcSpatialZone	TRANSPORT	Areas	TRANSPORT
+IfcSpatialZone	USERDEFINED	Areas	
+IfcSpatialZone	VENTILATION	Areas	VENTILATION
+IfcSpatialZoneType		Areas	
+IfcSpatialZoneType	CONSTRUCTION	Areas	CONSTRUCTION
+IfcSpatialZoneType	FIRESAFETY	Areas	FIRESAFETY
+IfcSpatialZoneType	LIGHTING	Areas	LIGHTING
+IfcSpatialZoneType	NOTDEFINED	Areas	
+IfcSpatialZoneType	OCCUPANCY	Areas	OCCUPANCY
+IfcSpatialZoneType	SECURITY	Areas	SECURITY
+IfcSpatialZoneType	THERMAL	Areas	THERMAL
+IfcSpatialZoneType	TRANSPORT	Areas	TRANSPORT
+IfcSpatialZoneType	USERDEFINED	Areas	
+IfcSpatialZoneType	VENTILATION	Areas	VENTILATION
+IfcStackTerminal		Pipe Accessories	Accessories
+IfcStackTerminal	BIRDCAGE	Pipe Accessories	Accessories
+IfcStackTerminal	COWL	Pipe Accessories	Accessories
+IfcStackTerminal	NOTDEFINED	Pipe Accessories	Accessories
+IfcStackTerminal	RAINWATERHOPPER	Pipe Accessories	Accessories
+IfcStackTerminal	USERDEFINED	Pipe Accessories	Accessories
+IfcStackTerminalType		Pipe Accessories	Accessories
+IfcStackTerminalType	BIRDCAGE	Pipe Accessories	Accessories
+IfcStackTerminalType	COWL	Pipe Accessories	Accessories
+IfcStackTerminalType	NOTDEFINED	Pipe Accessories	Accessories
+IfcStackTerminalType	RAINWATERHOPPER	Pipe Accessories	Accessories
+IfcStackTerminalType	USERDEFINED	Pipe Accessories	Accessories
+IfcStair		Stairs	
+IfcStair	CURVED_RUN_STAIR	Stairs	
+IfcStair	DOUBLE_RETURN_STAIR	Stairs	
+IfcStair	HALF_TURN_STAIR	Stairs	
+IfcStair	HALF_WINDING_STAIR	Stairs	
+IfcStair	NOTDEFINED	Stairs	
+IfcStair	QUARTER_TURN_STAIR	Stairs	
+IfcStair	QUARTER_WINDING_STAIR	Stairs	
+IfcStair	SPIRAL_STAIR	Stairs	
+IfcStair	STRAIGHT_RUN_STAIR	Stairs	
+IfcStair	THREE_QUARTER_TURN_STAIR	Stairs	
+IfcStair	THREE_QUARTER_WINDING_STAIR	Stairs	
+IfcStair	TWO_CURVED_RUN_STAIR	Stairs	
+IfcStair	TWO_QUARTER_TURN_STAIR	Stairs	
+IfcStair	TWO_QUARTER_WINDING_STAIR	Stairs	
+IfcStair	TWO_STRAIGHT_RUN_STAIR	Stairs	
+IfcStair	USERDEFINED	Stairs	Hidden Lines
+IfcStairFlight		Generic Models	Stairs
+IfcStairType		Stairs	Signage
+IfcStairType	CURVED_RUN_STAIR	Stairs	
+IfcStairType	DOUBLE_RETURN_STAIR	Stairs	
+IfcStairType	HALF_TURN_STAIR	Stairs	
+IfcStairType	HALF_WINDING_STAIR	Stairs	
+IfcStairType	NOTDEFINED	Stairs	
+IfcStairType	QUARTER_TURN_STAIR	Stairs	
+IfcStairType	QUARTER_WINDING_STAIR	Stairs	
+IfcStairType	SPIRAL_STAIR	Stairs	
+IfcStairType	STRAIGHT_RUN_STAIR	Stairs	
+IfcStairType	THREE_QUARTER_TURN_STAIR	Stairs	
+IfcStairType	THREE_QUARTER_WINDING_STAIR	Stairs	
+IfcStairType	TWO_CURVED_RUN_STAIR	Stairs	
+IfcStairType	TWO_QUARTER_TURN_STAIR	Stairs	
+IfcStairType	TWO_QUARTER_WINDING_STAIR	Stairs	
+IfcStairType	TWO_STRAIGHT_RUN_STAIR	Stairs	
+IfcStairType	USERDEFINED	Stairs	Hidden Lines
+IfcStructuralConnection		Structural Connections	
+IfcStructuralCurveMember		Analytical Beams	
+IfcStructuralPointConnection		Analytical Beams	Rigid Links
+IfcStructuralSurfaceMember		Analytical Floors	
+IfcSwitchingDevice		Lighting Devices	Devices
+IfcSwitchingDevice	CONTACTOR	Lighting Devices	Devices
+IfcSwitchingDevice	DIMMERSWITCH	Lighting Devices	Devices
+IfcSwitchingDevice	EMERGENCYSTOP	Security Devices	Electrical Safety Devices
+IfcSwitchingDevice	KEYPAD	Security Devices	Access Control Devices
+IfcSwitchingDevice	MOMENTARYSWITCH	Lighting Devices	Devices
+IfcSwitchingDevice	NOTDEFINED	Lighting Devices	Devices
+IfcSwitchingDevice	SELECTORSWITCH	Lighting Devices	Devices
+IfcSwitchingDevice	STARTER	Lighting Devices	Devices
+IfcSwitchingDevice	SWITCHDISCONNECTOR	Lighting Devices	Devices
+IfcSwitchingDevice	TOGGLESWITCH	Lighting Devices	Devices
+IfcSwitchingDevice	USERDEFINED	Lighting Devices	Devices
+IfcSwitchingDeviceType		Lighting Devices	Devices
+IfcSwitchingDeviceType	CONTACTOR	Lighting Devices	Devices
+IfcSwitchingDeviceType	DIMMERSWITCH	Lighting Devices	Devices
+IfcSwitchingDeviceType	EMERGENCYSTOP	Security Devices	Electrical Safety Devices
+IfcSwitchingDeviceType	KEYPAD	Security Devices	Access Control Devices
+IfcSwitchingDeviceType	MOMENTARYSWITCH	Lighting Devices	Devices
+IfcSwitchingDeviceType	NOTDEFINED	Lighting Devices	Devices
+IfcSwitchingDeviceType	SELECTORSWITCH	Lighting Devices	Devices
+IfcSwitchingDeviceType	STARTER	Lighting Devices	Devices
+IfcSwitchingDeviceType	SWITCHDISCONNECTOR	Lighting Devices	Devices
+IfcSwitchingDeviceType	TOGGLESWITCH	Lighting Devices	Devices
+IfcSwitchingDeviceType	USERDEFINED	Lighting Devices	Devices
+IfcSystemFurnitureElement		Furniture Systems	
+IfcSystemFurnitureElement	NOTDEFINED	Furniture Systems	
+IfcSystemFurnitureElement	PANEL	Casework	Cabinets/Panels
+IfcSystemFurnitureElement	USERDEFINED	Furniture Systems	Carcase/Framing
+IfcSystemFurnitureElement	WORKSURFACE	Casework	Counter Tops
+IfcSystemFurnitureElementType		Furniture Systems	
+IfcSystemFurnitureElementType	NOTDEFINED	Furniture Systems	
+IfcSystemFurnitureElementType	PANEL	Casework	Cabinets/Panels
+IfcSystemFurnitureElementType	USERDEFINED	Furniture Systems	Carcase/Framing
+IfcSystemFurnitureElementType	WORKSURFACE	Casework	Counter Tops
+IfcTank		Mechanical Equipment	Fluid Storage Equipment
+IfcTank	BASIN	Mechanical Equipment	Fluid Storage Equipment
+IfcTank	BREAKPRESSURE	Mechanical Equipment	Fluid Storage Equipment
+IfcTank	EXPANSION	Mechanical Equipment	Fluid Storage Equipment
+IfcTank	FEEDANDEXPANSION	Mechanical Equipment	Fluid Storage Equipment
+IfcTank	NOTDEFINED	Mechanical Equipment	Fluid Storage Equipment
+IfcTank	PRESSUREVESSEL	Mechanical Equipment	Gas Storage Equipment
+IfcTank	STORAGE	Mechanical Equipment	Fluid Storage Equipment
+IfcTank	USERDEFINED	Mechanical Equipment	Fluid Storage Equipment
+IfcTank	VESSEL	Mechanical Equipment	Gas Storage Equipment
+IfcTankType		Mechanical Equipment	Fluid Storage Equipment
+IfcTankType	BASIN	Mechanical Equipment	Fluid Storage Equipment
+IfcTankType	BREAKPRESSURE	Mechanical Equipment	Fluid Storage Equipment
+IfcTankType	EXPANSION	Mechanical Equipment	Fluid Storage Equipment
+IfcTankType	FEEDANDEXPANSION	Mechanical Equipment	Fluid Storage Equipment
+IfcTankType	NOTDEFINED	Mechanical Equipment	Fluid Storage Equipment
+IfcTankType	PRESSUREVESSEL	Mechanical Equipment	Gas Storage Equipment
+IfcTankType	STORAGE	Mechanical Equipment	Fluid Storage Equipment
+IfcTankType	USERDEFINED	Mechanical Equipment	Fluid Storage Equipment
+IfcTankType	VESSEL	Mechanical Equipment	Gas Storage Equipment
+IfcTendon		Structural Rebar	28_wapeningstaal
+IfcTendonAnchor		Structural Connections	28_itso
+IfcTransformer		Electrical Equipment	Equipment
+IfcTransformer	CURRENT	Electrical Equipment	Equipment
+IfcTransformer	FREQUENCY	Electrical Equipment	Equipment
+IfcTransformer	INVERTER	Electrical Equipment	Equipment
+IfcTransformer	NOTDEFINED	Electrical Equipment	Equipment
+IfcTransformer	RECTIFIER	Electrical Equipment	Equipment
+IfcTransformer	USERDEFINED	Electrical Equipment	Equipment
+IfcTransformer	VOLTAGE	Electrical Equipment	Equipment
+IfcTransformerType		Electrical Equipment	Equipment
+IfcTransformerType	CURRENT	Electrical Equipment	Equipment
+IfcTransformerType	FREQUENCY	Electrical Equipment	Equipment
+IfcTransformerType	INVERTER	Electrical Equipment	Equipment
+IfcTransformerType	NOTDEFINED	Electrical Equipment	Equipment
+IfcTransformerType	RECTIFIER	Electrical Equipment	Equipment
+IfcTransformerType	USERDEFINED	Electrical Equipment	Equipment
+IfcTransformerType	VOLTAGE	Electrical Equipment	Equipment
+IfcTransportElement		Specialty Equipment	Equipment
+IfcTransportElement	CRANEWAY	Specialty Equipment	Conveyor Equipment
+IfcTransportElement	ELEVATOR	Specialty Equipment	Transportation Equipment
+IfcTransportElement	ESCALATOR	Specialty Equipment	Transportation Equipment
+IfcTransportElement	LIFTINGGEAR	Specialty Equipment	
+IfcTransportElement	MOVINGWALKWAY	Specialty Equipment	Transportation Equipment
+IfcTransportElement	NOTDEFINED	Specialty Equipment	Equipment
+IfcTransportElement	USERDEFINED	Specialty Equipment	
+IfcTransportElementType		Specialty Equipment	Equipment
+IfcTransportElementType	CRANEWAY	Specialty Equipment	Conveyor Equipment
+IfcTransportElementType	ELEVATOR	Specialty Equipment	Transportation Equipment
+IfcTransportElementType	ESCALATOR	Specialty Equipment	Transportation Equipment
+IfcTransportElementType	LIFTINGGEAR	Specialty Equipment	
+IfcTransportElementType	MOVINGWALKWAY	Specialty Equipment	Transportation Equipment
+IfcTransportElementType	NOTDEFINED	Specialty Equipment	Equipment
+IfcTransportElementType	USERDEFINED	Specialty Equipment	
+IfcTubeBundle		Mechanical Equipment	Equipment
+IfcTubeBundle	FINNED	Mechanical Equipment	Equipment
+IfcTubeBundle	NOTDEFINED	Mechanical Equipment	Equipment
+IfcTubeBundle	USERDEFINED	Mechanical Equipment	Equipment
+IfcTubeBundleType		Mechanical Equipment	Equipment
+IfcTubeBundleType	FINNED	Mechanical Equipment	Equipment
+IfcTubeBundleType	NOTDEFINED	Mechanical Equipment	Equipment
+IfcTubeBundleType	USERDEFINED	Mechanical Equipment	Equipment
+IfcUnitaryEquipment		Mechanical Equipment	Equipment
+IfcUnitaryEquipment	AIRCONDITIONINGUNIT	Mechanical Equipment	Air Handling Equipment
+IfcUnitaryEquipment	AIRHANDLER	Mechanical Equipment	Air Handling Equipment
+IfcUnitaryEquipment	DEHUMIDIFIER	Mechanical Equipment	Air Handling Equipment
+IfcUnitaryEquipment	NOTDEFINED	Mechanical Equipment	Equipment
+IfcUnitaryEquipment	ROOFTOPUNIT	Mechanical Equipment	Air Handling Equipment
+IfcUnitaryEquipment	SPLITSYSTEM	Mechanical Equipment	Air Handling Equipment
+IfcUnitaryEquipment	USERDEFINED	Mechanical Equipment	Equipment
+IfcUnitaryEquipmentType		Mechanical Equipment	Equipment
+IfcUnitaryEquipmentType	AIRCONDITIONINGUNIT	Mechanical Equipment	Air Handling Equipment
+IfcUnitaryEquipmentType	AIRHANDLER	Mechanical Equipment	Air Handling Equipment
+IfcUnitaryEquipmentType	DEHUMIDIFIER	Mechanical Equipment	Air Handling Equipment
+IfcUnitaryEquipmentType	NOTDEFINED	Mechanical Equipment	Equipment
+IfcUnitaryEquipmentType	ROOFTOPUNIT	Mechanical Equipment	Air Handling Equipment
+IfcUnitaryEquipmentType	SPLITSYSTEM	Mechanical Equipment	Air Handling Equipment
+IfcUnitaryEquipmentType	USERDEFINED	Mechanical Equipment	Equipment
+IfcValve		Pipe Accessories	Accessories
+IfcValve	AIRRELEASE	Pipe Accessories	Accessories
+IfcValve	ANTIVACUUM	Pipe Accessories	Accessories
+IfcValve	CHANGEOVER	Pipe Accessories	Accessories
+IfcValve	CHECK	Pipe Accessories	Accessories
+IfcValve	COMMISSIONING	Pipe Accessories	Accessories
+IfcValve	DIVERTING	Pipe Accessories	Accessories
+IfcValve	DOUBLECHECK	Pipe Accessories	Accessories
+IfcValve	DOUBLEREGULATING	Pipe Accessories	Accessories
+IfcValve	DRAWOFFCOCK	Pipe Accessories	Accessories
+IfcValve	FAUCET	Plumbing Fixtures	Sanitary Fixtures
+IfcValve	FLUSHING	Pipe Accessories	Accessories
+IfcValve	GASCOCK	Pipe Accessories	Accessories
+IfcValve	GASTAP	Pipe Accessories	Accessories
+IfcValve	ISOLATING	Pipe Accessories	Accessories
+IfcValve	MIXING	Pipe Accessories	Accessories
+IfcValve	NOTDEFINED	Pipe Accessories	Accessories
+IfcValve	PRESSUREREDUCING	Pipe Accessories	Accessories
+IfcValve	PRESSURERELIEF	Pipe Accessories	Accessories
+IfcValve	REGULATING	Pipe Accessories	Accessories
+IfcValve	SAFETYCUTOFF	Pipe Accessories	Accessories
+IfcValve	STEAMTRAP	Pipe Accessories	Accessories
+IfcValve	STOPCOCK	Pipe Accessories	Accessories
+IfcValve	USERDEFINED	Pipe Accessories	Accessories
+IfcValveType		Pipe Accessories	Accessories
+IfcValveType	AIRRELEASE	Pipe Accessories	Accessories
+IfcValveType	ANTIVACUUM	Pipe Accessories	Accessories
+IfcValveType	CHANGEOVER	Pipe Accessories	Accessories
+IfcValveType	CHECK	Pipe Accessories	Accessories
+IfcValveType	COMMISSIONING	Pipe Accessories	Accessories
+IfcValveType	DIVERTING	Pipe Accessories	Accessories
+IfcValveType	DOUBLECHECK	Pipe Accessories	Accessories
+IfcValveType	DOUBLEREGULATING	Pipe Accessories	Accessories
+IfcValveType	DRAWOFFCOCK	Pipe Accessories	Accessories
+IfcValveType	FAUCET	Plumbing Fixtures	Sanitary Fixtures
+IfcValveType	FLUSHING	Pipe Accessories	Accessories
+IfcValveType	GASCOCK	Pipe Accessories	Accessories
+IfcValveType	GASTAP	Pipe Accessories	Accessories
+IfcValveType	ISOLATING	Pipe Accessories	Accessories
+IfcValveType	MIXING	Pipe Accessories	Accessories
+IfcValveType	NOTDEFINED	Pipe Accessories	Accessories
+IfcValveType	PRESSUREREDUCING	Pipe Accessories	Accessories
+IfcValveType	PRESSURERELIEF	Pipe Accessories	Accessories
+IfcValveType	REGULATING	Pipe Accessories	Accessories
+IfcValveType	SAFETYCUTOFF	Pipe Accessories	Accessories
+IfcValveType	STEAMTRAP	Pipe Accessories	Accessories
+IfcValveType	STOPCOCK	Pipe Accessories	Accessories
+IfcValveType	USERDEFINED	Pipe Accessories	Accessories
+IfcWall		Walls	
+IfcWall	ELEMENTEDWALL	Walls	
+IfcWall	MOVABLE	Furniture Systems	Partitions
+IfcWall	NOTDEFINED	Walls	
+IfcWall	PARAPET	Furniture Systems	Partitions
+IfcWall	PARTITIONING	Furniture Systems	Partitions
+IfcWall	PLUMBINGWALL	Walls	
+IfcWall	POLYGONAL	Walls	
+IfcWall	SHEAR	Walls/Retaining:4	
+IfcWall	SOLIDWALL	Walls	
+IfcWall	STANDARD	Walls	
+IfcWall	USERDEFINED	Walls	Structural Connections
+IfcWallStandardCase		Walls	Basic Wall
+IfcWallType		Walls	
+IfcWallType	ELEMENTEDWALL	Walls	
+IfcWallType	MOVABLE	Furniture Systems	Partitions
+IfcWallType	NOTDEFINED	Walls	
+IfcWallType	PARAPET	Furniture Systems	Partitions
+IfcWallType	PARTITIONING	Furniture Systems	Partitions
+IfcWallType	PLUMBINGWALL	Walls	
+IfcWallType	POLYGONAL	Walls	
+IfcWallType	SHEAR	Walls/Retaining:4	
+IfcWallType	SOLIDWALL	Walls	
+IfcWallType	STANDARD	Walls	
+IfcWallType	USERDEFINED	Walls	Structural Connections
+IfcWasteTerminal		Mechanical Equipment	Refuse Disposal Equipment
+IfcWasteTerminal	FLOORTRAP	Pipe Accessories	Accessories
+IfcWasteTerminal	FLOORWASTE	Pipe Accessories	Accessories
+IfcWasteTerminal	GULLYSUMP	Pipe Accessories	Accessories
+IfcWasteTerminal	GULLYTRAP	Pipe Accessories	Accessories
+IfcWasteTerminal	NOTDEFINED	Mechanical Equipment	Refuse Disposal Equipment
+IfcWasteTerminal	ROOFDRAIN	Pipe Accessories	Accessories
+IfcWasteTerminal	USERDEFINED	Mechanical Equipment	Refuse Disposal Equipment
+IfcWasteTerminal	WASTEDISPOSALUNIT	Mechanical Equipment	Refuse Disposal Equipment
+IfcWasteTerminal	WASTETRAP	Pipe Accessories	Accessories
+IfcWasteTerminalType	FLOORTRAP	Pipe Accessories	Accessories
+IfcWasteTerminalType	FLOORWASTE	Pipe Accessories	Accessories
+IfcWasteTerminalType	GULLYSUMP	Pipe Accessories	Accessories
+IfcWasteTerminalType	GULLYTRAP	Pipe Accessories	Accessories
+IfcWasteTerminalType	NOTDEFINED	Mechanical Equipment	Refuse Disposal Equipment
+IfcWasteTerminalType	ROOFDRAIN	Pipe Accessories	Accessories
+IfcWasteTerminalType	USERDEFINED	Mechanical Equipment	Refuse Disposal Equipment
+IfcWasteTerminalType	WASTEDISPOSALUNIT	Mechanical Equipment	Refuse Disposal Equipment
+IfcWasteTerminalType	WASTETRAP	Pipe Accessories	Accessories

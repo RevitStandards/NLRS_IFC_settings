@@ -1,0 +1,873 @@
+# Revit IFC Export Mapping Table			
+# Maps Categories and Subcategories to layer names and color numbers			
+# Category <tab> Subcategory <tab> Layer name <tab> Color number <tab>			
+# Cut layer name <tab> Cut color number			
+# Do not remove the colon (:) after certain category names.			
+# NLRS 3.1.1			
+# -----------------------------------------------------			
+Air Terminals		IfcAirTerminal	
+Air Terminals	Bounding Boxes	IfcBoundingBox	
+Air Terminals	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Air Terminals	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Air Terminals	Hidden Lines	Not Exported	
+Air Terminals	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Air Terminals	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Air Terminals	Terminals	IfcAirTerminalType	USERDEFINED
+Analytical Beam Tags		IfcAnnotation	
+Analytical Beams		IfcStructuralCurveMember	
+Analytical Brace Tags		IfcAnnotation	
+Analytical Braces		IfcStructuralCurveMember	
+Analytical Column Tags		IfcAnnotation	
+Analytical Columns		IfcStructuralCurveMember	
+Analytical Floor Tags		IfcAnnotation	
+Analytical Floors		IfcStructuralSurfaceMember	
+Analytical Foundation Slabs		IfcStructuralCurveMember	
+Analytical Isolated Foundation Tags		IfcAnnotation	
+Analytical Isolated Foundations		IfcStructuralCurveMember	
+Analytical Slab Foundation Tags		IfcAnnotation	
+Analytical Wall Foundation Tags		IfcAnnotation	
+Analytical Wall Foundations		IfcStructuralCurveMember	
+Analytical Wall Tags		IfcAnnotation	
+Analytical Walls		IfcStructuralSurfaceMember	
+Area Polylines		Not Exported	
+Area Tags		IfcAnnotation	
+Areas		IfcSpaceType	USERDEFINED
+Areas	Color Fill	Not Exported	
+Areas	Interior Fill	Not Exported	
+Areas	Reference	Not Exported	
+Assemblies		IfcElementAssembly	
+Cable Tray Fittings		IFCCableCarrierFittingType	USERDEFINED
+Cable Tray Fittings	Bounding Boxes	IFCCableCarrierFittingType	USERDEFINED
+Cable Tray Fittings	Center line	IfcAnnotation	
+Cable Tray Fittings	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Cable Tray Fittings	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Cable Tray Fittings	Fittings	IFCCableCarrierFittingType	USERDEFINED
+Cable Tray Fittings	Hidden Lines	Not Exported	
+Cable Tray Fittings	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Cable Tray Fittings	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Cable Trays		IFCCableCarrierSegment	
+Cable Trays	Bounding Boxes	IFCCableCarrierSegment	
+Cable Trays	Center line	IfcAnnotation	
+Cable Trays	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Cable Trays	Drop	IfcAnnotation	
+Cable Trays	Rise	IfcAnnotation	
+Callouts		Not Exported	
+Casework		IfcFurniture	
+Casework	Bounding Boxes	IfcFurniture	
+Casework	Cabinets/Panels	IfcSystemFurnitureElementType	PANEL
+Casework	Carcase/Framing	IfcSystemFurnitureElementType	USERDEFINED
+Casework	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Casework	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Casework	Counter Tops	IfcSystemFurnitureElementType	WORKSURFACE
+Casework	Glass	IfcSystemFurnitureElementType	PANEL
+Casework	Hardware	IfcBuildingElementProxyType	USERDEFINED
+Casework	Hidden Lines	Not Exported	
+Casework	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Casework	Opening	IfcOpeningElement	
+Casework	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Casework	Shelving_Fixed	IfcFurnitureType	SHELF
+Casework	Shelving_Freestanding	IfcFurnitureType	SHELF
+Casework	Swing_Elevation	IfcAnnotation	
+Casework	Swing_Elevation_dashed	IfcAnnotation	
+Casework	Swing_Plan	IfcAnnotation	
+Casework Tags		IfcAnnotation	
+Ceiling Tags		IfcAnnotation	
+Ceilings		IfcCoveringType	CEILING
+Ceilings	Common Edges	IfcCoveringType	MOLDING
+Ceilings	Cut Pattern	Not Exported	
+Ceilings	Finish 1 [4]	IfcCoveringType	CEILING
+Ceilings	Finish 2 [5]	IfcCoveringType	CEILING
+Ceilings	Hidden Lines	Not Exported	
+Ceilings	Membrane Layer	IfcCoveringType	MEMBRANE
+Ceilings	Structure [1]	IfcCoveringType	CEILING
+Ceilings	Substrate [2]	IfcCoveringType	CEILING
+Ceilings	Surface Pattern	IfcAnnotation	
+Ceilings	Thermal/Air Layer [3]	IfcCoveringType	INSULATION
+Color Fill Legends		Not Exported	
+Columns		IfcCoveringType	USERDEFINED
+Columns	Bounding Boxes	IfcCoveringType	USERDEFINED
+Columns	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Columns	Column Coverings	IfcCoveringType	USERDEFINED
+Columns	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Columns	Hidden Lines	Not Exported	
+Columns	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Columns	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Communication Devices		IfcCommunicationsAppliance	
+Communication Devices	Bounding Boxes	IfcCommunicationsAppliance	
+Communication Devices	Building Management Devices	IfcAudioVisualApplianceType	DISPLAY
+Communication Devices	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Communication Devices	Communication Devices	IfcAudioVisualApplianceType	USERDEFINED
+Communication Devices	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Communication Devices	Hidden Lines	Not Exported	
+Communication Devices	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Communication Devices	Multimedia Devices	IfcCommunicationsApplianceType	USERDEFINED
+Communication Devices	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Conduit Fittings		IfcCableSegmentType	USERDEFINED
+Conduit Fittings	Bounding Boxes	IfcCableSegmentType	USERDEFINED
+Conduit Fittings	Center line	IfcAnnotation	
+Conduit Fittings	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Conduit Fittings	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Conduit Fittings	Fittings	IfcCableSegmentType	USERDEFINED
+Conduit Fittings	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Conduit Fittings	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Conduits		IfcCableSegment	
+Conduits	Center line	IfcAnnotation	
+Conduits	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Conduits	Drop	IfcAnnotation	
+Conduits	Rise	IfcAnnotation	
+Constraints		Not Exported	
+Contour Labels		Not Exported	
+Curtain Panel Tags		IfcAnnotation	
+Curtain Panels		IfcPlateType	CURTAIN_PANEL
+Curtain Panels	Bounding Boxes	IfcPlateType	CURTAIN_PANEL
+Curtain Panels	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Curtain Panels	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Curtain Panels	Frame	IfcPlateType	CURTAIN_PANEL
+Curtain Panels	Glass	IfcPlateType	CURTAIN_PANEL
+Curtain Panels	Hardware	IfcBuildingElementProxyType	USERDEFINED
+Curtain Panels	Hidden Lines	Not Exported	
+Curtain Panels	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Curtain Panels	Panel	IfcPlateType	CURTAIN_PANEL
+Curtain Panels	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Curtain Panels	Sealant	IfcCurtainWallType	USERDEFINED
+Curtain Panels	Swing Elevation	IfcAnnotation	
+Curtain Panels	Swing Elevation_dashed	IfcAnnotation	
+Curtain Panels	Swing Plan	IfcAnnotation	
+Curtain Panels	Threshold	IfcCurtainWallType	USERDEFINED
+Curtain Systems		IfcCurtainWall	
+Curtain Systems	Curtain System Grids	Not Exported	
+Curtain Systems	Hidden Lines	Not Exported	
+Curtain Wall Mullions		IfcMemberType	MULLION
+Curtain Wall Mullions	Hidden Lines	Not Exported	
+Data Devices		IfcOutletType	DATAOUTLET
+Data Devices	Bounding Boxes	IfcOutletType	DATAOUTLET
+Data Devices	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Data Devices	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Data Devices	Devices	IfcOutletType	DATAOUTLET
+Data Devices	Hidden Lines	Not Exported	
+Data Devices	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Data Devices	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Demolished		IfcElement	
+Detail Items		IfcAnnotation	
+Detail Items	Air Terminals_Terminals	IfcAnnotation	
+Detail Items	Cable Tray Fittings_Fittings	IfcAnnotation	
+Detail Items	Data Devices_Devices	IfcAnnotation	
+Detail Items	Detail Items	IfcAnnotation	
+Detail Items	Duct Accessories_Accessories	IfcAnnotation	
+Detail Items	Electrical Equipment_Access Control Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Building Management Accessories	IfcAnnotation	
+Detail Items	Electrical Equipment_Building Management Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Burglary and Escape Prevention Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Camera Surveillance Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Communication Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Data Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Electrical Safety Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Fire Safety Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Gas Safety Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_High Voltage Accessories	IfcAnnotation	
+Detail Items	Electrical Equipment_High Voltage Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Low Voltage Accessories	IfcAnnotation	
+Detail Items	Electrical Equipment_Low Voltage Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Medium Voltage Accessories	IfcAnnotation	
+Detail Items	Electrical Equipment_Medium Voltage Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Multimedia Equipment	IfcAnnotation	
+Detail Items	Electrical Equipment_Telephony Equipment	IfcAnnotation	
+Detail Items	Fire Alarm Devices_Devices	IfcAnnotation	
+Detail Items	Generic Models_Signage	IfcAnnotation	
+Detail Items	Hidden Lines	Not Exported	
+Detail Items	Lighting Fixtures_Emergency Fixtures	IfcAnnotation	
+Detail Items	Lighting Fixtures_Fixtures	IfcAnnotation	
+Detail Items	Lighting Fixtures_Signage	IfcAnnotation	
+Detail Items	Mechanical Equipment_Air Handling Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Compressed Air Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Cooling and Refrigeration Elements	IfcAnnotation	
+Detail Items	Mechanical Equipment_Cooling and Refrigeration Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Dust Exhaust Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Fire Protection Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Fluid Storage Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Fluid Supply Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Gas Storage Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Gas Supply Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Gas Treatment Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Heating Elements	IfcAnnotation	
+Detail Items	Mechanical Equipment_Refuse Disposal Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Refuse Storage Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Refuse Treatment Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Steam Supply Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Vacuuming Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Water Drainage Equipment	IfcAnnotation	
+Detail Items	Mechanical Equipment_Water Supply Equipment	IfcAnnotation	
+Detail Items	Pipe Accessories_Accessories	IfcAnnotation	
+Detail Items	Pipes	IfcAnnotation	
+Detail Items	Plumbing Fixtures_Fire Safety Fixtures	IfcAnnotation	
+Detail Items	Plumbing Fixtures_Sanitary Fixtures	IfcAnnotation	
+Detail Items	Specialty Equipment_Fire Safety Equipment	IfcAnnotation	
+Detail Items	Specialty Equipment_Transportation Equipment	IfcAnnotation	
+Detail Items	Sprinklers_Sprinklers	IfcAnnotation	
+Detail Items	Walls_Wall Tags	IfcAnnotation	
+Dimensions		Not Exported	
+Dimensions	Automatic Sketch Dimensions	Not Exported	
+Door Tags		IfcAnnotation	
+Doors		IfcDoor	
+Doors	Architrave/Trim	IfcDoor	
+Doors	Bounding Boxes	IfcDoor	
+Doors	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Doors	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Doors	Frame/Mullion	IfcDoor	
+Doors	Glass	IfcWindow	
+Doors	Hardware	IfcBuildingElementProxyType	USERDEFINED
+Doors	Hidden Lines	Not Exported	
+Doors	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Doors	Opening	IfcOpeningElement	
+Doors	Panel	IfcDoor	
+Doors	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Doors	Structural Opening	IfcOpeningElement	
+Doors	Swing Elevation	IfcAnnotation	
+Doors	Swing Elevation_dashed	IfcAnnotation	
+Doors	Swing Plan	IfcAnnotation	
+Doors	Threshold	IfcDoor	
+Duct Accessories		IfcBuildingElementProxyType	USERDEFINED
+Duct Accessories	Accessories	IfcBuildingElementProxyType	USERDEFINED
+Duct Accessories	Bounding Boxes	IfcBoundingBox	
+Duct Accessories	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Duct Accessories	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Duct Accessories	Hidden Lines	Not Exported	
+Duct Accessories	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Duct Accessories	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Duct Fittings		IfcDuctFittingType	USERDEFINED
+Duct Fittings	Bounding Boxes	IfcDuctFittingType	USERDEFINED
+Duct Fittings	Center line	IfcAnnotation	
+Duct Fittings	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Duct Fittings	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Duct Fittings	Fittings	IfcDuctFittingType	USERDEFINED
+Duct Fittings	Hidden Lines	Not Exported	
+Duct Fittings	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Duct Fittings	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Duct Insulations		IfcCoveringType	INSULATION
+Duct Insulations	Bounding Boxes	IfcCoveringType	INSULATION
+Duct Insulations	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Duct Linings		IfcCoveringType	INSULATION
+Duct Linings	Bounding Boxes	IfcCoveringType	INSULATION
+Duct Linings	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Duct Placeholders		IfcDuctSegment	
+Duct Placeholders	Bounding Boxes	IfcDuctSegment	
+Duct Placeholders	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Ducts		IfcDuctSegment	
+Ducts	Center line	IfcAnnotation	
+Ducts	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Ducts	Drop	IfcAnnotation	
+Ducts	Rise	IfcAnnotation	
+Electrical Equipment		IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Access Control Equipment	IfcSensorType	USERDEFINED
+Electrical Equipment	Bounding Boxes	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Building Management Accessories	IfcControllerType	USERDEFINED
+Electrical Equipment	Building Management Equipment	IfcControllerType	USERDEFINED
+Electrical Equipment	Burglary and Escape Prevention Equipment	IfcSensorType	MOVEMENTSENSOR
+Electrical Equipment	Camera Surveillance Equipment	IfcAudioVisualApplianceType	CAMERA
+Electrical Equipment	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Communication Equipment	IfcAudioVisualApplianceType	USERDEFINED
+Electrical Equipment	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Data Equipment	IfcBuildingElementProxyType	
+Electrical Equipment	Electrical Safety Equipment	IfcProtectiveDeviceType	USERDEFINED
+Electrical Equipment	Equipment	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Fire Safety Equipment	IfcSensorType	FIRESENSOR
+Electrical Equipment	Gas Safety Equipment	IfcSensorType	GASSENSOR
+Electrical Equipment	Hidden Lines	Not Exported	
+Electrical Equipment	High Voltage Accessories	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	High Voltage Equipment	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Low Voltage Accessories	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Low Voltage Equipment	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Medium Voltage Accessories	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Medium Voltage Equipment	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Multimedia Equipment	IfcAudioVisualApplianceType	USERDEFINED
+Electrical Equipment	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Electrical Equipment	Telephony Equipment	IfcAudioVisualApplianceType	TELEPHONE
+Electrical Equipment Tags		IfcAnnotation	
+Electrical Fixture Tags		IfcAnnotation	
+Electrical Fixtures		IfcBuildingElementProxyType	USERDEFINED
+Electrical Fixtures	Accessories	IfcBuildingElementProxyType	USERDEFINED
+Electrical Fixtures	Bounding Boxes	IfcBoundingBox	
+Electrical Fixtures	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Electrical Fixtures	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Electrical Fixtures	Fixtures	IfcBuildingElementProxyType	USERDEFINED
+Electrical Fixtures	Hidden Lines	Not Exported	
+Electrical Fixtures	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Electrical Fixtures	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Elevations		Not Exported	
+Entourage		IfcBuildingElementProxyType	USERDEFINED
+Entourage	Bounding Boxes	IfcBuildingElementProxyType	USERDEFINED
+Entourage	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Entourage	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Entourage	Hidden Lines	Not Exported	
+Entourage	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Entourage	People	IfcBuildingElementProxyType	USERDEFINED
+Entourage	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Entourage	Sundries	IfcBuildingElementProxyType	USERDEFINED
+Entourage	Vehicles	IfcBuildingElementProxyType	USERDEFINED
+Existing		Not Exported	
+Filled region		IfcAnnotation	
+Fire Alarm Devices		IfcSensorType	FIRESENSOR
+Fire Alarm Devices	Bounding Boxes	IfcSensorType	FIRESENSOR
+Fire Alarm Devices	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Fire Alarm Devices	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Fire Alarm Devices	Detection Zone 1	IfcBuildingElementProxyType	USERDEFINED
+Fire Alarm Devices	Detection Zone 2	IfcBuildingElementProxyType	USERDEFINED
+Fire Alarm Devices	Detection, Max Surface	IfcBuildingElementProxyType	USERDEFINED
+Fire Alarm Devices	Devices	IfcSensorType	FIRESENSOR
+Fire Alarm Devices	Hidden Lines	Not Exported	
+Fire Alarm Devices	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Fire Alarm Devices	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Flex Ducts		IfcDuctSegmentType	FLEXIBLESEGMENT
+Flex Ducts	Center line	IfcAnnotation	
+Flex Ducts	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Flex Ducts	Pattern	IfcAnnotation	
+Flex Pipes		IfcPipeSegmentType	FLEXIBLESEGMENT
+Flex Pipes	Center Line	IfcAnnotation	
+Flex Pipes	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Flex Pipes	Pattern	IfcAnnotation	
+Floors		IfcSlab	
+Floors	Bounding Boxes	IfcSlab	
+Floors	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Floors	Common Edges	Not Exported	
+Floors	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Floors	Cut Pattern	IfcAnnotation	
+Floors	Finish 1 [4]	IfcSlab	
+Floors	Finish 2 [5]	IfcCoveringType	FLOORING
+Floors	Hidden Lines	Not Exported	
+Floors	Interior Edges	Not Exported	
+Floors	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Floors	Membrane Layer	IfcSlab	
+Floors	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Floors	Slab Edges	IfcMemberType	USERDEFINED
+Floors	Structure [1]	IfcSlab	
+Floors	Substrate [2]	IfcSlab	
+Floors	Surface Pattern	IfcAnnotation	
+Floors	Thermal/Air Layer [3]	IfcSlab	
+Furniture		IfcFurniture	
+Furniture	Furniture	IfcFurniture	
+Furniture	Bedding	IfcFurnitureType	BED
+Furniture	Bounding Boxes	IfcFurniture	
+Furniture	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Furniture	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Furniture	Drawers / Dressers	IfcFurnitureType	USERDEFINED
+Furniture	Hidden Lines	Not Exported	
+Furniture	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Furniture	Outdoor Furniture	IfcFurnitureType	USERDEFINED
+Furniture	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Furniture	Seating_Fixed	IfcFurnitureType	SOFA
+Furniture	Seating_Freestanding	IfcFurnitureType	SOFA
+Furniture	Shelving	IfcFurnitureType	SHELF
+Furniture	Tables_Fixed	IfcFurnitureType	TABLE
+Furniture	Tables_Freestanding	IfcFurnitureType	TABLE
+Furniture Systems		IfcFurniture	
+Furniture Systems	Bounding Boxes	IfcFurniture	
+Furniture Systems	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Furniture Systems	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Furniture Systems	Hidden Lines	Not Exported	
+Furniture Systems	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Furniture Systems	Partitions	IfcWallType	PARTITIONING
+Furniture Systems	Pedestrals	IfcFurnitureType	USERDEFINED
+Furniture Systems	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Furniture Systems	Storage	IfcFurnitureType	USERDEFINED
+Furniture Systems	Workstations	IfcFurnitureType	DESK
+Generic Annotations		IfcAnnotation	
+Generic Model Tags		IfcAnnotation	
+Generic Models		IfcBuildingElementProxy	
+Generic Models	Bounding Boxes	IfcBuildingElementProxy	
+Generic Models	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Generic Models	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Generic Models	Floors	IfcSlabType	USERDEFINED
+Generic Models	Frame / Mullion	IfcMemberType	MULLION
+Generic Models	Hardware	IfcBuildingElementProxyType	USERDEFINED
+Generic Models	Hidden Lines	Not Exported	
+Generic Models	Linked Connectors	IfcFlowController	
+Generic Models	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Generic Models	Models	IfcBuildingElementProxyType	USERDEFINED
+Generic Models	Nested Connectors	IfcFlowController	
+Generic Models	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Generic Models	Plates	IfcPlateType	USERDEFINED
+Generic Models	Plinths	IfcCoveringType	SKIRTINGBOARD
+Generic Models	Roofs	IfcRoof	
+Generic Models	Shading Devices	IfcShadingDeviceType	USERDEFINED
+Generic Models	Signage	IfcFurnishingElement	
+Generic Models	Stairs	IfcStair	
+Generic Models	Structural Connections	IfcMechanicalFastenerType	USERDEFINED
+Generic Models	Walls	IfcWallType	USERDEFINED
+Grids		IfcGrid	
+Guide Grid		Not Exported	
+HVAC Zones		IfcAnnotation	
+HVAC Zones	Boundary	Not Exported	
+HVAC Zones	Color Fill	Not Exported	
+HVAC Zones	Interior Fill	Not Exported	
+HVAC Zones	Reference Lines	Not Exported	
+Imports in Families		Not Exported	
+Levels		IfcBuildingStorey	
+Lighting Devices		IfcSwitchingDevice	
+Lighting Devices	Bounding Boxes	IfcSwitchingDevice	
+Lighting Devices	Building Management Devices	IfcFlowController	
+Lighting Devices	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Lighting Devices	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Lighting Devices	Detection Zones 1	IfcBuildingElementProxyType	USERDEFINED
+Lighting Devices	Detection Zones 2	IfcBuildingElementProxyType	USERDEFINED
+Lighting Devices	Detection, Max Surface	IfcBuildingElementProxyType	USERDEFINED
+Lighting Devices	Devices	IfcSwitchingDeviceType	USERDEFINED
+Lighting Devices	Hidden Lines	Not Exported	
+Lighting Devices	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Lighting Devices	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Lighting Fixture Tags		IfcAnnotation	
+Lighting Fixtures		IfcLightFixture	
+Lighting Fixtures	Bounding Boxes	IfcLightFixture	
+Lighting Fixtures	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Lighting Fixtures	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Lighting Fixtures	Emergency Fixtures	IfcLightFixtureType	SECURITYLIGHTING
+Lighting Fixtures	Fixtures	IfcLightFixtureType	USERDEFINED
+Lighting Fixtures	Hidden Lines	Not Exported	
+Lighting Fixtures	Light Source	IfcLampType	USERDEFINED
+Lighting Fixtures	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Lighting Fixtures	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Lighting Fixtures	Signage	IfcLightFixtureType	USERDEFINED
+Lines		IfcAnnotation	
+Lines	_dummy_refplane_defines origin	Not Exported	
+Lines	_dummy_refplane_no reference	Not Exported	
+Lines	_dummy_refplane_weak reference	Not Exported	
+Lines	_titleblock_wide line_RGB128-128-128	IfcAnnotation	
+Lines	52_riolering_grijs	IfcAnnotation	
+Lines	52_riolering_zwart	IfcAnnotation	
+Lines	<Area Boundary>	IfcAnnotation	
+Lines	<Beyond>	IfcAnnotation	
+Lines	<Centerline>	Not Exported	
+Lines	<Demolished>	IfcAnnotation	
+Lines	<Fabric Envelope>	IfcAnnotation	
+Lines	<Fabric Sheets>	IfcAnnotation	
+Lines	<Hidden>	IfcAnnotation	
+Lines	<Overhead>	IfcAnnotation	
+Lines	<Revision Cloud>	IfcAnnotation	
+Lines	<Room Separation>	Not Exported	
+Lines	<Sketch>	Not Exported	
+Lines	<Space Separation>	IfcAnnotation	
+Lines	<Stair/Ramp Sketch: Boundary>	Not Exported	
+Lines	<Stair/Ramp Sketch: Landing Center>	Not Exported	
+Lines	<Stair/Ramp Sketch: Riser>	Not Exported	
+Lines	<Stair/Ramp Sketch: Run>	Not Exported	
+Lines	Axis of Rotation	IfcAnnotation	
+Lines	Hidden Lines	Not Exported	
+Lines	Insulation Batting Lines	IfcAnnotation	
+Lines	Lines	IfcAnnotation	
+Lines	Medium Lines	IfcAnnotation	
+Lines	Silhouet Lines	IfcAnnotation	
+Lines	Thin Lines	IfcAnnotation	
+Lines	Wide Lines	IfcAnnotation	
+Mass		IfcBuilding	
+Mass	Form	IfcBuilding	
+Mass	Gridlines	IfcGrid	
+Mass	Hidden Lines	Not Exported	
+Mass	Mass Floor	IfcSlab	
+Mass	Nodes	Not Exported	
+Mass	Pattern Fill	IfcAnnotation	
+Mass	Pattern Lines	IfcAnnotation	
+Massing		IfcBuilding	
+Mechanical Equipment		IfcBuildingElementProxy	
+Mechanical Equipment	Air Handling Equipment	IfcUnitaryEquipmentType	USERDEFINED
+Mechanical Equipment	Bounding Boxes	IfcBuildingElementProxy	
+Mechanical Equipment	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Mechanical Equipment	Compressed Air Equipment	IfcCompressor	
+Mechanical Equipment	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Mechanical Equipment	Cooling and Refrigeration Elements	IfcCoilType	USERDEFINED
+Mechanical Equipment	Cooling and Refrigeration Equipment	IfcCoolingTower	
+Mechanical Equipment	Dust Exhaust Equipment	IfcFlowMovingDevice	
+Mechanical Equipment	Equipment	IfcBuildingElementProxy	
+Mechanical Equipment	Fire Protection Equipment	IfcFireSuppressionTerminalType	USERDEFINED
+Mechanical Equipment	Fluid Storage Equipment	IfcTankType	STORAGE
+Mechanical Equipment	Fluid Supply Equipment	IfcValveType	USERDEFINED
+Mechanical Equipment	Gas Storage Equipment	IfcTankType	VESSEL
+Mechanical Equipment	Gas Supply Equipment	IfcValveType	USERDEFINED
+Mechanical Equipment	Gas Treatment Equipment	IfcBurner	
+Mechanical Equipment	Heating Elements	IfcSpaceHeaterType	USERDEFINED
+Mechanical Equipment	Heating Equipment	IfcEnergyConversionDeviceType	USERDEFINED
+Mechanical Equipment	Hidden Lines	Not Exported	
+Mechanical Equipment	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Mechanical Equipment	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Mechanical Equipment	Refuse Disposal Equipment	IfcDistributionElementType	DISPOSAL
+Mechanical Equipment	Refuse Storage Equipment	IfcTankType	STORAGE
+Mechanical Equipment	Refuse Treatment Equipment	IfcWasteTerminalType	USERDEFINED
+Mechanical Equipment	Steam Supply Equipment	IfcHumidifierType	USERDEFINED
+Mechanical Equipment	Vacuuming Equipment	IfcDistributionSystem	VACUUM
+Mechanical Equipment	Water Drainage Equipment	IfcDistributionSystem	DRAINAGE
+Mechanical Equipment	Water Supply Equipment	IfcDistributionSystem	WATERSUPPLY
+Mechanical Equipment Tags		IfcAnnotation	
+Multi-Category Tags		IfcAnnotation	
+New		Not Exported	
+Nurse Call Devices		IfcSwitchingDevice	
+Nurse Call Devices	Bounding Boxes	IfcSwitchingDevice	
+Nurse Call Devices	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Nurse Call Devices	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Nurse Call Devices	Devices	IfcSwitchingDeviceType	USERDEFINED
+Nurse Call Devices	Hidden Lines	Not Exported	
+Nurse Call Devices	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Nurse Call Devices	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Nurse Call Devices	RGG Communicatie	IfcBuildingElementProxyType	USERDEFINED
+Panel Schedule Graphics		Not Exported	
+Parking		IfcSpaceType	PARKING
+Parking	Bike Racks	IfcBuildingElementProxyType	USERDEFINED
+Parking	Bounding Boxes	IfcBuildingElementProxyType	USERDEFINED
+Parking	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Parking	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Parking	Graphics	IfcBuildingElementProxyType	USERDEFINED
+Parking	Hidden Lines	Not Exported	
+Parking	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Parking	Parking Layout	IfcBuildingElementProxyType	USERDEFINED
+Parking	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Parking	Wheelstops	IfcBuildingElementProxyType	USERDEFINED
+Parking Tags		IfcAnnotation	
+Parts		IfcBuildingElementPart	
+Parts	Hidden Lines	Not Exported	
+Pipe Accessories		IfcValve	
+Pipe Accessories	Accessories	IfcValveType	USERDEFINED
+Pipe Accessories	Bounding Boxes	IfcValve	
+Pipe Accessories	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipe Accessories	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipe Accessories	Hidden Lines	Not Exported	
+Pipe Accessories	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipe Accessories	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipe Fittings		IfcPipeFitting	
+Pipe Fittings	Bounding Boxes	IfcPipeFitting	
+Pipe Fittings	Center line	IfcAnnotation	
+Pipe Fittings	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipe Fittings	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipe Fittings	Fittings	IfcAnnotation	
+Pipe Fittings	Hidden Lines	Not Exported	
+Pipe Fittings	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipe Fittings	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipe Insulations		IfcCoveringType	SLEEVING
+Pipe Insulations	Bounding Boxes	IfcCoveringType	SLEEVING
+Pipe Insulations	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipe Placeholders		IfcPipeSegment	
+Pipe Placeholders	Bounding Boxes	IfcPipeSegment	
+Pipe Placeholders	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipes		IfcPipeSegment	
+Pipes	Center Line	IfcAnnotation	
+Pipes	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Pipes	Drop	IfcAnnotation	
+Pipes	Rise	IfcAnnotation	
+Plan Region		Not Exported	
+Planting		IfcBuildingElementProxy	
+Planting	Bounding Boxes	IfcBuildingElementProxy	
+Planting	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Planting	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Planting	Ground Cover	IfcSite	
+Planting	Hidden Lines	Not Exported	
+Planting	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Planting	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Planting	Trees / Shrubs	IfcBuildingElementProxy	
+Planting Tags		IfcAnnotation	
+Plumbing Fixture Tags		IfcAnnotation	
+Plumbing Fixtures		IfcFlowTerminal	
+Plumbing Fixtures	Bounding Boxes	IfcFlowTerminal	
+Plumbing Fixtures	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Plumbing Fixtures	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Plumbing Fixtures	Fire Safety Fixtures	IfcFireSuppressionTerminalType	USERDEFINED
+Plumbing Fixtures	Hidden Lines	Not Exported	
+Plumbing Fixtures	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Plumbing Fixtures	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Plumbing Fixtures	Sanitary Fixtures	IfcSanitaryTerminalType	USERDEFINED
+Point Clouds		Not Exported	
+Property Line Segment Tags		IfcAnnotation	
+Property Tags		IfcAnnotation	
+Railing Tags		IfcAnnotation	
+Railings		IfcRailing	
+Railings	<Above> Handrails	IfcAnnotation	
+Railings	<Above> Railings Cut Line	IfcAnnotation	
+Railings	<Above> Top Rails	IfcAnnotation	
+Railings	Balusters	IfcRailingType	USERDEFINED
+Railings	Bounding Boxes	IfcRailing	
+Railings	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Railings	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Railings	Handrails	IfcRailingType	HANDRAIL
+Railings	Hidden Lines	Not Exported	
+Railings	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Railings	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Railings	Rails	IfcRailingType	USERDEFINED
+Railings	Supports	IfcRailingType	USERDEFINED
+Railings	Terminations	IfcRailingType	USERDEFINED
+Railings	Top Rails	IfcRailingType	USERDEFINED
+Ramps		IfcRamp	
+Ramps	Down Arrow	IfcAnnotation	
+Ramps	DOWN text	IfcAnnotation	
+Ramps	Hidden Lines	Not Exported	
+Ramps	Incomplete ramps	IfcAnnotation	
+Ramps	Ramps Beyond Cut Line	IfcAnnotation	
+Ramps	Stringers	IfcMemberType	STRINGER
+Ramps	Stringers Beyond Cut Line	IfcAnnotation	
+Ramps	Up Arrow	IfcAnnotation	
+Ramps	UP text	IfcAnnotation	
+Raster Images		Not Exported	
+Reference Planes		Not Exported	
+Roads		IfcSite	
+Roads	Hidden Lines	Not Exported	
+Roof Tags		IfcAnnotation	
+Roofs		IfcRoof	
+Roofs	Common Edges	Not Exported	
+Roofs	Curtain Roof Grids	Not Exported	
+Roofs	Cut Pattern	IfcAnnotation	
+Roofs	Fascias	IfcCoveringType	CLADDING
+Roofs	Finish 1 [4]	IfcRoof	ROOFING
+Roofs	Finish 2 [5]	IfcCoveringType	ROOFING
+Roofs	Gutters	IfcPipeSegmentType	GUTTER
+Roofs	Hidden Lines	Not Exported	
+Roofs	Interior Edges	Not Exported	
+Roofs	Membrane Layer	IfcCoveringType	MEMBRANE
+Roofs	Roof Soffits	IfcCoveringType	CEILING
+Roofs	Structure [1]	IfcRoof	USERDEFINED
+Roofs	Substrate [2]	IfcRoof	USERDEFINED
+Roofs	Surface Pattern	IfcAnnotation	
+Roofs	Thermal/Air Layer [3]	IfcCoveringType	INSULATION
+Room Polylines		Not Exported	
+Room Tags		IfcAnnotation	
+Rooms		IfcSpace	
+Rooms	Color Fill	Not Exported	
+Rooms	Interior Fill	Not Exported	
+Rooms	Reference	Not Exported	
+Ruled Curtain System		IfcCurtainWallType	USERDEFINED
+Schedule Graphics		Not Exported	
+Scope Boxes		Not Exported	
+Sections		Not Exported	
+Security Devices		IfcSensor	
+Security Devices	Access Control Devices	IfcSensorType	IDENTIFIERSENSOR
+Security Devices	Bounding Boxes	IfcSensor	
+Security Devices	Burglary and Escape Prevention Devices	IfcSensorType	SECURITY
+Security Devices	Camera Surveillance Devices	IfcAudioVisualApplianceType	CAMERA
+Security Devices	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Security Devices	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Security Devices	Detection Zones 1	IfcBuildingElementProxyType	USERDEFINED
+Security Devices	Detection Zones 2	IfcBuildingElementProxyType	USERDEFINED
+Security Devices	Detection, Max Surface	IfcBuildingElementProxyType	USERDEFINED
+Security Devices	Devices	IfcAlarmType	USERDEFINED
+Security Devices	Electrical Safety Devices	IfcSensorType	USERDEFINED
+Security Devices	Fire Safety Devices	IfcSensorType	FIRESENSOR
+Security Devices	Gas Safety Devices	IfcSensorType	GASSENSOR
+Security Devices	Hidden Lines	Not Exported	
+Security Devices	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Security Devices	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Shaft Openings		IfcOpeningElement	
+Shaft Openings	Hidden Lines	Not Exported	
+Site		IfcSite	
+Site	Bounding Boxes	IfcSite	
+Site	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Site	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Site	Hard Landscaping	IfcSite	
+Site	Hidden Lines	Not Exported	
+Site	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Site	Pads	IfcSite	
+Site	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Site	Project Base Point	IfcAnnotation	
+Site	Property	IfcSite	
+Site	Property Lines	IfcAnnotation	
+Site	Site Furniture	IfcFurnitureType	USERDEFINED
+Site	Survey Point	Not Exported	
+Site	Utilities	IfcBuildingElementProxy	
+Site	Way Finding	IfcFurnishingElement	
+Site Tags		IfcAnnotation	
+Spaces		IfcSpace	
+Spaces	Color Fill	Not Exported	
+Spaces	Interior	Not Exported	
+Spaces	Reference	Not Exported	
+Specialty Equipment		IfcBuildingElementProxy	
+Specialty Equipment	Appliances	IfcElectricApplianceType	USERDEFINED
+Specialty Equipment	Bathroom	IfcFurnishingElement	
+Specialty Equipment	Bounding Boxes	IfcBuildingElementProxyType	USERDEFINED
+Specialty Equipment	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Specialty Equipment	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Specialty Equipment	Conveyor Equipment	IfcTransportElementType	USERDEFINED
+Specialty Equipment	Fire Safety Equipment	IfcFireSuppressionTerminal	
+Specialty Equipment	Hidden Lines	Not Exported	
+Specialty Equipment	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Specialty Equipment	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Specialty Equipment	Security Equipment	IfcDistributionSystem	SECURITY
+Specialty Equipment	Transportation Equipment	IfcTransportElementType	USERDEFINED
+Specialty Equipment Tags		IfcAnnotation	
+Spot Coordinates		IfcAnnotation	
+Spot Elevations		IfcAnnotation	
+Spot Slopes		IfcAnnotation	
+Sprinklers		IfcFireSuppressionTerminalType	SPRINKLER
+Sprinklers	Bounding Boxes	IfcFireSuppressionTerminalType	SPRINKLER
+Sprinklers	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Sprinklers	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Sprinklers	Fittings	IfcFireSuppressionTerminalType	USERDEFINED
+Sprinklers	Hidden Lines	Not Exported	
+Sprinklers	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Sprinklers	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Sprinklers	Sprinklers	IfcFireSuppressionTerminalType	SPRINKLER
+Stair Landing Tags		IfcAnnotation	
+Stair Paths		IfcAnnotation	
+Stair Paths	<Above> Up Arrows	IfcAnnotation	
+Stair Paths	Down Arrows	IfcAnnotation	
+Stair Paths	DOWN Text	IfcAnnotation	
+Stair Paths	Up Arrows	IfcAnnotation	
+Stair Paths	UP Text	IfcAnnotation	
+Stair Run Tags		IfcAnnotation	
+Stair Support Tags		IfcAnnotation	
+Stair Tags		IfcAnnotation	
+Stair Tread/Riser Numbers		IfcAnnotation	
+Stairs		IfcStair	
+Stairs	<Above> Cut Marks	IfcAnnotation	
+Stairs	<Above> Nosing Lines	IfcAnnotation	
+Stairs	<Above> Outlines	IfcAnnotation	
+Stairs	<Above> Riser Lines	IfcAnnotation	
+Stairs	<Above> Supports	IfcAnnotation	
+Stairs	Cut Marks	IfcAnnotation	
+Stairs	Hidden Lines	Not Exported	
+Stairs	Incomplete Stairs	IfcStairType	USERDEFINED
+Stairs	Nosing Lines	IfcStair	
+Stairs	Outlines	IfcStair	
+Stairs	Riser Lines	IfcStair	
+Stairs	Supports	IfcMemberType	USERDEFINED
+Stairs	Treads/Risers	IfcStair	
+Structural Area Reinforcement		IfcReinforcingMesh	
+Structural Area Reinforcement	Boundary	IfcAnnotation	
+Structural Beam Systems		IfcElementAssemblyType	BEAM_GRID
+Structural Column Tags		IfcAnnotation	
+Structural Columns		IfcColumn	
+Structural Columns	Bounding Boxes	IfcColumn	
+Structural Columns	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Columns	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Columns	Hidden Lines	Not Exported	
+Structural Columns	Location Lines	IfcAnnotation	
+Structural Columns	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Columns	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Columns	Rigid Links	IfcStructuralPointConnection	
+Structural Columns	Stick Symbols	IfcStructuralPointConnection	
+Structural Connections		IfcStructuralConnection	
+Structural Connections	Hidden Lines	Not Exported	
+Structural Fabric Areas		IfcReinforcingMesh	USERDEFINED
+Structural Fabric Areas	Boundary	IfcAnnotation	
+Structural Fabric Reinforcement		IfcReinforcingMesh	USERDEFINED
+Structural Fabric Reinforcement	Boundary	IfcAnnotation	
+Structural Fabric Reinforcement	Fabric Wire	IfcReinforcingMesh	USERDEFINED
+Structural Foundation Tags		IfcAnnotation	
+Structural Foundations		IfcFooting	
+Structural Foundations	Bounding Boxes	IfcFooting	
+Structural Foundations	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Foundations	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Foundations	Foundation	IfcFootingType	USERDEFINED
+Structural Foundations	Hidden Lines	Not Exported	
+Structural Foundations	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Foundations	Pile	IfcPileType	USERDEFINED
+Structural Foundations	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Foundations	Plan Rep	IfcAnnotation	
+Structural Framing		IfcBeam	
+Structural Framing	Bounding Boxes	IfcBeam	
+Structural Framing	Chord	IfcMemberType	CHORD
+Structural Framing	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Framing	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Framing	Girder	IfcElementAssemblyType	GIRDER
+Structural Framing	Hidden Faces	Not Exported	
+Structural Framing	Hidden Lines	Not Exported	
+Structural Framing	Horizontal Bracing	IfcElementAssemblyType	BRACED_FRAME
+Structural Framing	Joist	IfcBeamType	JOIST
+Structural Framing	Kicker Bracing	IfcMemberType	BRACE
+Structural Framing	Location Lines	Not Exported	
+Structural Framing	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Framing	Other	IfcBeamType	USERDEFINED
+Structural Framing	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Structural Framing	Plates	IfcPlateType	SHEET
+Structural Framing	Purlin	IfcMemberType	PURLIN
+Structural Framing	Rigid Links	Not Exported	
+Structural Framing	Stick Symbols	Not Exported	
+Structural Framing	Vertical Bracing	IfcElementAssemblyType	BRACED_FRAME
+Structural Framing	Web	IfcElementAssemblyType	ACCESSORY_ASSEMBLY
+Structural Framing Tags		IfcAnnotation	
+Structural Path Reinforcement		IfcReinforcingBarType	LIGATURE
+Structural Path Reinforcement	Boundary	IfcAnnotation	
+Structural Rebar		IfcReinforcingBarType	USERDEFINED
+Structural Rebar	Hidden Lines	Not Exported	
+Structural Stiffener Tags		IfcAnnotation	
+Structural Stiffeners		IfcPlateType	USERDEFINED
+Structural Stiffeners	Hidden Lines	Not Exported	
+Structural Truss Tags		IfcAnnotation	
+Structural Trusses		IfcElementAssemblyType	TRUSS
+Structural Trusses	Stick Symbols	Not Exported	
+Telephone Devices		IfcAudioVisualApplianceType	TELEPHONE
+Telephone Devices	Bounding Boxes	IfcAudioVisualApplianceType	TELEPHONE
+Telephone Devices	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Telephone Devices	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Telephone Devices	Devices	IfcAudioVisualApplianceType	TELEPHONE
+Telephone Devices	Hidden Lines	Not Exported	
+Telephone Devices	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Telephone Devices	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Temporary		Not Exported	
+Text Notes		IfcAnnotation	
+Title Blocks		Not Exported	
+Title Blocks	Medium Lines	Not Exported	
+Title Blocks	Thin Lines	Not Exported	
+Title Blocks	Wide Lines	Not Exported	
+Topography		IfcSite	
+Topography	Boundary Point	IfcSite	
+Topography	Bounding Boxes	IfcSite	
+Topography	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Topography	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Topography	Hidden Lines	Not Exported	
+Topography	Interior Point	IfcSite	
+Topography	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Topography	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Topography	Primary Contours	IfcSite	
+Topography	Secondary Contours	IfcSite	
+Topography	Site Scrape Contours	IfcSite	
+Topography	Triangulation Edges	IfcSite	
+View Titles		Not Exported	
+Wall Tags		IfcAnnotation	
+Walls		IfcWall	
+Walls	Bounding Boxes	IfcWall	
+Walls	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Walls	Common Edges	IfcWall	
+Walls	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Walls	Curtain Wall Grids	Not Exported	
+Walls	Cut Pattern	IfcAnnotation	
+Walls	Finish 1 [4]	IfcWall	
+Walls	Finish 2 [5]	IfcCoveringType	USERDEFINED
+Walls	Hidden Lines	Not Exported	
+Walls	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Walls	Membrane Layer	IfcCoveringType	MEMBRANE
+Walls	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Walls	Reveals	IfcOpeningElement	
+Walls	Stacked Walls	IfcWall	
+Walls	Structure [1]	IfcWall	
+Walls	Substrate [2]	IfcWall	
+Walls	Surface Pattern	IfcAnnotation	
+Walls	Sweep_Cornice	IfcCoveringType	MOLDING
+Walls	Sweep_Gutter	IfcPipeSegmentType	GUTTER
+Walls	Sweep_Sidings	IfcCoveringType	CLADDING
+Walls	Sweep_Skirting	IfcCoveringType	SKIRTINGBOARD
+Walls	Thermal/Air Layer [3]	IfcCoveringType	INSULATION
+Walls	Wall Sweeps	IfcCoveringType	USERDEFINED
+Walls/Interior:1		IfcWall	
+Walls/Exterior:2		IfcWall	
+Walls/Foundation:3		IfcFootingType	STRIP_FOOTING
+Walls/Retaining:4		IfcWallType	SHEAR
+Window Tags		IfcAnnotation	
+Windows		IfcWindow	
+Windows	Architrave/Trim	IfcWindow	
+Windows	Bounding Boxes	IfcWindow	WINDOW
+Windows	Clearance Zones	IfcBuildingElementProxyType	USERDEFINED
+Windows	Connection Zones	IfcBuildingElementProxyType	USERDEFINED
+Windows	Frame/Mullion	IfcWindow	
+Windows	Glass	IfcWindow	
+Windows	Hardware	IfcBuildingElementProxyType	USERDEFINED
+Windows	Hidden Lines	Not Exported	
+Windows	Maintenance Zones	IfcBuildingElementProxyType	USERDEFINED
+Windows	Moulding/Muntin	IfcWindow	
+Windows	Opening	IfcOpeningElement	
+Windows	Placement Zones	IfcBuildingElementProxyType	USERDEFINED
+Windows	Reveal	IfcWindow	
+Windows	Sash	IfcWindow	
+Windows	Sill/Head	IfcBuildingElementProxyType	USERDEFINED
+Windows	Sill_Wall	IfcBuildingElementProxyType	USERDEFINED
+Windows	Structural Opening	IfcOpeningElement	
+Windows	Swing_Elevation	IfcAnnotation	
+Windows	Swing_Elevation_dashed	IfcAnnotation	
+Windows	Swing_Plan	IfcAnnotation	
+Wires		IfcCableSegmentType	
+Wires	Home Run Arrows	IfcAnnotation	
+Wires	Wire Tick Marks	Not Exported	

@@ -1,0 +1,1128 @@
+# Dit is de ParameterMappingTable. Kopieer deze tekst in een leeg txt bestand om een bestand te maken wat in Revit ingelezen kan worden						
+# Deze tabel mapt de NLRS parameters (of Revit Built-In parameters) aan de Common Property Sets in IFC. Indien geen mapping beschikbaar is, is de regel leeg gelaten						
+# Parameters die u niet wilt mappen kunt u uitschakelen door aan het begin van de regel een # te plaatsen						
+# PSet <tab> IFC Property <tab> Revit parameter						
+# IFC 2x3						
+# NLRS 3.1.1						
+# -----------------------------------------------------						
+#PropertySet	IFC Property	Revit Parameter				
+Pset_ActuatorTypeCommon	FailPosition					
+Pset_ActuatorTypeCommon	ManualOverride					
+Pset_AirTerminalBoxTypeCommon	AirflowRateRange					
+Pset_AirTerminalBoxTypeCommon	AirPressureRange					
+Pset_AirTerminalBoxTypeCommon	ArrangementType					
+Pset_AirTerminalBoxTypeCommon	HasFan					
+Pset_AirTerminalBoxTypeCommon	HasReturnAir					
+Pset_AirTerminalBoxTypeCommon	HasSoundAttenuator					
+Pset_AirTerminalBoxTypeCommon	HousingThickness					
+Pset_AirTerminalBoxTypeCommon	Material	NLRS_C_materiaal				
+Pset_AirTerminalBoxTypeCommon	NominalAirFlowRate	NLRS_P_volumestroom				
+Pset_AirTerminalBoxTypeCommon	NominalDamperDiameter	NLRS_C_diameter_01				
+Pset_AirTerminalBoxTypeCommon	NominalInletAirPressure					
+Pset_AirTerminalBoxTypeCommon	OperationTemperatureRange					
+Pset_AirTerminalBoxTypeCommon	ReheatType					
+Pset_AirTerminalBoxTypeCommon	ReturnAirFractionRange					
+Pset_AirTerminalBoxTypeCommon	Weight	NLRS_S_gewicht				
+Pset_AirTerminalTypeCommon	AirDiffusionPerformanceIndex					
+Pset_AirTerminalTypeCommon	AirFlowrateRange					
+Pset_AirTerminalTypeCommon	AirFlowrateVersusFlowControlElement					
+Pset_AirTerminalTypeCommon	CoreSetHorizontal					
+Pset_AirTerminalTypeCommon	CoreSetVertical					
+Pset_AirTerminalTypeCommon	CoreType					
+Pset_AirTerminalTypeCommon	DischargeDirection					
+Pset_AirTerminalTypeCommon	EffectiveArea					
+Pset_AirTerminalTypeCommon	FinishColor	NLRS_C_materiaal_kleur				
+Pset_AirTerminalTypeCommon	FinishType	NLRS_C_materiaal_afwerking				
+Pset_AirTerminalTypeCommon	FlowControlType					
+Pset_AirTerminalTypeCommon	FlowPattern					
+Pset_AirTerminalTypeCommon	HasIntegralControl					
+Pset_AirTerminalTypeCommon	HasSoundAttenuator					
+Pset_AirTerminalTypeCommon	HasThermalInsulation	NLRS_C_geisoleerd				
+Pset_AirTerminalTypeCommon	Material	NLRS_C_materiaal				
+Pset_AirTerminalTypeCommon	MountingType	NLRS_C_montage				
+Pset_AirTerminalTypeCommon	NeckArea					
+Pset_AirTerminalTypeCommon	Shape	NLRS_C_vorm				
+Pset_AirTerminalTypeCommon	TemperatureRange					
+Pset_AirTerminalTypeCommon	ThrowLength					
+Pset_AirToAirHeatRecoveryTypeCommon	HasDefrost					
+Pset_AirToAirHeatRecoveryTypeCommon	HeatTransferTypeEnum					
+Pset_AirToAirHeatRecoveryTypeCommon	MediaMaterial	NLRS_C_medium				
+Pset_AirToAirHeatRecoveryTypeCommon	OperationalTemperatureRange					
+Pset_AirToAirHeatRecoveryTypeCommon	PrimaryAirflowRateRange					
+Pset_AirToAirHeatRecoveryTypeCommon	SecondaryAirflowRateRange					
+Pset_AirToAirHeatRecoveryTypeCommon	Weight	NLRS_S_gewicht				
+Pset_BeamCommon	IsExternal	NLRS_C_buiten				
+Pset_BeamCommon	Loadbearing	NLRS_C_dragend				
+Pset_BeamCommon	Slope	NLRS_C_helling				
+Pset_BeamCommon	Span	NLRS_C_lengte				
+Pset_BeamCommon	ThermalTransmittance	NLRS_B_Uwaarde				
+Pset_BoilerTypeCommon	HeatOutput					
+Pset_BoilerTypeCommon	HeatTransferSurfaceArea					
+Pset_BoilerTypeCommon	IsWaterStorageHeater					
+Pset_BoilerTypeCommon	Material	NLRS_C_materiaal				
+Pset_BoilerTypeCommon	NominalEfficiency					
+Pset_BoilerTypeCommon	NominalEnergyConsumption					
+Pset_BoilerTypeCommon	NominalPartLoadRatio					
+Pset_BoilerTypeCommon	OperatingMode					
+Pset_BoilerTypeCommon	OutletTemperatureRange					
+Pset_BoilerTypeCommon	PartialLoadEfficiencyCurves					
+Pset_BoilerTypeCommon	PressureRating					
+Pset_BoilerTypeCommon	WaterInletTemperatureRange					
+Pset_BoilerTypeCommon	WaterStorageCapacity	NLRS_C_volume				
+Pset_BoilerTypeCommon	Weight	NLRS_S_gewicht				
+Pset_BuildingCommon	AncillaryFireUse					
+Pset_BuildingCommon	BuildingID	NLRS_C_gebouwnummer				
+Pset_BuildingCommon	GrossPlannedArea	NLRS_C_eis_oppervlakte_bruto				
+Pset_BuildingCommon	IsLandmarked					
+Pset_BuildingCommon	IsPermanentID	NLRS_C_nummer_definitief				
+Pset_BuildingCommon	MainFireUse	NLRS_C_gebruiksklasse				
+Pset_BuildingCommon	NumberOfStoreys					
+Pset_BuildingCommon	OccupancyType					
+Pset_BuildingCommon	SprinklerProtection	NLRS_C_sprinkler				
+Pset_BuildingCommon	SprinklerProtectionAutomatic	NLRS_C_sprinkler_automatisch				
+Pset_BuildingCommon	YearOfConstruction	NLRS_C_bouwjaar				
+Pset_BuildingElementProxyCommon	Reference	Description				
+Pset_BuildingElementProxyCommon	Reference	NLRS_C_description				
+Pset_BuildingStoreyCommon	AboveGround					
+Pset_BuildingStoreyCommon	EntranceLevel	NLRS_C_hoofdingang				
+Pset_BuildingStoreyCommon	GrossAreaPlanned	NLRS_C_eis_oppervlakte_bruto				
+Pset_BuildingStoreyCommon	NetAreaPlanned	NLRS_C_eis_oppervlakte_netto				
+Pset_BuildingStoreyCommon	SprinklerProtection	NLRS_C_sprinkler				
+Pset_BuildingStoreyCommon	SprinklerProtectionAutomatic	NLRS_C_sprinkler_automatisch				
+Pset_BuildingWaterStorage	OneDayCoolingTowerMakeupWater					
+Pset_BuildingWaterStorage	OneDayEssentialWater					
+Pset_BuildingWaterStorage	OneDayPotableWater					
+Pset_BuildingWaterStorage	OneDayProcessOrProductionWater					
+Pset_BuildingWaterStorage	WaterStorageRatePerPerson					
+Pset_CableCarrierSegmentTypeCableLadderSegment	LadderConfiguration	NLRS_C_type				
+Pset_CableCarrierSegmentTypeCableLadderSegment	NominalHeight	Height				
+Pset_CableCarrierSegmentTypeCableLadderSegment	NominalHeight	NLRS_C_hoogte				
+Pset_CableCarrierSegmentTypeCableLadderSegment	NominalLength	Length				
+Pset_CableCarrierSegmentTypeCableLadderSegment	NominalLength	NLRS_C_lengte				
+Pset_CableCarrierSegmentTypeCableLadderSegment	NominalWidth	Width				
+Pset_CableCarrierSegmentTypeCableLadderSegment	NominalWidth	NLRS_C_breedte				
+Pset_CableCarrierSegmentTypeCableTraySegment	HasCover					
+Pset_CableCarrierSegmentTypeCableTraySegment	NominalHeight	Height				
+Pset_CableCarrierSegmentTypeCableTraySegment	NominalHeight	NLRS_C_hoogte				
+Pset_CableCarrierSegmentTypeCableTraySegment	NominalLength	Length				
+Pset_CableCarrierSegmentTypeCableTraySegment	NominalLength	NLRS_C_lengte				
+Pset_CableCarrierSegmentTypeCableTraySegment	NominalWidth	Width				
+Pset_CableCarrierSegmentTypeCableTraySegment	NominalWidth	NLRS_C_breedte				
+Pset_CableCarrierSegmentTypeCableTrunkingSegment	NominalHeight	Height				
+Pset_CableCarrierSegmentTypeCableTrunkingSegment	NominalHeight	NLRS_C_hoogte				
+Pset_CableCarrierSegmentTypeCableTrunkingSegment	NominalLength	Length				
+Pset_CableCarrierSegmentTypeCableTrunkingSegment	NominalLength	NLRS_C_lengte				
+Pset_CableCarrierSegmentTypeCableTrunkingSegment	NominalWidth	Width				
+Pset_CableCarrierSegmentTypeCableTrunkingSegment	NominalWidth	NLRS_C_breedte				
+Pset_CableCarrierSegmentTypeCableTrunkingSegment	NumberOfCompartments	NLRS_C_aantal				
+Pset_CableCarrierSegmentTypeConduitSegment	ConduitShapeType	NLRS_C_vorm				
+Pset_CableCarrierSegmentTypeConduitSegment	IsRigid					
+Pset_CableCarrierSegmentTypeConduitSegment	NominalHeight	Height				
+Pset_CableCarrierSegmentTypeConduitSegment	NominalHeight	NLRS_C_hoogte				
+Pset_CableCarrierSegmentTypeConduitSegment	NominalLength	Length				
+Pset_CableCarrierSegmentTypeConduitSegment	NominalLength	NLRS_C_lengte				
+Pset_CableCarrierSegmentTypeConduitSegment	NominalWidth	Width				
+Pset_CableCarrierSegmentTypeConduitSegment	NominalWidth	NLRS_C_breedte				
+Pset_CableSegmentTypeCableSegment	CableInsulationMaterial	NLRS_C_materiaal_01				
+Pset_CableSegmentTypeCableSegment	CrossSectionalArea	NLRS_C_oppervlakte				
+Pset_CableSegmentTypeCableSegment	MaxOperatingTemperature					
+Pset_CableSegmentTypeCableSegment	NominalHeight	Height				
+Pset_CableSegmentTypeCableSegment	NominalHeight	NLRS_C_hoogte				
+Pset_CableSegmentTypeCableSegment	NominalLength	Length				
+Pset_CableSegmentTypeCableSegment	NominalLength	NLRS_C_lengte				
+Pset_CableSegmentTypeCableSegment	NominalWidthOrDiameter	Diameter				
+Pset_CableSegmentTypeCableSegment	NominalWidthOrDiameter	Width				
+Pset_CableSegmentTypeCableSegment	NominalWidthOrDiameter	NLRS_C_diameter				
+Pset_CableSegmentTypeCableSegment	NominalWidthOrDiameter	NLRS_C_breedte				
+Pset_CableSegmentTypeCableSegment	NormalOperatingTemperature					
+Pset_CableSegmentTypeCableSegment	SheathColor	NLRS_C_materiaal_kleur				
+Pset_CableSegmentTypeConductorSegment	ConductorMaterial	NLRS_C_materiaal				
+Pset_CableSegmentTypeConductorSegment	ConductorSheathMaterial	NLRS_C_materiaal_01				
+Pset_CableSegmentTypeConductorSegment	CrossSectionalArea	NLRS_C_oppervlakte				
+Pset_CableSegmentTypeConductorSegment	ElectricalConductorFunction					
+Pset_CableSegmentTypeConductorSegment	IsFireResistant	NLRS_C_brandwerend				
+Pset_CableSegmentTypeConductorSegment	MaxOperatingTemperature					
+Pset_CableSegmentTypeConductorSegment	NominalLength	Length				
+Pset_CableSegmentTypeConductorSegment	NominalLength	NLRS_C_lengte				
+Pset_CableSegmentTypeConductorSegment	PhaseReference					
+Pset_CableSegmentTypeConductorSegment	SheathColor	NLRS_C_materiaal_kleur_01				
+Pset_ColumnCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_ColumnCommon	IsExternal	NLRS_C_buiten				
+Pset_ColumnCommon	Loadbearing	NLRS_C_dragend				
+Pset_ColumnCommon	Reference	Description				
+Pset_ColumnCommon	Reference	NLRS_C_description				
+Pset_ColumnCommon	Slope	NLRS_C_helling				
+Pset_CompressorTypeCommon	CompressorSpeed					
+Pset_CompressorTypeCommon	HasHotGasBypass					
+Pset_CompressorTypeCommon	IdealCapacity					
+Pset_CompressorTypeCommon	IdealShaftPower					
+Pset_CompressorTypeCommon	MaximumPartLoadRatio					
+Pset_CompressorTypeCommon	MinimumPartLoadRatio					
+Pset_CompressorTypeCommon	NominalCapacity	NLRS_C_volume				
+Pset_CompressorTypeCommon	PowerSource					
+Pset_CompressorTypeCommon	RefrigerantClass	NLRS_C_medium				
+Pset_CompressorTypeCommon	RefrigerantType	NLRS_C_medium				
+Pset_CondenserTypeCommon	ExternalSurfaceArea	NLRS_C_schiloppervlak				
+Pset_CondenserTypeCommon	InternalRefrigerantVolume	NLRS_C_volume_02				
+Pset_CondenserTypeCommon	InternalSurfaceArea					
+Pset_CondenserTypeCommon	InternalWaterVolume	NLRS_C_volume_01				
+Pset_CondenserTypeCommon	NominalHeatTransferArea					
+Pset_CondenserTypeCommon	NominalHeatTransferCoefficient					
+Pset_CondenserTypeCommon	RefrigerantClass	NLRS_C_medium				
+Pset_CondenserTypeCommon	RefrigerantType	NLRS_C_medium				
+Pset_ControllerTypeCommon	ControlType	NLRS_C_type				
+Pset_ControllerTypeCommon	SignalFactor					
+Pset_ControllerTypeCommon	SignalOffset					
+Pset_ControllerTypeCommon	SignalTime					
+Pset_CooledBeamTypeCommon	CoilLength	NLRS_C_lengte_01				
+Pset_CooledBeamTypeCommon	CoilWidth	NLRS_C_breedte_01				
+Pset_CooledBeamTypeCommon	ConnectionSize	NLRS_P_c01_diameter				
+Pset_CooledBeamTypeCommon	FinishColor	NLRS_C_materiaal_kleur				
+Pset_CooledBeamTypeCommon	IntegratedLightingType					
+Pset_CooledBeamTypeCommon	IsFreeHanging					
+Pset_CooledBeamTypeCommon	Material	NLRS_C_materiaal				
+Pset_CooledBeamTypeCommon	NominalCoolingCapacity	NLRS_M_afgifte_koeling				
+Pset_CooledBeamTypeCommon	NominalHeatingCapacity	NLRS_M_afgifte_verwarming				
+Pset_CooledBeamTypeCommon	NominalReturnWaterTemperatureCooling					
+Pset_CooledBeamTypeCommon	NominalReturnWaterTemperatureHeating					
+Pset_CooledBeamTypeCommon	NominalSupplyWaterTemperatureCooling					
+Pset_CooledBeamTypeCommon	NominalSupplyWaterTemperatureHeating					
+Pset_CooledBeamTypeCommon	NominalSurroundingHumidityCooling					
+Pset_CooledBeamTypeCommon	NominalSurroundingTemperatureCooling					
+Pset_CooledBeamTypeCommon	NominalSurroundingTemperatureHeating					
+Pset_CooledBeamTypeCommon	NominalWaterFlowCooling					
+Pset_CooledBeamTypeCommon	NominalWaterFlowHeating					
+Pset_CooledBeamTypeCommon	PipeConnectionEnum					
+Pset_CooledBeamTypeCommon	WaterFlowControlSystemType					
+Pset_CooledBeamTypeCommon	WaterPressureRange					
+Pset_CooledBeamTypeCommon	Weight	NLRS_S_gewicht				
+Pset_CoolingTowerTypeCommon	AmbientDesignDryBulbTemperature					
+Pset_CoolingTowerTypeCommon	AmbientDesignWetBulbTemperature					
+Pset_CoolingTowerTypeCommon	BasinReserveVolume	NLRS_C_volume_01				
+Pset_CoolingTowerTypeCommon	CapacityControl					
+Pset_CoolingTowerTypeCommon	CasingMaterial	NLRS_C_materiaal_01				
+Pset_CoolingTowerTypeCommon	CircuitType					
+Pset_CoolingTowerTypeCommon	ControlStrategy					
+Pset_CoolingTowerTypeCommon	FillMaterial	NLRS_C_materiaal_01				
+Pset_CoolingTowerTypeCommon	FlowArrangement					
+Pset_CoolingTowerTypeCommon	LiftElevationDifference					
+Pset_CoolingTowerTypeCommon	NominalCapacity	NLRS_C_volume				
+Pset_CoolingTowerTypeCommon	NumberOfCells					
+Pset_CoolingTowerTypeCommon	OperationTemperatureRange					
+Pset_CoolingTowerTypeCommon	SprayType					
+Pset_CoolingTowerTypeCommon	WaterRequirement					
+Pset_CoolingTowerTypeCommon	Weight	NLRS_S_gewicht				
+Pset_CoveringCeiling	FragilityRating	NLRS_C_weerstandsklasse				
+Pset_CoveringCeiling	Permeability	NLRS_C_waterdichtheidsklasse_code				
+Pset_CoveringCeiling	TileLength	NLRS_C_lengte_01				
+Pset_CoveringCeiling	TileWidth	NLRS_C_breedte_01				
+Pset_CoveringCommon	AcousticRating	NLRS_C_geluidwering_Rw				
+Pset_CoveringCommon	Combustible	NLRS_C_brandbaar				
+Pset_CoveringCommon	Finish	NLRS_C_materiaal_afwerking				
+Pset_CoveringCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_CoveringCommon	FlammabilityRating	NLRS_C_code_ontvlambaarheidsklasse				
+Pset_CoveringCommon	FragilityRating	NLRS_C_code_slagvastheidsklasse				
+Pset_CoveringCommon	Material	NLRS_C_materiaal				
+Pset_CoveringCommon	Reference	Description				
+Pset_CoveringCommon	Reference	NLRS_C_description				
+Pset_CoveringCommon	SurfaceSpreadOfFlame	NLRS_C_brandklasse_code				
+Pset_CoveringCommon	TotalThickness	NLRS_C_dikte				
+Pset_CoveringFlooring	HasAntiStaticSurface					
+Pset_CoveringFlooring	HasNonSkidSurface	NLRS_C_antislip				
+Pset_CurtainWallCommon	AcousticRating	NLRS_C_geluidwering_Rw				
+Pset_CurtainWallCommon	Combustible	NLRS_C_brandbaar				
+Pset_CurtainWallCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_CurtainWallCommon	IsExternal	NLRS_C_buiten				
+Pset_CurtainWallCommon	Reference	Description				
+Pset_CurtainWallCommon	Reference	NLRS_C_description				
+Pset_CurtainWallCommon	SurfaceSpreadOfFlame	NLRS_C_brandklasse_code				
+Pset_CurtainWallCommon	ThermalTransmittance	NLRS_B_Uwaarde				
+Pset_DistributionChamberElementTypeFormedDuct	AccessCoverLoadRating	NLRS_C_kwaliteitsklasse				
+Pset_DistributionChamberElementTypeFormedDuct	AccessCoverMaterial	NLRS_C_materiaal_03				
+Pset_DistributionChamberElementTypeFormedDuct	BaseMaterial	NLRS_C_materiaal_02				
+Pset_DistributionChamberElementTypeFormedDuct	BaseThickness	NLRS_C_dikte_02				
+Pset_DistributionChamberElementTypeFormedDuct	ClearDepth	NLRS_C_diepte_netto				
+Pset_DistributionChamberElementTypeFormedDuct	ClearWidth	NLRS_C_breedte_netto				
+Pset_DistributionChamberElementTypeFormedDuct	FillMaterial	NLRS_C_materiaal				
+Pset_DistributionChamberElementTypeFormedDuct	WallMaterial	NLRS_C_materiaal_01				
+Pset_DistributionChamberElementTypeFormedDuct	WallThickness	NLRS_C_dikte_01				
+Pset_DistributionChamberElementTypeInspectionChamber	AccessCoverLoadRating	NLRS_C_kwaliteitsklasse				
+Pset_DistributionChamberElementTypeInspectionChamber	AccessCoverMaterial	NLRS_C_materiaal_03				
+Pset_DistributionChamberElementTypeInspectionChamber	AccessLengthOrRadius	NLRS_C_radius_03				
+Pset_DistributionChamberElementTypeInspectionChamber	AccessLengthOrRadius	NLRS_C_lengte_03				
+Pset_DistributionChamberElementTypeInspectionChamber	AccessWidth	NLRS_C_breedte_03				
+Pset_DistributionChamberElementTypeInspectionChamber	BaseMaterial	NLRS_C_materiaal_02				
+Pset_DistributionChamberElementTypeInspectionChamber	BaseThickness	NLRS_C_dikte_02				
+Pset_DistributionChamberElementTypeInspectionChamber	ChamberLengthOrRadius	NLRS_C_radius				
+Pset_DistributionChamberElementTypeInspectionChamber	ChamberLengthOrRadius	NLRS_C_lengte_netto				
+Pset_DistributionChamberElementTypeInspectionChamber	ChamberWidth	NLRS_C_breedte_netto				
+Pset_DistributionChamberElementTypeInspectionChamber	InvertLevel					
+Pset_DistributionChamberElementTypeInspectionChamber	SoffitLevel					
+Pset_DistributionChamberElementTypeInspectionChamber	WallMaterial	NLRS_C_materiaal_01				
+Pset_DistributionChamberElementTypeInspectionChamber	WallThickness	NLRS_C_dikte_01				
+Pset_DistributionChamberElementTypeInspectionChamber	WithBackdrop					
+Pset_DistributionChamberElementTypeInspectionPit	Depth	NLRS_C_diepte				
+Pset_DistributionChamberElementTypeInspectionPit	Length	Length				
+Pset_DistributionChamberElementTypeInspectionPit	Length	NLRS_C_lengte				
+Pset_DistributionChamberElementTypeInspectionPit	Width	Width				
+Pset_DistributionChamberElementTypeInspectionPit	Width	NLRS_C_breedte				
+Pset_DistributionChamberElementTypeManhole	AccessCoverLoadRating	NLRS_C_kwaliteitsklasse				
+Pset_DistributionChamberElementTypeManhole	AccessCoverMaterial	NLRS_C_materiaal_03				
+Pset_DistributionChamberElementTypeManhole	AccessLengthOrRadius	NLRS_C_radius_03				
+Pset_DistributionChamberElementTypeManhole	AccessLengthOrRadius	NLRS_C_lengte_03				
+Pset_DistributionChamberElementTypeManhole	AccessWidth	NLRS_C_breedte_03				
+Pset_DistributionChamberElementTypeManhole	BaseMaterial	NLRS_C_materiaal_02				
+Pset_DistributionChamberElementTypeManhole	BaseThickness	NLRS_C_dikte_02				
+Pset_DistributionChamberElementTypeManhole	HasSteps					
+Pset_DistributionChamberElementTypeManhole	InvertLevel					
+Pset_DistributionChamberElementTypeManhole	IsShallow					
+Pset_DistributionChamberElementTypeManhole	SoffitLevel					
+Pset_DistributionChamberElementTypeManhole	WallMaterial	NLRS_C_materiaal_01				
+Pset_DistributionChamberElementTypeManhole	WallThickness	NLRS_C_dikte_01				
+Pset_DistributionChamberElementTypeManhole	WithBackdrop					
+Pset_DistributionChamberElementTypeMeterChamber	AccessCoverMaterial	NLRS_C_materiaal_03				
+Pset_DistributionChamberElementTypeMeterChamber	BaseMaterial	NLRS_C_materiaal_02				
+Pset_DistributionChamberElementTypeMeterChamber	BaseThickness	NLRS_C_dikte_02				
+Pset_DistributionChamberElementTypeMeterChamber	ChamberLengthOrRadius	NLRS_C_radius				
+Pset_DistributionChamberElementTypeMeterChamber	ChamberLengthOrRadius	NLRS_C_lengte_netto				
+Pset_DistributionChamberElementTypeMeterChamber	ChamberWidth	NLRS_C_breedte_netto				
+Pset_DistributionChamberElementTypeMeterChamber	WallMaterial	NLRS_C_materiaal_01				
+Pset_DistributionChamberElementTypeMeterChamber	WallThickness	NLRS_C_dikte_01				
+Pset_DistributionChamberElementTypeSump	InvertLevel					
+Pset_DistributionChamberElementTypeSump	Length	Length				
+Pset_DistributionChamberElementTypeSump	Length	NLRS_C_lengte				
+Pset_DistributionChamberElementTypeSump	Width	Width				
+Pset_DistributionChamberElementTypeSump	Width	NLRS_C_breedte				
+Pset_DistributionChamberElementTypeTrench	Depth	NLRS_C_diepte				
+Pset_DistributionChamberElementTypeTrench	InvertLevel					
+Pset_DistributionChamberElementTypeTrench	Width	Width				
+Pset_DistributionChamberElementTypeTrench	Width	NLRS_C_breedte				
+Pset_DistributionChamberElementTypeValveChamber	AccessCoverMaterial	NLRS_C_materiaal_03				
+Pset_DistributionChamberElementTypeValveChamber	BaseMaterial	NLRS_C_materiaal_02				
+Pset_DistributionChamberElementTypeValveChamber	BaseThickness	NLRS_C_dikte_02				
+Pset_DistributionChamberElementTypeValveChamber	ChamberLengthOrRadius	NLRS_C_radius				
+Pset_DistributionChamberElementTypeValveChamber	ChamberLengthOrRadius	NLRS_C_lengte_netto				
+Pset_DistributionChamberElementTypeValveChamber	ChamberWidth	NLRS_C_breedte_netto				
+Pset_DistributionChamberElementTypeValveChamber	WallMaterial	NLRS_C_materiaal_01				
+Pset_DistributionChamberElementTypeValveChamber	WallThickness	NLRS_C_dikte_01				
+Pset_DistributionFlowElementCommon	Reference	Description				
+Pset_DistributionFlowElementCommon	Reference	NLRS_C_description				
+Pset_DoorCommon	AcousticRating	NLRS_C_geluidwering_Rw				
+Pset_DoorCommon	FireExit	NLRS_C_vluchtweg				
+Pset_DoorCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_DoorCommon	GlazingAreaFraction	NLRS_C_glaspercentage				
+Pset_DoorCommon	HandicapAccessible	NLRS_C_toegankelijk				
+Pset_DoorCommon	Infiltration	NLRS_C_infiltratie				
+Pset_DoorCommon	IsExternal	NLRS_C_buiten				
+Pset_DoorCommon	Reference	Description				
+Pset_DoorCommon	Reference	NLRS_C_description				
+Pset_DoorCommon	SecurityRating	NLRS_C_code_PKVW				
+Pset_DoorCommon	SelfClosing	NLRS_C_zelfsluitend				
+Pset_DoorCommon	SmokeStop	NLRS_C_rookwerend				
+Pset_DoorCommon	ThermalTransmittance	NLRS_B_Uwaarde				
+Pset_DoorWindowGlazingType	BeamRadiationTransmittance					
+Pset_DoorWindowGlazingType	FillGas					
+Pset_DoorWindowGlazingType	GlassColor	NLRS_C_materiaal_kleur				
+Pset_DoorWindowGlazingType	GlassLayers	NLRS_C_aantal				
+Pset_DoorWindowGlazingType	GlassThickness1	NLRS_C_dikte_01				
+Pset_DoorWindowGlazingType	GlassThickness2	NLRS_C_dikte_02				
+Pset_DoorWindowGlazingType	GlassThickness3	NLRS_C_dikte_03				
+Pset_DoorWindowGlazingType	IsCoated					
+Pset_DoorWindowGlazingType	IsLaminated					
+Pset_DoorWindowGlazingType	IsTempered					
+Pset_DoorWindowGlazingType	IsWired					
+Pset_DoorWindowGlazingType	Reflectivity					
+Pset_DoorWindowGlazingType	SolarHeatGainTransmittance					
+Pset_DoorWindowGlazingType	ThermalTransmittanceSummer					
+Pset_DoorWindowGlazingType	ThermalTransmittanceWinter					
+Pset_DoorWindowGlazingType	Translucency					
+Pset_DuctFittingTypeCommon	EndStyleTreatment					
+Pset_DuctFittingTypeCommon	Material	NLRS_C_materiaal				
+Pset_DuctFittingTypeCommon	MaterialThickness	NLRS_C_dikte				
+Pset_DuctFittingTypeCommon	NominalDiameterOrWidth	Width				
+Pset_DuctFittingTypeCommon	NominalDiameterOrWidth	Diameter				
+Pset_DuctFittingTypeCommon	NominalDiameterOrWidth	NLRS_C_breedte				
+Pset_DuctFittingTypeCommon	NominalDiameterOrWidth	NLRS_C_diameter				
+Pset_DuctFittingTypeCommon	NominalHeight	Height				
+Pset_DuctFittingTypeCommon	NominalHeight	NLRS_C_hoogte				
+Pset_DuctFittingTypeCommon	PressureClass					
+Pset_DuctFittingTypeCommon	PressureRange					
+Pset_DuctFittingTypeCommon	SubType	NLRS_C_type				
+Pset_DuctFittingTypeCommon	TemperatureRange					
+Pset_DuctFittingTypeCommon	UnitWeight	NLRS_S_gewicht per m				
+Pset_DuctSegmentTypeCommon	EndStyleTreatment					
+Pset_DuctSegmentTypeCommon	Length	Length				
+Pset_DuctSegmentTypeCommon	Length	NLRS_C_lengte				
+Pset_DuctSegmentTypeCommon	LongitudinalSeam					
+Pset_DuctSegmentTypeCommon	Material	NLRS_C_materiaal				
+Pset_DuctSegmentTypeCommon	MaterialThickness	NLRS_C_dikte				
+Pset_DuctSegmentTypeCommon	NominalDiameterOrWidth	Width				
+Pset_DuctSegmentTypeCommon	NominalDiameterOrWidth	Diameter				
+Pset_DuctSegmentTypeCommon	NominalDiameterOrWidth	NLRS_C_breedte				
+Pset_DuctSegmentTypeCommon	NominalDiameterOrWidth	NLRS_C_diameter				
+Pset_DuctSegmentTypeCommon	NominalHeight	Height				
+Pset_DuctSegmentTypeCommon	NominalHeight	NLRS_C_hoogte				
+Pset_DuctSegmentTypeCommon	PressureRange					
+Pset_DuctSegmentTypeCommon	Reinforcement					
+Pset_DuctSegmentTypeCommon	ReinforcementSpacing					
+Pset_DuctSegmentTypeCommon	Shape	NLRS_C_vorm				
+Pset_DuctSegmentTypeCommon	TemperatureRange					
+Pset_DuctSegmentTypeCommon	UnitWeight	NLRS_S_gewicht per m				
+Pset_DuctSegmentTypeCommon	WorkingPressure					
+Pset_DuctSilencerTypeCommon	AirFlowrateRange					
+Pset_DuctSilencerTypeCommon	HasExteriorInsulation	NLRS_C_geisoleerd				
+Pset_DuctSilencerTypeCommon	HydraulicDiameter					
+Pset_DuctSilencerTypeCommon	Length	Length				
+Pset_DuctSilencerTypeCommon	Length	NLRS_C_lengte				
+Pset_DuctSilencerTypeCommon	Shape	NLRS_C_vorm				
+Pset_DuctSilencerTypeCommon	TemperatureRange					
+Pset_DuctSilencerTypeCommon	Weight	NLRS_S_gewicht				
+Pset_DuctSilencerTypeCommon	WorkingPressureRange					
+Pset_ElectricalCircuit	Diversity					
+Pset_ElectricalCircuit	MaximumAllowedVoltageDrop					
+Pset_ElectricalCircuit	NetImpedance					
+Pset_ElectricalCircuit	NumberOfPhases					
+Pset_ElectricalDeviceCommon	ElectricalDeviceNominalPower	NLRS_C_nominaal vermogen				
+Pset_ElectricalDeviceCommon	HasProtectiveEarth	NLRS_C_aarding				
+Pset_ElectricalDeviceCommon	InsulationStandardClass					
+Pset_ElectricalDeviceCommon	IP_Code	NLRS_E_IPwaarde				
+Pset_ElectricalDeviceCommon	NominalCurrent					
+Pset_ElectricalDeviceCommon	NominalFrequencyRange					
+Pset_ElectricalDeviceCommon	NominalVoltage	NLRS_E_spanning				
+Pset_ElectricalDeviceCommon	NumberOfPoles	NLRS_E_aantal_polen				
+Pset_ElectricalDeviceCommon	PhaseAngle					
+Pset_ElectricalDeviceCommon	PhaseReference					
+Pset_ElectricalDeviceCommon	UsageCurrent					
+Pset_ElectricDistributionPointCommon	CaseMaterial	NLRS_C_materiaal_01				
+Pset_ElectricDistributionPointCommon	CaseWeight	NLRS_S_gewicht				
+Pset_ElectricDistributionPointCommon	IsMain					
+Pset_ElectricDistributionPointCommon	NumberOfDoors					
+Pset_ElectricDistributionPointCommon	NumberOfOpenings					
+Pset_ElectricGeneratorTypeCommon	ElectricGeneratorEfficiency					
+Pset_ElectricGeneratorTypeCommon	MaximumPowerOutput					
+Pset_ElectricGeneratorTypeCommon	StartCurrentFactor					
+Pset_ElectricMotorTypeCommon	ElectricMotorEfficiency					
+Pset_ElectricMotorTypeCommon	FrameSize					
+Pset_ElectricMotorTypeCommon	HasPartWinding					
+Pset_ElectricMotorTypeCommon	IsGuarded					
+Pset_ElectricMotorTypeCommon	LockedRotorCurrent					
+Pset_ElectricMotorTypeCommon	MaximumPowerOutput					
+Pset_ElectricMotorTypeCommon	MotorEnclosureType					
+Pset_ElectricMotorTypeCommon	StartCurrentFactor					
+Pset_ElementShading	AverageSolarTransmittance					
+Pset_ElementShading	AverageVisibleTransmittance					
+Pset_ElementShading	Azimuth					
+Pset_ElementShading	Color	NLRS_C_materiaal_kleur				
+Pset_ElementShading	Inclination					
+Pset_ElementShading	Reflectance					
+Pset_ElementShading	Roughness					
+Pset_ElementShading	ShadingDeviceType	NLRS_C_type				
+Pset_ElementShading	TiltRange					
+Pset_EvaporativeCoolerTypeCommon	FlowArrangement					
+Pset_EvaporativeCoolerTypeCommon	HeatExchangeArea					
+Pset_EvaporativeCoolerTypeCommon	HeatExchangerMediaMaterials	NLRS_C_medium				
+Pset_EvaporativeCoolerTypeCommon	OperationTemperatureRange					
+Pset_EvaporativeCoolerTypeCommon	WaterRequirement					
+Pset_EvaporativeCoolerTypeCommon	Weight	NLRS_S_gewicht				
+Pset_EvaporatorTypeCommon	EvaporatorCoolant					
+Pset_EvaporatorTypeCommon	EvaporatorMediumType	NLRS_C_medium				
+Pset_EvaporatorTypeCommon	ExternalSurfaceArea	NLRS_C_schiloppervlak				
+Pset_EvaporatorTypeCommon	InternalRefrigerantVolume	NLRS_C_volume_02				
+Pset_EvaporatorTypeCommon	InternalSurfaceArea					
+Pset_EvaporatorTypeCommon	InternalWaterVolume	NLRS_C_volume_01				
+Pset_EvaporatorTypeCommon	NominalHeatTransferArea					
+Pset_EvaporatorTypeCommon	NominalHeatTransferCoefficient					
+Pset_EvaporatorTypeCommon	RefrigerantClass					
+Pset_EvaporatorTypeCommon	RefrigerantType	NLRS_C_medium				
+Pset_FanTypeCommon	CapacityControlType	NLRS_C_type_01				
+Pset_FanTypeCommon	HousingMaterial	NLRS_C_materiaal				
+Pset_FanTypeCommon	MotorDriveType					
+Pset_FanTypeCommon	NominalAirFlowRate	NLRS_P_volumestroom				
+Pset_FanTypeCommon	NominalPowerRate					
+Pset_FanTypeCommon	NominalRotationSpeed					
+Pset_FanTypeCommon	NominalStaticPressure					
+Pset_FanTypeCommon	NominalTotalPressure					
+Pset_FanTypeCommon	OperationalCriteria					
+Pset_FanTypeCommon	OperationTemperatureRange					
+Pset_FanTypeCommon	Weight	NLRS_S_gewicht				
+Pset_FanTypeCommon	WheelMaterial	NLRS_C_materiaal_01				
+Pset_FanTypeSmokeControl	MaximumDesignTemperature					
+Pset_FanTypeSmokeControl	OperationalCriteria					
+Pset_FanTypeSmokeControl	SmokeControlFlowrate					
+Pset_FilterTypeCommon	FinalResistance					
+Pset_FilterTypeCommon	FlowRateRange					
+Pset_FilterTypeCommon	InitialResistance					
+Pset_FilterTypeCommon	MediaMaterial	NLRS_C_medium				
+Pset_FilterTypeCommon	NominalFilterFaceVelocity					
+Pset_FilterTypeCommon	NominalFlowrate					
+Pset_FilterTypeCommon	NominalMediaSurfaceVelocity					
+Pset_FilterTypeCommon	NominalParticleGeometricMeanDiameter					
+Pset_FilterTypeCommon	NominalParticleGeometricStandardDeviation					
+Pset_FilterTypeCommon	NominalPressureDrop					
+Pset_FilterTypeCommon	OperationTemperatureRange					
+Pset_FilterTypeCommon	Weight	NLRS_S_gewicht				
+Pset_FireSuppressionTerminalTypeBreechingInlet	BreechingInletType	NLRS_C_type				
+Pset_FireSuppressionTerminalTypeBreechingInlet	CouplingType					
+Pset_FireSuppressionTerminalTypeBreechingInlet	HasCaps					
+Pset_FireSuppressionTerminalTypeBreechingInlet	InletDiameter	NLRS_P_c01_diameter				
+Pset_FireSuppressionTerminalTypeBreechingInlet	Material	NLRS_C_materiaal				
+Pset_FireSuppressionTerminalTypeBreechingInlet	OutletDiameter	NLRS_P_c02_diameter				
+Pset_FireSuppressionTerminalTypeFireHydrant	BodyColor	NLRS_C_materiaal_kleur_01				
+Pset_FireSuppressionTerminalTypeFireHydrant	CapColor	NLRS_C_materiaal_kleur_02				
+Pset_FireSuppressionTerminalTypeFireHydrant	DischargeFlowRate					
+Pset_FireSuppressionTerminalTypeFireHydrant	FireHydrantType	NLRS_C_type				
+Pset_FireSuppressionTerminalTypeFireHydrant	FlowClass					
+Pset_FireSuppressionTerminalTypeFireHydrant	HoseConnectionSize	NLRS_P_c01_diameter				
+Pset_FireSuppressionTerminalTypeFireHydrant	NumberOfHoseConnections					
+Pset_FireSuppressionTerminalTypeFireHydrant	PressureRating					
+Pset_FireSuppressionTerminalTypeFireHydrant	PumperConnectionSize	NLRS_P_c02_diameter				
+Pset_FireSuppressionTerminalTypeFireHydrant	WaterIsPotable					
+Pset_FireSuppressionTerminalTypeHoseReel	ClassificationAuthority					
+Pset_FireSuppressionTerminalTypeHoseReel	ClassOfService					
+Pset_FireSuppressionTerminalTypeHoseReel	HoseDiameter	NLRS_C_diameter				
+Pset_FireSuppressionTerminalTypeHoseReel	HoseLength	NLRS_C_lengte				
+Pset_FireSuppressionTerminalTypeHoseReel	HoseNozzleType	NLRS_C_type_01				
+Pset_FireSuppressionTerminalTypeHoseReel	HoseReelMountingType	NLRS_C_montage				
+Pset_FireSuppressionTerminalTypeHoseReel	HoseReelType	NLRS_C_type				
+Pset_FireSuppressionTerminalTypeHoseReel	InletConnectionSize	NLRS_P_c01_diameter				
+Pset_FireSuppressionTerminalTypeSprinkler	Activation					
+Pset_FireSuppressionTerminalTypeSprinkler	ActivationTemperature					
+Pset_FireSuppressionTerminalTypeSprinkler	BulbLiquidColor					
+Pset_FireSuppressionTerminalTypeSprinkler	ConnectionSize	NLRS_P_c01_diameter				
+Pset_FireSuppressionTerminalTypeSprinkler	CoverageArea	NLRS_C_oppervlakte_01				
+Pset_FireSuppressionTerminalTypeSprinkler	DeflectorMaterial	NLRS_C_materiaal_01				
+Pset_FireSuppressionTerminalTypeSprinkler	DischargeCoefficient					
+Pset_FireSuppressionTerminalTypeSprinkler	DischargeFlowRate					
+Pset_FireSuppressionTerminalTypeSprinkler	FrameMaterial	NLRS_C_materiaal				
+Pset_FireSuppressionTerminalTypeSprinkler	HasDeflector					
+Pset_FireSuppressionTerminalTypeSprinkler	MaximumWorkingPressure					
+Pset_FireSuppressionTerminalTypeSprinkler	ResidualFlowingPressure					
+Pset_FireSuppressionTerminalTypeSprinkler	Response					
+Pset_FireSuppressionTerminalTypeSprinkler	SprinklerType	NLRS_C_type				
+Pset_FlowFittingDuctFitting	AbsoluteRoughnessFactor					
+Pset_FlowFittingDuctFitting	Color	NLRS_C_materiaal_kleur				
+Pset_FlowFittingDuctFitting	HasLiner					
+Pset_FlowFittingPipeFitting	AbsoluteRoughnessFactor					
+Pset_FlowFittingPipeFitting	Color	NLRS_C_materiaal_kleur				
+Pset_FlowMeterTypeCommon	IsMain					
+Pset_FlowMeterTypeCommon	ReadOutType					
+Pset_FlowMeterTypeCommon	RemoteReading					
+Pset_FlowSegmentDuctSegment	Color	NLRS_C_materiaal_kleur				
+Pset_FlowSegmentDuctSegment	HasLiner					
+Pset_FlowSegmentDuctSegment	InteriorRoughnessCoefficient					
+Pset_FlowSegmentDuctSegment	Length	Length				
+Pset_FlowSegmentDuctSegment	Length	NLRS_C_lengte				
+Pset_FlowSegmentDuctSegment	MaterialThickness	NLRS_C_dikte				
+Pset_FlowSegmentPipeSegment	Color	NLRS_C_materiaal_kleur				
+Pset_FlowSegmentPipeSegment	Gradient					
+Pset_FlowSegmentPipeSegment	InteriorRoughnessCoefficient					
+Pset_FlowSegmentPipeSegment	InvertElevation					
+Pset_FlowSegmentPipeSegment	Length	Length				
+Pset_FlowSegmentPipeSegment	Length	NLRS_C_lengte				
+Pset_FlowTerminalAirTerminal	AirFlowType					
+Pset_FlowTerminalAirTerminal	Location	NLRS_C_montage				
+Pset_FurnitureTypeChair	HighestSeatingHeight					
+Pset_FurnitureTypeChair	LowestSeatingHeight					
+Pset_FurnitureTypeChair	SeatingHeight					
+Pset_FurnitureTypeCommon	Description	NLRS_C_omschrijving				
+Pset_FurnitureTypeCommon	Description	Description				
+Pset_FurnitureTypeCommon	MainColor	NLRS_C_materiaal_kleur				
+Pset_FurnitureTypeCommon	NominalDepth	NLRS_C_diepte				
+Pset_FurnitureTypeCommon	NominalHeight	Height				
+Pset_FurnitureTypeCommon	NominalHeight	NLRS_C_hoogte				
+Pset_FurnitureTypeCommon	NominalLength	Length				
+Pset_FurnitureTypeCommon	NominalLength	NLRS_C_lengte				
+Pset_FurnitureTypeCommon	Style	NLRS_C_omschrijving_01				
+Pset_FurnitureTypeDesk	WorksurfaceArea	NLRS_C_oppervlakte_01				
+Pset_FurnitureTypeFileCabinet	WithLock					
+Pset_FurnitureTypeTable	NumberOfChairs	NLRS_C_aantal_02				
+Pset_FurnitureTypeTable	WorksurfaceArea	NLRS_C_oppervlakte_01				
+Pset_GasTerminalTypeCommon	GasFlowRateRange					
+Pset_GasTerminalTypeGasAppliance	FlueType	NLRS_C_type_01				
+Pset_GasTerminalTypeGasAppliance	GasApplianceType	NLRS_C_type				
+Pset_GasTerminalTypeGasBurner	GasBurnerType	NLRS_C_type				
+Pset_HeatExchangerTypeCommon	Arrangement					
+Pset_HeatExchangerTypeCommon	ShellMaterial	NLRS_C_materiaal				
+Pset_HeatExchangerTypePlate	NumberOfPlates	NLRS_C_aantal_01				
+Pset_HumidifierTypeCommon	Application					
+Pset_HumidifierTypeCommon	InternalControl					
+Pset_HumidifierTypeCommon	NominalAirFlowRate	NLRS_P_volumestroom				
+Pset_HumidifierTypeCommon	NominalMoistureGain					
+Pset_HumidifierTypeCommon	WaterRequirement					
+Pset_HumidifierTypeCommon	Weight	NLRS_S_gewicht				
+Pset_LightFixtureTypeCommon	ArticleNumber	NLRS_C_code_artikel				
+Pset_LightFixtureTypeCommon	LightFixtureMountingType	NLRS_C_montage				
+Pset_LightFixtureTypeCommon	LightFixturePlacingType					
+Pset_LightFixtureTypeCommon	MaintenanceFactor					
+Pset_LightFixtureTypeCommon	ManufacturersSpecificInformation	NLRS_C_info_technisch				
+Pset_LightFixtureTypeCommon	NumberOfSources	NLRS_C_aantal				
+Pset_LightFixtureTypeExitSign	Addressablility					
+Pset_LightFixtureTypeExitSign	BackupSupplySystem					
+Pset_LightFixtureTypeExitSign	MinimumTextHeight					
+Pset_LightFixtureTypeExitSign	PictogramEscapeDirection					
+Pset_LightFixtureTypeExitSign	SelfTestFunction					
+Pset_ManufacturerTypeInformation	ArticleNumber	NLRS_C_code_artikel				
+Pset_ManufacturerTypeInformation	Manufacturer	NLRS_C_manufacturer				
+Pset_ManufacturerTypeInformation	ModelLabel	URL				
+Pset_ManufacturerTypeInformation	ModelReference	Model				
+Pset_ManufacturerTypeInformation	ProductionYear	NLRS_C_product_productiejaar				
+Pset_MemberCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_MemberCommon	IsExternal	NLRS_C_buiten				
+Pset_MemberCommon	Loadbearing	NLRS_C_dragend				
+Pset_MemberCommon	Reference	Description				
+Pset_MemberCommon	Reference	NLRS_C_description				
+Pset_MemberCommon	Slope	NLRS_C_helling				
+Pset_MemberCommon	Span	NLRS_C_lengte				
+Pset_OpeningElementCommon	FireExit	NLRS_C_vluchtweg				
+Pset_OpeningElementCommon	ParallelJambs					
+Pset_OpeningElementCommon	ProtectedOpening					
+Pset_OpeningElementCommon	Purpose					
+Pset_OpeningElementCommon	Reference	Description				
+Pset_OpeningElementCommon	Reference	NLRS_C_description				
+Pset_OutletTypeCommon	IsPluggableOutlet					
+Pset_PipeFittingTypeCommon	EndStyleTreatment					
+Pset_PipeFittingTypeCommon	FittingLossFactor					
+Pset_PipeFittingTypeCommon	InnerDiameter	NLRS_C_diameter_01				
+Pset_PipeFittingTypeCommon	Material	NLRS_C_materiaal				
+Pset_PipeFittingTypeCommon	NominalDiameter	NLRS_C_diameter				
+Pset_PipeFittingTypeCommon	OuterDiameter	NLRS_C_diameter_02				
+Pset_PipeFittingTypeCommon	PressureClass					
+Pset_PipeFittingTypeCommon	PressureRange					
+Pset_PipeFittingTypeCommon	SubType	NLRS_C_type				
+Pset_PipeFittingTypeCommon	TemperatureRange					
+Pset_PipeFittingTypeCommon	UnitWeight	NLRS_S_gewicht per m				
+Pset_PipeSegmentTypeCommon	EndStyleTreatment					
+Pset_PipeSegmentTypeCommon	InnerDiameter	NLRS_C_diameter_01				
+Pset_PipeSegmentTypeCommon	Material	NLRS_C_materiaal				
+Pset_PipeSegmentTypeCommon	NominalDiameter	NLRS_C_diameter				
+Pset_PipeSegmentTypeCommon	OuterDiameter	NLRS_C_diameter_02				
+Pset_PipeSegmentTypeCommon	PressureRange					
+Pset_PipeSegmentTypeCommon	TemperatureRange					
+Pset_PipeSegmentTypeCommon	UnitWeight	NLRS_S_gewicht per m				
+Pset_PipeSegmentTypeCommon	WorkingPressure					
+Pset_PipeSegmentTypeGutter	FlowRating					
+Pset_PipeSegmentTypeGutter	Slope	NLRS_C_helling				
+Pset_PlateCommon	AcousticRating	NLRS_C_geluidwering_Rw				
+Pset_PlateCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_PlateCommon	IsExternal	NLRS_C_buiten				
+Pset_PlateCommon	Loadbearing	NLRS_C_dragend				
+Pset_PlateCommon	Reference	Description				
+Pset_PlateCommon	Reference	NLRS_C_description				
+Pset_PlateCommon	ThermalTransmittance	NLRS_B_Uwaarde				
+Pset_ProjectCommon	BuildingPermitId					
+Pset_ProjectCommon	ConstructionMode					
+Pset_ProjectCommon	GrossAreaPlanned	NLRS_C_eis_oppervlakte_bruto				
+Pset_ProtectiveDeviceTypeCircuitBreaker	CircuitBreakerType	NLRS_C_type				
+Pset_ProtectiveDeviceTypeCommon	CharacteristicTripCurve					
+Pset_ProtectiveDeviceTypeCommon	CutOffCurrent					
+Pset_ProtectiveDeviceTypeCommon	LimitingTerminalSize					
+Pset_ProtectiveDeviceTypeCommon	MaximumRatedVoltage					
+Pset_ProtectiveDeviceTypeCommon	ProtectiveTagType					
+Pset_ProtectiveDeviceTypeCommon	RatedShortCircuitCurrent					
+Pset_ProtectiveDeviceTypeCommon	StandardUsed					
+Pset_ProtectiveDeviceTypeCommon	SwitchingDuty					
+Pset_ProtectiveDeviceTypeEarthFailureDevice	EarthFailureDeviceType	NLRS_C_type				
+Pset_ProtectiveDeviceTypeEarthFailureDevice	Sensitivity					
+Pset_ProtectiveDeviceTypeFuseDisconnector	FuseDisconnectorType					
+Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker	Sensitivity					
+Pset_ProtectiveDeviceTypeResidualCurrentSwitch	Sensitivity					
+Pset_ProtectiveDeviceTypeVaristor	VaristorType	NLRS_C_type				
+Pset_PumpTypeCommon	CasingMaterial	NLRS_C_materiaal_01				
+Pset_PumpTypeCommon	ConnectionSize	NLRS_P_c01_diameter				
+Pset_PumpTypeCommon	FlowRateRange					
+Pset_PumpTypeCommon	FlowResistanceRange					
+Pset_PumpTypeCommon	ImpellerMaterial	NLRS_C_materiaal_02				
+Pset_PumpTypeCommon	ImpellerSealMaterial	NLRS_C_materiaal_03				
+Pset_PumpTypeCommon	NetPositiveSuctionHead					
+Pset_PumpTypeCommon	NominalRotationSpeed					
+Pset_PumpTypeCommon	TemperatureRange					
+Pset_RailingCommon	Diameter	NLRS_C_diameter				
+Pset_RailingCommon	Height	NLRS_C_hoogte				
+Pset_RailingCommon	IsExternal	NLRS_C_buiten				
+Pset_RailingCommon	Reference	Description				
+Pset_RailingCommon	Reference	NLRS_C_description				
+Pset_RampCommon	FireExit	NLRS_C_vluchtweg				
+Pset_RampCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_RampCommon	HandicapAccessible	NLRS_C_toegankelijk				
+Pset_RampCommon	HasNonSkidSurface	NLRS_C_antislip				
+Pset_RampCommon	IsExternal	NLRS_C_buiten				
+Pset_RampCommon	Reference	Description				
+Pset_RampCommon	Reference	NLRS_C_description				
+Pset_RampCommon	RequiredHeadroom	NLRS_C_hoogte_min				
+Pset_RampCommon	RequiredSlope	NLRS_C_helling_max				
+Pset_RampFlightCommon	Headroom	NLRS_C_hoogte_min				
+Pset_RampFlightCommon	Reference	Description				
+Pset_RampFlightCommon	Reference	NLRS_C_description				
+Pset_RampFlightCommon	Slope	NLRS_C_helling				
+Pset_RoofCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_RoofCommon	IsExternal	NLRS_C_buiten				
+Pset_RoofCommon	ProjectedArea					
+Pset_RoofCommon	Reference	Description				
+Pset_RoofCommon	Reference	NLRS_C_description				
+Pset_RoofCommon	TotalArea	NLRS_C_oppervlakte				
+Pset_SanitaryTerminalTypeBath	BathType	NLRS_C_type				
+Pset_SanitaryTerminalTypeBath	Color	NLRS_C_materiaal_kleur				
+Pset_SanitaryTerminalTypeBath	DrainSize	NLRS_P_c01_diameter				
+Pset_SanitaryTerminalTypeBath	HasGrabHandles	NLRS_C_handgrepen				
+Pset_SanitaryTerminalTypeBath	Material	NLRS_C_materiaal				
+Pset_SanitaryTerminalTypeBath	MaterialThickness	NLRS_C_dikte				
+Pset_SanitaryTerminalTypeBath	NominalDepth	NLRS_C_diepte				
+Pset_SanitaryTerminalTypeBath	NominalLength	Length				
+Pset_SanitaryTerminalTypeBath	NominalLength	NLRS_C_lengte				
+Pset_SanitaryTerminalTypeBath	NominalWidth	Width				
+Pset_SanitaryTerminalTypeBath	NominalWidth	NLRS_C_breedte				
+Pset_SanitaryTerminalTypeBidet	BidetMounting	NLRS_C_montage	Name	Property Type	Data Type	Definition
+Pset_SanitaryTerminalTypeBidet	Color	NLRS_C_materiaal_kleur	Reference	IfcPropertySingleValue	IfcIdentifier	Reference ID for this specified type in this project (e.g. type 'A-1')
+Pset_SanitaryTerminalTypeBidet	DrainSize	NLRS_P_c01_diameter	NumberOfRiser	IfcPropertySingleValue	IfcCountMeasure	Total number of the risers included in the stair
+Pset_SanitaryTerminalTypeBidet	Material	NLRS_C_materiaal	NumberOfTreads	IfcPropertySingleValue	IfcCountMeasure	Total number of treads included in the stair
+Pset_SanitaryTerminalTypeBidet	NominalDepth	NLRS_C_diepte	RiserHeight	IfcPropertySingleValue	IfcPositiveLengthMeasure      /      LENGTHUNIT	Vertical distance from tread to tread. The riser height is supposed to be equal for all steps of a stair or stair flight.
+Pset_SanitaryTerminalTypeBidet	NominalLength	Length	TreadLength	IfcPropertySingleValue	IfcPositiveLengthMeasure      /      LENGTHUNIT	Horizontal distance from the front of the thread to the front of the next tread. The tread length is supposed to be equal for all steps of the stair or stair flight at the walking line.
+Pset_SanitaryTerminalTypeBidet	NominalLength	NLRS_C_lengte	RequiredHeadroom	IfcPropertySingleValue	IfcPositiveLengthMeasure      /      LENGTHUNIT	Required headroom clearance for the passageway according to the applicable building code or additional requirements
+Pset_SanitaryTerminalTypeBidet	NominalWidth	Width	HandicapAccessible	IfcPropertySingleValue	IfcBoolean	Indication that this object is designed to be accessible by the handicapped. Set to (TRUE) if this stair is rated as handicap accessible  according the local building codes, otherwise (FALSE). Accessibility maybe provided by additional means.
+Pset_SanitaryTerminalTypeBidet	NominalWidth	NLRS_C_breedte	IsExternal	IfcPropertySingleValue	IfcBoolean	Indication whether the element is designed for use in the exterior (TRUE) or not (FALSE). If (TRUE) it is an external element and faces the outside of the building.
+Pset_SanitaryTerminalTypeBidet	SpilloverLevel		FireRating	IfcPropertySingleValue	IfcLabel	Fire rating for this object.It is given according to the national fire safety classification.
+Pset_SanitaryTerminalTypeCistern	CisternCapacity	NLRS_C_volume	FireExit	IfcPropertySingleValue	IfcBoolean	Indication whether this object is designed to serve as an exit in the case of fire (TRUE) or not (FALSE).Here it defines an exit stair in accordance to the national building code.
+Pset_SanitaryTerminalTypeCistern	CisternColor	NLRS_C_materiaal_kleur	HasNonSkidSurface	IfcPropertySingleValue	IfcBoolean	Indication whether the surface finish is designed to prevent slippery (TRUE) or not (FALSE).
+Pset_SanitaryTerminalTypeCistern	CisternHeight	NLRS_C_hoogte_netto				
+Pset_SanitaryTerminalTypeCistern	CisternMaterial	NLRS_C_materiaal				
+Pset_SanitaryTerminalTypeCistern	FlushRate					
+Pset_SanitaryTerminalTypeCistern	FlushType	NLRS_C_type				
+Pset_SanitaryTerminalTypeCistern	IsAutomaticFlush	NLRS_C_automatisch				
+Pset_SanitaryTerminalTypeCistern	IsSingleFlush					
+Pset_SanitaryTerminalTypeFountain	Color	NLRS_C_materiaal_kleur				
+Pset_SanitaryTerminalTypeFountain	DrainSize	NLRS_P_c01_diameter				
+Pset_SanitaryTerminalTypeFountain	FountainType	NLRS_C_type				
+Pset_SanitaryTerminalTypeFountain	Material	NLRS_C_materiaal				
+Pset_SanitaryTerminalTypeFountain	Mounting	NLRS_C_montage				
+Pset_SanitaryTerminalTypeFountain	NominalDepth	NLRS_C_diepte				
+Pset_SanitaryTerminalTypeFountain	NominalLength	Length				
+Pset_SanitaryTerminalTypeFountain	NominalLength	NLRS_C_lengte				
+Pset_SanitaryTerminalTypeFountain	NominalWidth	Width				
+Pset_SanitaryTerminalTypeFountain	NominalWidth	NLRS_C_breedte				
+Pset_SanitaryTerminalTypeShower	Color	NLRS_C_materiaal_kleur				
+Pset_SanitaryTerminalTypeShower	DrainSize	NLRS_P_c01_diameter				
+Pset_SanitaryTerminalTypeShower	HasTray					
+Pset_SanitaryTerminalTypeShower	Material	NLRS_C_materiaal				
+Pset_SanitaryTerminalTypeShower	MaterialThickness	NLRS_C_dikte				
+Pset_SanitaryTerminalTypeShower	NominalDepth	NLRS_C_diepte				
+Pset_SanitaryTerminalTypeShower	NominalLength	Length				
+Pset_SanitaryTerminalTypeShower	NominalLength	NLRS_C_lengte				
+Pset_SanitaryTerminalTypeShower	NominalWidth	Width				
+Pset_SanitaryTerminalTypeShower	NominalWidth	NLRS_C_breedte				
+Pset_SanitaryTerminalTypeShower	ShowerHeadDescription					
+Pset_SanitaryTerminalTypeShower	ShowerType	NLRS_C_type				
+Pset_SanitaryTerminalTypeSink	Color	NLRS_C_materiaal_kleur				
+Pset_SanitaryTerminalTypeSink	DrainSize	NLRS_P_c01_diameter				
+Pset_SanitaryTerminalTypeSink	Material	NLRS_C_materiaal				
+Pset_SanitaryTerminalTypeSink	NominalDepth	NLRS_C_diepte				
+Pset_SanitaryTerminalTypeSink	NominalLength	Length				
+Pset_SanitaryTerminalTypeSink	NominalLength	NLRS_C_lengte				
+Pset_SanitaryTerminalTypeSink	NominalWidth	Width				
+Pset_SanitaryTerminalTypeSink	NominalWidth	NLRS_C_breedte				
+Pset_SanitaryTerminalTypeSink	SinkMounting	NLRS_C_montage				
+Pset_SanitaryTerminalTypeSink	SinkType	NLRS_C_type				
+Pset_SanitaryTerminalTypeToiletPan	NominalDepth	NLRS_C_diepte				
+Pset_SanitaryTerminalTypeToiletPan	NominalLength	Length				
+Pset_SanitaryTerminalTypeToiletPan	NominalLength	NLRS_C_lengte				
+Pset_SanitaryTerminalTypeToiletPan	NominalWidth	Width				
+Pset_SanitaryTerminalTypeToiletPan	NominalWidth	NLRS_C_breedte				
+Pset_SanitaryTerminalTypeToiletPan	PanColor	NLRS_C_materiaal_kleur				
+Pset_SanitaryTerminalTypeToiletPan	PanMaterial	NLRS_C_materiaal				
+Pset_SanitaryTerminalTypeToiletPan	PanMounting	NLRS_C_montage				
+Pset_SanitaryTerminalTypeToiletPan	SpilloverLevel					
+Pset_SanitaryTerminalTypeToiletPan	ToiletPanType	NLRS_C_type_01				
+Pset_SanitaryTerminalTypeToiletPan	ToiletType	NLRS_C_type				
+Pset_SanitaryTerminalTypeUrinal	NominalDepth	NLRS_C_diepte				
+Pset_SanitaryTerminalTypeUrinal	NominalLength	Length				
+Pset_SanitaryTerminalTypeUrinal	NominalLength	NLRS_C_lengte				
+Pset_SanitaryTerminalTypeUrinal	NominalWidth	Width				
+Pset_SanitaryTerminalTypeUrinal	NominalWidth	NLRS_C_breedte				
+Pset_SanitaryTerminalTypeUrinal	SpilloverLevel					
+Pset_SanitaryTerminalTypeUrinal	UrinalColor	NLRS_C_materiaal_kleur				
+Pset_SanitaryTerminalTypeUrinal	UrinalMaterial	NLRS_C_materiaal				
+Pset_SanitaryTerminalTypeUrinal	UrinalType	NLRS_C_type				
+Pset_SanitaryTerminalTypeWashHandBasin	Color	NLRS_C_materiaal_kleur				
+Pset_SanitaryTerminalTypeWashHandBasin	DrainSize	NLRS_P_c01_diameter				
+Pset_SanitaryTerminalTypeWashHandBasin	Material	NLRS_C_materiaal				
+Pset_SanitaryTerminalTypeWashHandBasin	NominalDepth	NLRS_C_diepte				
+Pset_SanitaryTerminalTypeWashHandBasin	NominalLength	Length				
+Pset_SanitaryTerminalTypeWashHandBasin	NominalLength	NLRS_C_lengte				
+Pset_SanitaryTerminalTypeWashHandBasin	NominalWidth	Width				
+Pset_SanitaryTerminalTypeWashHandBasin	NominalWidth	NLRS_C_breedte				
+Pset_SanitaryTerminalTypeWashHandBasin	WashHandBasinMounting	NLRS_C_montage				
+Pset_SanitaryTerminalTypeWashHandBasin	WashHandBasinType	NLRS_C_type				
+Pset_SanitaryTerminalTypeWCSeat	SeatColor	NLRS_C_materiaal_kleur				
+Pset_SanitaryTerminalTypeWCSeat	SeatHasCover					
+Pset_SanitaryTerminalTypeWCSeat	SeatMaterial	NLRS_C_materiaal				
+Pset_SanitaryTerminalTypeWCSeat	SeatType	NLRS_C_type				
+Pset_SensorTypeCO2Sensor	AccuracyOfCO2Sensor					
+Pset_SensorTypeCO2Sensor	CO2SensorRange					
+Pset_SensorTypeCO2Sensor	CoverageArea	NLRS_C_oppervlakte_01				
+Pset_SensorTypeCO2Sensor	TimeConstant					
+Pset_SensorTypeCO2Sensor	WashHandBasinSetPoint					
+Pset_SensorTypeFireSensor	AccuracyOfFireSensor					
+Pset_SensorTypeFireSensor	FireSensorSetPoint					
+Pset_SensorTypeFireSensor	TimeConstant					
+Pset_SensorTypeGasSensor	AccuracyOfGasSensor					
+Pset_SensorTypeGasSensor	GasDetected					
+Pset_SensorTypeGasSensor	GasSensorRange					
+Pset_SensorTypeGasSensor	GasSensorSetPoint					
+Pset_SensorTypeGasSensor	TimeConstant					
+Pset_SensorTypeHeatSensor	CoverageArea	NLRS_C_oppervlakte_01				
+Pset_SensorTypeHeatSensor	HeatSensorAccuracy					
+Pset_SensorTypeHeatSensor	HeatSensorRange					
+Pset_SensorTypeHeatSensor	HeatSensorSetPoint					
+Pset_SensorTypeHeatSensor	TimeConstant					
+Pset_SensorTypeHumiditySensor	AccuracyOfHumiditySensor					
+Pset_SensorTypeHumiditySensor	HumiditySensorRange					
+Pset_SensorTypeHumiditySensor	HumiditySetPoint					
+Pset_SensorTypeHumiditySensor	TimeConstant					
+Pset_SensorTypeLightSensor	LightSensorAccuracy					
+Pset_SensorTypeLightSensor	LightSensorRange					
+Pset_SensorTypeLightSensor	LightSensorSetPoint					
+Pset_SensorTypeLightSensor	TimeConstant					
+Pset_SensorTypeMovementSensor	MovementSensingType	NLRS_C_type				
+Pset_SensorTypeMovementSensor	TimeConstant					
+Pset_SensorTypePressureSensor	AccuracyOfPressureSensor					
+Pset_SensorTypePressureSensor	IsSwitch					
+Pset_SensorTypePressureSensor	PressureSensorRange					
+Pset_SensorTypePressureSensor	PressureSensorSetPoint					
+Pset_SensorTypePressureSensor	TimeConstant					
+Pset_SensorTypeSmokeSensor	AccuracyOfSmokeSensor					
+Pset_SensorTypeSmokeSensor	CoverageArea	NLRS_C_oppervlakte_01				
+Pset_SensorTypeSmokeSensor	HasBuiltInAlarm					
+Pset_SensorTypeSmokeSensor	PressureSensorSetPoint					
+Pset_SensorTypeSmokeSensor	SmokeSensorRange					
+Pset_SensorTypeSmokeSensor	TimeConstant					
+Pset_SensorTypeSoundSensor	SoundSensorAccuracy					
+Pset_SensorTypeSoundSensor	SoundSensorRange					
+Pset_SensorTypeSoundSensor	SoundSensorSetPoint					
+Pset_SensorTypeSoundSensor	TimeConstant					
+Pset_SensorTypeTemperatureSensor	AccuracyOfTemperatureSensor					
+Pset_SensorTypeTemperatureSensor	TemperatureSensorRange					
+Pset_SensorTypeTemperatureSensor	TemperatureSensorSetPoint					
+Pset_SensorTypeTemperatureSensor	TemperatureSensorType	NLRS_C_type				
+Pset_SensorTypeTemperatureSensor	TimeConstant					
+Pset_SiteCommon	BuildableArea	NLRS_C_eis_oppervlak_bouwbaar				
+Pset_SiteCommon	BuildingHeightLimit	NLRS_C_hoogte_maximum				
+Pset_SiteCommon	TotalArea	NLRS_C_oppervlakte				
+Pset_SlabCommon	AcousticRating	NLRS_C_geluidwering_Rw				
+Pset_SlabCommon	Combustible	NLRS_C_brandbaar				
+Pset_SlabCommon	Compartmentation	NLRS_C_compartimentering				
+Pset_SlabCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_SlabCommon	IsExternal	NLRS_C_buiten				
+Pset_SlabCommon	LoadBearing	NLRS_C_dragend				
+Pset_SlabCommon	PitchAngle					
+Pset_SlabCommon	Reference	Description				
+Pset_SlabCommon	Reference	NLRS_C_description				
+Pset_SlabCommon	SurfaceSpreadOfFlame	NLRS_C_brandklasse_code				
+Pset_SlabCommon	ThermalTransmittance	NLRS_B_Uwaarde				
+Pset_SpaceCommon	Category					
+Pset_SpaceCommon	CeilingCovering	Ceiling Finish				
+Pset_SpaceCommon	ConcealedCeiling	NLRS_C_ruimte_boven_plafond				
+Pset_SpaceCommon	ConcealedFlooring	NLRS_C_ruimte_onder_vloer				
+Pset_SpaceCommon	FloorCovering	Floor Finish				
+Pset_SpaceCommon	GrossPlannedArea	NLRS_C_eis_oppervlakte_bruto				
+Pset_SpaceCommon	HandicapAccessible	NLRS_C_toegankelijk				
+Pset_SpaceCommon	NetPlannedArea	NLRS_C_eis_oppervlakte_netto				
+Pset_SpaceCommon	PubliclyAccessible	NLRS_C_eis_publiek				
+Pset_SpaceCommon	Reference	Description				
+Pset_SpaceCommon	Reference	NLRS_C_description				
+Pset_SpaceCommon	SkirtingBoard	NLRS_C_plint				
+Pset_SpaceCommon	WallCovering	Wall Finish				
+Pset_SpaceFireSafetyRequirements	AirPressurization					
+Pset_SpaceFireSafetyRequirements	AncillaryFireUse					
+Pset_SpaceFireSafetyRequirements	FireExit	NLRS_C_vluchtweg				
+Pset_SpaceFireSafetyRequirements	FireHazardFactor					
+Pset_SpaceFireSafetyRequirements	FireRiskFactor					
+Pset_SpaceFireSafetyRequirements	FlammableStorage					
+Pset_SpaceFireSafetyRequirements	MainFireUse	NLRS_C_gebruiksklasse				
+Pset_SpaceFireSafetyRequirements	SprinklerProtection	NLRS_C_sprinkler				
+Pset_SpaceFireSafetyRequirements	SprinklerProtectionAutomatic	NLRS_C_sprinkler_automatisch				
+Pset_SpaceHeaterTypeCommon	BodyMass	NLRS_S_gewicht				
+Pset_SpaceHeaterTypeCommon	HeatingSource					
+Pset_SpaceHeaterTypeCommon	Material	NLRS_C_materiaal				
+Pset_SpaceHeaterTypeCommon	OutputCapacity	NLRS_M_afgifte_verwarming				
+Pset_SpaceHeaterTypeCommon	TemperatureClassification					
+Pset_SpaceHeaterTypeCommon	ThermalEfficiency					
+Pset_SpaceHeaterTypeCommon	ThermalMassHeatCapacity					
+Pset_SpaceLightingRequirements	ArtificialLighting					
+Pset_SpaceLightingRequirements	Illuminance					
+Pset_SpaceOccupancyRequirements	AreaPerOccupant					
+Pset_SpaceOccupancyRequirements	IsOutlookDesirable					
+Pset_SpaceOccupancyRequirements	MinimumHeadroom	NLRS_C_hoogte_min				
+Pset_SpaceOccupancyRequirements	OccupancyNumber					
+Pset_SpaceOccupancyRequirements	OccupancyNumberPeak					
+Pset_SpaceOccupancyRequirements	OccupancyTimePerDay					
+Pset_SpaceOccupancyRequirements	OccupancyType					
+Pset_SpaceThermalDesign	BoundaryAreaHeatLoss					
+Pset_SpaceThermalDesign	CeilingRAPlenum					
+Pset_SpaceThermalDesign	CoolingDesignAirflow					
+Pset_SpaceThermalDesign	CoolingDryBulb					
+Pset_SpaceThermalDesign	CoolingRelativeHumidity					
+Pset_SpaceThermalDesign	ExhaustAirFlowrate					
+Pset_SpaceThermalDesign	HeatingDesignAirflow					
+Pset_SpaceThermalDesign	HeatingDryBulb					
+Pset_SpaceThermalDesign	HeatingRelativeHumidity					
+Pset_SpaceThermalDesign	TotalHeatGain					
+Pset_SpaceThermalDesign	TotalHeatLoss					
+Pset_SpaceThermalDesign	TotalSensibleHeatGain					
+Pset_SpaceThermalDesign	VentilationAirFlowrate					
+Pset_SpaceThermalRequirements	AirConditioning					
+Pset_SpaceThermalRequirements	AirConditioningCentral					
+Pset_SpaceThermalRequirements	DiscontinuedHeating					
+Pset_SpaceThermalRequirements	MechanicalVentilationRate					
+Pset_SpaceThermalRequirements	NaturalVentilation	NLRS_C_ventilatierooster				
+Pset_SpaceThermalRequirements	NaturalVentilationRate	NLRS_C_ventilatievoud				
+Pset_SpaceThermalRequirements	SpaceHumidity	NLRS_C_relatieve luchtvochtigheid				
+Pset_SpaceThermalRequirements	SpaceHumiditySummer					
+Pset_SpaceThermalRequirements	SpaceHumidityWinter					
+Pset_SpaceThermalRequirements	SpaceTemperatureMax	NLRS_M_temperatuur ruimte_max				
+Pset_SpaceThermalRequirements	SpaceTemperatureMin	NLRS_M_temperatuur ruimte_min				
+Pset_SpaceThermalRequirements	SpaceTemperatureSummerMax	NLRS_M_binnentemperatuur zomer_max				
+Pset_SpaceThermalRequirements	SpaceTemperatureSummerMin	NLRS_M_binnentemperatuur zomer_min				
+Pset_SpaceThermalRequirements	SpaceTemperatureWinterMax	NLRS_M_binnentemperatuur winter_max				
+Pset_SpaceThermalRequirements	SpaceTemperatureWinterMin	NLRS_M_binnentemperatuur winter_min				
+Pset_StairCommon	FireExit	NLRS_C_vluchtweg				
+Pset_StairCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_StairCommon	FireRating	Fire Rating				
+Pset_StairCommon	HandicapAccessible	NLRS_C_toegankelijk				
+Pset_StairCommon	HasNonSkidSurface	NLRS_C_antislip				
+Pset_StairCommon	IsExternal	NLRS_C_buiten				
+Pset_StairCommon	NumberOfRiser	Actual Number of Risers				
+Pset_StairCommon	NumberOfTreads	Actual Number of Treads				
+Pset_StairCommon	Reference	Description				
+Pset_StairCommon	Reference	NLRS_C_description				
+Pset_StairCommon	RequiredHeadroom	NLRS_C_hoogte_min				
+Pset_StairCommon	RiserHeight	Actual Riser Height				
+Pset_StairCommon	TreadLength	Actual Tread Depth				
+Pset_StairFlightCommon	Headroom	NLRS_C_hoogte_min				
+Pset_StairFlightCommon	NosingLength	Nosing Length				
+Pset_StairFlightCommon	NumberOfRiser	Actual Number of Risers				
+Pset_StairFlightCommon	NumberOfTreads	Actual Number of Treads				
+Pset_StairFlightCommon	Reference	Description				
+Pset_StairFlightCommon	Reference	NLRS_C_description				
+Pset_StairFlightCommon	RiserHeight	Actual Riser Height				
+Pset_StairFlightCommon	TreadLength	Actual Tread Depth				
+Pset_StairFlightCommon	TreadLengthAtInnerSide					
+Pset_StairFlightCommon	TreadLengthAtOffset					
+Pset_StairFlightCommon	WaistThickness	NLRS_C_dikte_01				
+Pset_StairFlightCommon	WalkingLineOffset					
+Pset_SwitchingDeviceTypeCommon	HasLock					
+Pset_SwitchingDeviceTypeCommon	NumberOfGangs					
+Pset_SwitchingDeviceTypeCommon	SwitchFunction					
+Pset_SwitchingDeviceTypeContactor	ContactorType	NLRS_C_type				
+Pset_SwitchingDeviceTypeEmergencyStop	SwitchOperation	NLRS_C_type				
+Pset_SwitchingDeviceTypeStarter	StarterType	NLRS_C_type				
+Pset_SwitchingDeviceTypeSwitchDisconnector	HasVisualIndication					
+Pset_SwitchingDeviceTypeSwitchDisconnector	LoadDisconnectionType	NLRS_C_type_01				
+Pset_SwitchingDeviceTypeSwitchDisconnector	SwitchDisconnectorType	NLRS_C_type				
+Pset_SwitchingDeviceTypeToggleSwitch	IsIlluminated					
+Pset_SwitchingDeviceTypeToggleSwitch	Legend					
+Pset_SwitchingDeviceTypeToggleSwitch	SwitchActivation					
+Pset_SwitchingDeviceTypeToggleSwitch	SwitchUsage					
+Pset_SwitchingDeviceTypeToggleSwitch	ToggleSwitchType	NLRS_C_type				
+Pset_SystemFurnitureElementTypeCommon	Finishing	NLRS_C_materiaal_afwerking				
+Pset_SystemFurnitureElementTypeCommon	GroupCode	NLRS_C_code				
+Pset_SystemFurnitureElementTypeCommon	IsUsed					
+Pset_SystemFurnitureElementTypeCommon	NominalHeight	Height				
+Pset_SystemFurnitureElementTypeCommon	NominalHeight	NLRS_C_hoogte				
+Pset_SystemFurnitureElementTypeCommon	NominalWidth	Width				
+Pset_SystemFurnitureElementTypeCommon	NominalWidth	NLRS_C_breedte				
+Pset_SystemFurnitureElementTypePanel	FurniturePanelType					
+Pset_SystemFurnitureElementTypePanel	HasOpening					
+Pset_SystemFurnitureElementTypePanel	NominalThickness	NLRS_C_dikte				
+Pset_SystemFurnitureElementTypeWorkSurface	HangingHeight	NLRS_C_hoogte				
+Pset_SystemFurnitureElementTypeWorkSurface	NominalThickness	NLRS_C_dikte				
+Pset_SystemFurnitureElementTypeWorkSurface	ShapeDescription	NLRS_C_vorm				
+Pset_SystemFurnitureElementTypeWorkSurface	SupportType					
+Pset_SystemFurnitureElementTypeWorkSurface	UsePurpose					
+Pset_TankTypeCommon	AccessType	NLRS_C_type_01				
+Pset_TankTypeCommon	EffectiveCapacity					
+Pset_TankTypeCommon	Material	NLRS_C_materiaal				
+Pset_TankTypeCommon	MaterialThickness	NLRS_C_dikte				
+Pset_TankTypeCommon	NominalCapacity	NLRS_C_volume				
+Pset_TankTypeCommon	NominalDepth	NLRS_C_diepte				
+Pset_TankTypeCommon	NominalLengthOrDiameter	Length				
+Pset_TankTypeCommon	NominalLengthOrDiameter	Diameter				
+Pset_TankTypeCommon	NominalLengthOrDiameter	NLRS_C_lengte				
+Pset_TankTypeCommon	NominalLengthOrDiameter	NLRS_C_diameter				
+Pset_TankTypeCommon	NominalWidthOrDiameter	Diameter				
+Pset_TankTypeCommon	NominalWidthOrDiameter	Width				
+Pset_TankTypeCommon	NominalWidthOrDiameter	NLRS_C_diameter				
+Pset_TankTypeCommon	NominalWidthOrDiameter	NLRS_C_breedte				
+Pset_TankTypeCommon	OperatingWeight	NLRS_S_gewicht				
+Pset_TankTypeCommon	Type	NLRS_C_type				
+Pset_TransformerTypeCommon	MaximumApparentPower					
+Pset_TransformerTypeCommon	PrimaryApparentPower					
+Pset_TransformerTypeCommon	PrimaryCurrent					
+Pset_TransformerTypeCommon	PrimaryFrequency					
+Pset_TransformerTypeCommon	PrimaryVoltage	NLRS_E_spanning				
+Pset_TransformerTypeCommon	SecondaryApparentPower					
+Pset_TransformerTypeCommon	SecondaryCurrent					
+Pset_TransformerTypeCommon	SecondaryCurrentType					
+Pset_TransformerTypeCommon	SecondaryFrequency					
+Pset_TransformerTypeCommon	SecondaryVoltage					
+Pset_TransportElementCommon	FireExit	NLRS_C_vluchtweg				
+Pset_TransportElementCommon	Reference	Description				
+Pset_TransportElementCommon	Reference	NLRS_C_description				
+Pset_TransportElementElevator	ClearDepth	NLRS_C_diepte_netto				
+Pset_TransportElementElevator	ClearHeight	NLRS_C_hoogte_netto				
+Pset_TransportElementElevator	ClearWidth	0				
+Pset_UnitaryEquipmentTypeAirConditioningUnit	CondenserEnteringTemperature					
+Pset_UnitaryEquipmentTypeAirConditioningUnit	CondenserFlowrate					
+Pset_UnitaryEquipmentTypeAirConditioningUnit	CondenserLeavingTemperature					
+Pset_UnitaryEquipmentTypeAirConditioningUnit	CoolingEfficiency					
+Pset_UnitaryEquipmentTypeAirConditioningUnit	HeatingCapacity	NLRS_M_afgifte_verwarming				
+Pset_UnitaryEquipmentTypeAirConditioningUnit	HeatingEfficiency					
+Pset_UnitaryEquipmentTypeAirConditioningUnit	LatentCoolingCapacity	NLRS_M_afgifte_koeling_01				
+Pset_UnitaryEquipmentTypeAirConditioningUnit	OutsideAirFlowrate					
+Pset_UnitaryEquipmentTypeAirConditioningUnit	SensibleCoolingCapacity	NLRS_M_afgifte_koeling				
+Pset_UnitaryEquipmentTypeAirHandler	AirHandlerConstruction					
+Pset_UnitaryEquipmentTypeAirHandler	AirHandlerFanCoilArrangement					
+Pset_UnitaryEquipmentTypeAirHandler	DualDeck					
+Pset_ValveTypeCommon	BodyMaterial	NLRS_C_materiaal				
+Pset_ValveTypeCommon	CloseOffRating					
+Pset_ValveTypeCommon	FlowCoefficient					
+Pset_ValveTypeCommon	OperatingMechanismMaterial	NLRS_C_materiaal_01				
+Pset_ValveTypeCommon	Size					
+Pset_ValveTypeCommon	TestPressure					
+Pset_ValveTypeCommon	ValveMechanism					
+Pset_ValveTypeCommon	ValveOperation					
+Pset_ValveTypeCommon	ValvePattern					
+Pset_ValveTypeCommon	WorkingPressure					
+Pset_WallCommon	AcousticRating	NLRS_C_geluidwering_Rw				
+Pset_WallCommon	Combustible	NLRS_C_brandbaar				
+Pset_WallCommon	Compartmentation	NLRS_C_compartimentering				
+Pset_WallCommon	ExtendToStructure	Top is Attached				
+Pset_WallCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_WallCommon	IsExternal	NLRS_C_buiten				
+Pset_WallCommon	LoadBearing	NLRS_C_dragend				
+Pset_WallCommon	Reference	Description				
+Pset_WallCommon	Reference	NLRS_C_description				
+Pset_WallCommon	SurfaceSpreadOfFlame	NLRS_C_brandklasse_code				
+Pset_WallCommon	ThermalTransmittance	NLRS_B_Uwaarde				
+Pset_WasteTerminalTypeFloorTrap	BodyMaterial	NLRS_C_materiaal				
+Pset_WasteTerminalTypeFloorTrap	CoverLength	NLRS_C_lengte_01				
+Pset_WasteTerminalTypeFloorTrap	CoverMaterial	NLRS_C_materiaal_01				
+Pset_WasteTerminalTypeFloorTrap	CoverWidth	NLRS_C_breedte_01				
+Pset_WasteTerminalTypeFloorTrap	HasStrainer					
+Pset_WasteTerminalTypeFloorTrap	InletConnectionSize	NLRS_P_c01_diameter				
+Pset_WasteTerminalTypeFloorTrap	InletPatternType					
+Pset_WasteTerminalTypeFloorTrap	IsForSullageWater					
+Pset_WasteTerminalTypeFloorTrap	NominalBodyDepth	NLRS_C_diepte				
+Pset_WasteTerminalTypeFloorTrap	NominalBodyLength	Length				
+Pset_WasteTerminalTypeFloorTrap	NominalBodyLength	NLRS_C_lengte				
+Pset_WasteTerminalTypeFloorTrap	NominalBodyWidth	NLRS_C_breedte				
+Pset_WasteTerminalTypeFloorTrap	NominalBodyWidth	Width				
+Pset_WasteTerminalTypeFloorTrap	OutletConnectionSize	NLRS_P_c02_diameter				
+Pset_WasteTerminalTypeFloorTrap	SpilloverLevel					
+Pset_WasteTerminalTypeFloorTrap	TrapType	NLRS_C_type				
+Pset_WasteTerminalTypeFloorWaste	BodyMaterial	NLRS_C_materiaal				
+Pset_WasteTerminalTypeFloorWaste	CoverLength	NLRS_C_lengte_01				
+Pset_WasteTerminalTypeFloorWaste	CoverMaterial	NLRS_C_materiaal_01				
+Pset_WasteTerminalTypeFloorWaste	CoverWidth	NLRS_C_breedte_01				
+Pset_WasteTerminalTypeFloorWaste	NominalBodyDepth	NLRS_C_diepte				
+Pset_WasteTerminalTypeFloorWaste	NominalBodyLength	Length				
+Pset_WasteTerminalTypeFloorWaste	NominalBodyLength	NLRS_C_lengte				
+Pset_WasteTerminalTypeFloorWaste	NominalBodyWidth	NLRS_C_breedte				
+Pset_WasteTerminalTypeFloorWaste	NominalBodyWidth	Width				
+Pset_WasteTerminalTypeFloorWaste	OutletConnectionSize	NLRS_P_c02_diameter				
+Pset_WasteTerminalTypeGreaseInterceptor	BodyDepth	NLRS_C_diepte				
+Pset_WasteTerminalTypeGreaseInterceptor	CoverLength	NLRS_C_lengte_01				
+Pset_WasteTerminalTypeGreaseInterceptor	CoverMaterial	NLRS_C_materiaal_01				
+Pset_WasteTerminalTypeGreaseInterceptor	CoverWidth	NLRS_C_breedte_01				
+Pset_WasteTerminalTypeGreaseInterceptor	InletConnectionSize	NLRS_P_c01_diameter				
+Pset_WasteTerminalTypeGreaseInterceptor	NominalBodyLength	Length				
+Pset_WasteTerminalTypeGreaseInterceptor	NominalBodyLength	NLRS_C_lengte				
+Pset_WasteTerminalTypeGreaseInterceptor	NominalBodyMaterial	NLRS_C_materiaal				
+Pset_WasteTerminalTypeGreaseInterceptor	NominalBodyWidth	NLRS_C_breedte				
+Pset_WasteTerminalTypeGreaseInterceptor	NominalBodyWidth	Width				
+Pset_WasteTerminalTypeGreaseInterceptor	OutletConnectionSize	NLRS_P_c02_diameter				
+Pset_WasteTerminalTypeGreaseInterceptor	StrainerDepth	NLRS_C_diepte_02				
+Pset_WasteTerminalTypeGreaseInterceptor	StrainerDiameter	NLRS_C_diameter_02				
+Pset_WasteTerminalTypeGreaseInterceptor	StrainerMaterial	NLRS_C_materiaal_02				
+Pset_WasteTerminalTypeGullySump	BackInletPatternType					
+Pset_WasteTerminalTypeGullySump	CoverLength	NLRS_C_lengte_01				
+Pset_WasteTerminalTypeGullySump	CoverMaterial	NLRS_C_materiaal_01				
+Pset_WasteTerminalTypeGullySump	CoverWidth	NLRS_C_breedte_01				
+Pset_WasteTerminalTypeGullySump	GullyType	NLRS_C_type				
+Pset_WasteTerminalTypeGullySump	InletConnectionSize	NLRS_P_c01_diameter				
+Pset_WasteTerminalTypeGullySump	NominalSumpDepth	NLRS_C_diepte				
+Pset_WasteTerminalTypeGullySump	NominalSumpLength	NLRS_C_lengte				
+Pset_WasteTerminalTypeGullySump	NominalSumpWidth	Width				
+Pset_WasteTerminalTypeGullySump	NominalSumpWidth	NLRS_C_breedte				
+Pset_WasteTerminalTypeGullySump	OutletConnectionSize	NLRS_P_c02_diameter				
+Pset_WasteTerminalTypeGullySump	SumpMaterial	NLRS_C_materiaal				
+Pset_WasteTerminalTypeGullySump	TrapType	NLRS_C_type_02				
+Pset_WasteTerminalTypeGullyTrap	BackInletPatternType					
+Pset_WasteTerminalTypeGullyTrap	BodyMaterial	NLRS_C_materiaal				
+Pset_WasteTerminalTypeGullyTrap	CoverLength	NLRS_C_lengte_01				
+Pset_WasteTerminalTypeGullyTrap	CoverMaterial	NLRS_C_materiaal_01				
+Pset_WasteTerminalTypeGullyTrap	CoverWidth	NLRS_C_breedte_01				
+Pset_WasteTerminalTypeGullyTrap	GullyType	NLRS_C_type				
+Pset_WasteTerminalTypeGullyTrap	HasStrainer					
+Pset_WasteTerminalTypeGullyTrap	InletConnectionSize	NLRS_P_c01_diameter				
+Pset_WasteTerminalTypeGullyTrap	NominalBodyDepth	NLRS_C_diepte				
+Pset_WasteTerminalTypeGullyTrap	NominalBodyLength	Length				
+Pset_WasteTerminalTypeGullyTrap	NominalBodyLength	NLRS_C_lengte				
+Pset_WasteTerminalTypeGullyTrap	NominalBodyWidth	NLRS_C_breedte				
+Pset_WasteTerminalTypeGullyTrap	NominalBodyWidth	Width				
+Pset_WasteTerminalTypeGullyTrap	OutletConnectionSize	NLRS_P_c02_diameter				
+Pset_WasteTerminalTypeGullyTrap	TrapType	NLRS_C_type_02				
+Pset_WasteTerminalTypeOilInterceptor	BodyMaterial	NLRS_C_materiaal				
+Pset_WasteTerminalTypeOilInterceptor	CoverLength	NLRS_C_lengte_01				
+Pset_WasteTerminalTypeOilInterceptor	CoverMaterial	NLRS_C_materiaal_01				
+Pset_WasteTerminalTypeOilInterceptor	CoverWidth	NLRS_C_breedte_01				
+Pset_WasteTerminalTypeOilInterceptor	InletConnectionSize	NLRS_P_c01_diameter				
+Pset_WasteTerminalTypeOilInterceptor	NominalBodyDepth	NLRS_C_diepte				
+Pset_WasteTerminalTypeOilInterceptor	NominalBodyLength	Length				
+Pset_WasteTerminalTypeOilInterceptor	NominalBodyLength	NLRS_C_lengte				
+Pset_WasteTerminalTypeOilInterceptor	NominalBodyWidth	NLRS_C_breedte				
+Pset_WasteTerminalTypeOilInterceptor	NominalBodyWidth	Width				
+Pset_WasteTerminalTypeOilInterceptor	OutletConnectionSize	NLRS_P_c02_diameter				
+Pset_WasteTerminalTypePetrolInterceptor	BodyMaterial	NLRS_C_materiaal				
+Pset_WasteTerminalTypePetrolInterceptor	CoverLength	NLRS_C_lengte_01				
+Pset_WasteTerminalTypePetrolInterceptor	CoverMaterial	NLRS_C_materiaal_01				
+Pset_WasteTerminalTypePetrolInterceptor	CoverWidth	NLRS_C_breedte_01				
+Pset_WasteTerminalTypePetrolInterceptor	InletConnectionSize	NLRS_P_c01_diameter				
+Pset_WasteTerminalTypePetrolInterceptor	NominalBodyDepth	NLRS_C_diepte				
+Pset_WasteTerminalTypePetrolInterceptor	NominalBodyLength	Length				
+Pset_WasteTerminalTypePetrolInterceptor	NominalBodyLength	NLRS_C_lengte				
+Pset_WasteTerminalTypePetrolInterceptor	NominalBodyWidth	NLRS_C_breedte				
+Pset_WasteTerminalTypePetrolInterceptor	NominalBodyWidth	Width				
+Pset_WasteTerminalTypePetrolInterceptor	OutletConnectionSize	NLRS_P_c02_diameter				
+Pset_WasteTerminalTypePetrolInterceptor	VentilatingPipeSize					
+Pset_WasteTerminalTypeRoofDrain	BodyMaterial	NLRS_C_materiaal				
+Pset_WasteTerminalTypeRoofDrain	CoverLength	NLRS_C_lengte_01				
+Pset_WasteTerminalTypeRoofDrain	CoverMaterial	NLRS_C_materiaal_01				
+Pset_WasteTerminalTypeRoofDrain	CoverWidth	NLRS_C_breedte_01				
+Pset_WasteTerminalTypeRoofDrain	NominalBodyDepth	NLRS_C_diepte				
+Pset_WasteTerminalTypeRoofDrain	NominalBodyLength	Length				
+Pset_WasteTerminalTypeRoofDrain	NominalBodyLength	NLRS_C_lengte				
+Pset_WasteTerminalTypeRoofDrain	NominalBodyWidth	NLRS_C_breedte				
+Pset_WasteTerminalTypeRoofDrain	NominalBodyWidth	Width				
+Pset_WasteTerminalTypeRoofDrain	OutletConnectionSize	NLRS_P_c02_diameter				
+Pset_WasteTerminalTypeWasteDisposalUnit	DrainConnectionSize	NLRS_P_c01_diameter				
+Pset_WasteTerminalTypeWasteDisposalUnit	NominalDepth	NLRS_C_diepte				
+Pset_WasteTerminalTypeWasteDisposalUnit	OutletConnectionSize	NLRS_P_c02_diameter				
+Pset_WasteTerminalTypeWasteTrap	InletConnectionSize	NLRS_P_c01_diameter				
+Pset_WasteTerminalTypeWasteTrap	OutletConnectionSize	NLRS_P_c02_diameter				
+Pset_WasteTerminalTypeWasteTrap	WasteTrapType					
+Pset_WindowCommon	AcousticRating	NLRS_C_geluidwering_Rw				
+Pset_WindowCommon	FireRating	NLRS_C_brandwerendheid				
+Pset_WindowCommon	GlazingAreaFraction	NLRS_C_glaspercentage				
+Pset_WindowCommon	Infiltration	NLRS_C_infiltratie				
+Pset_WindowCommon	IsExternal	NLRS_C_buiten				
+Pset_WindowCommon	Reference	Description				
+Pset_WindowCommon	Reference	NLRS_C_description				
+Pset_WindowCommon	SecurityRating	NLRS_C_code_PKVW				
+Pset_WindowCommon	SmokeStop	NLRS_C_rookwerend				
+Pset_WindowCommon	ThermalTransmittance	NLRS_B_Uwaarde				
+Pset_ZoneCommon	Category					
+Pset_ZoneCommon	GrossAreaPlanned	NLRS_C_eis_oppervlakte_bruto				
+Pset_ZoneCommon	HandicapAccessible	NLRS_C_toegankelijk				
+Pset_ZoneCommon	NetAreaPlanned	NLRS_C_eis_oppervlakte_netto				
+Pset_ZoneCommon	PubliclyAccessible	NLRS_C_publiek				
+Pset_ZoneCommon	Reference	Description				
+Pset_ZoneCommon	Reference	NLRS_C_description				
