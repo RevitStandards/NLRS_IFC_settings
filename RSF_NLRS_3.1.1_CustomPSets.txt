@@ -4,6 +4,35 @@
 # <tab> IFC Property <tab> IFC Datatype <tab> Revit parameter			
 # NLRS 3.1.1			
 # -----------------------------------------------------			
+#			
+PropertySet:	Sparingopgave	I	IfcBuildingElementProxy.PROVISIONFORVOID
+	IfcBuildingStorey	Label	Level
+	Plaatsingshoogte	Length	Elevation from Level
+	Type	Label	Type
+	IfcGuid	Label	IfcGuid
+	IfcClass	Label	Export Type to IFC As
+	IfcTypeEnumeration	Label	Type IFC Predefined Type
+	Status	Label	NLRS_C_status
+	Id	Label	NLRS_C_ID
+	Discipline	Label	NLRS_C_discipline
+	Eigenaar	Label	NLRS_C_eigenaar
+	Opmerking	Label	NLRS_C_opmerking
+	Breedte	Length	NLRS_C_breedte
+	Diepte	Length	NLRS_C_diepte
+	Hoogte	Length	NLRS_C_hoogte
+	Radius	Length	NLRS_C_radius
+	IsGoedgekeurd	Boolean	NLRS_C_brandwerend_eis
+	IsAfgekeurd	Boolean	NLRS_C_brandwerend_eis
+	IsBrandwerendEis	Boolean	NLRS_C_brandwerend_eis
+	BrandwerendHeidEis	Label	NLRS_C_brandwerendheid_eis
+	IsRookwerendEis	Boolean	NLRS_C_rookwerend_eis
+	RookwerendheidEis	Label	NLRS_C_rookwerendheid_eis
+	LuchtgeluidisolatieEis	Label	NLRS_C_luchtgeluidsisolatie_eis
+	IsBuiten	Boolean	NLRS_C_buiten
+	Xcoordinaat	Real	NLRS_C_Xcoordinaat
+	Ycoordinaat	Real	NLRS_C_Ycoordinaat
+	Zcoordinaat	Real	NLRS_C_Zcoordinaat
+#			
 PropertySet:	NLRS_Connector	I	IfcElement
 	Connector 01 Aansluitmethode	Label	NLRS_P_c01_aansluitmethode
 	Connector 01 Aantal Fasegeleiders	Integer	NLRS_E_c01_aantal fasegeleiders
