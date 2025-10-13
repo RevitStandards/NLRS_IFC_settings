@@ -1,11 +1,10 @@
-# Dit is de Custom Propertyset definitie.			
+# Dit is de NLRS Custom Parameter file. Kopieer deze tekst in een leeg txt bestand om een bestand te maken wat in Revit ingelezen kan worden			
 # Deze tabel mapt de NLRS parameters aan de Custom Property Sets in IFC. Waar beschikbaar is de mapping gemaakt naar ILS O&E en UVIP / Aedes ILS.			
 # Parameters die u niet wilt mappen kunt u uitschakelen door aan het begin van de regel een # te plaatsen			
 # <tab> IFC Property <tab> IFC Datatype <tab> Revit parameter			
-# NLRS 3.1.1			
 # -----------------------------------------------------			
 #			
-PropertySet:	Sparingopgave	I	IfcBuildingElementProxy.PROVISIONFORVOID
+PropertySet:	Sparingopgave	I	IfcElement
 	IfcBuildingStorey	Label	Level
 	Plaatsingshoogte	Length	Elevation from Level
 	Type	Label	Type
@@ -21,8 +20,9 @@ PropertySet:	Sparingopgave	I	IfcBuildingElementProxy.PROVISIONFORVOID
 	Diepte	Length	NLRS_C_diepte
 	Hoogte	Length	NLRS_C_hoogte
 	Radius	Length	NLRS_C_radius
-	IsGoedgekeurd	Boolean	NLRS_C_brandwerend_eis
-	IsAfgekeurd	Boolean	NLRS_C_brandwerend_eis
+	IsBoorsparing	Boolean	NLRS_C_boren
+	IsGoedgekeurd	Boolean	NLRS_C_goedgekeurd
+	IsAfgekeurd	Boolean	NLRS_C_afgewezen
 	IsBrandwerendEis	Boolean	NLRS_C_brandwerend_eis
 	BrandwerendHeidEis	Label	NLRS_C_brandwerendheid_eis
 	IsRookwerendEis	Boolean	NLRS_C_rookwerend_eis
@@ -34,7 +34,10 @@ PropertySet:	Sparingopgave	I	IfcBuildingElementProxy.PROVISIONFORVOID
 	Zcoordinaat	Real	NLRS_C_Zcoordinaat
 #			
 PropertySet:	NLRS_Connector	I	IfcElement
-	Connector 01 Aansluitmethode	Label	NLRS_P_c01_aansluitmethode
+	Metrisch	Boolean	NLRS_C_metrisch
+	ArbeidsfActor	Real	NLRS_E_arbeidsfactor
+	Belastingsklasse	Integer	NLRS_E_belastingsklasse
+	Belastingswaarde	Ratio	NLRS_E_belastingswaarde
 	Connector 01 Aantal Fasegeleiders	Integer	NLRS_E_c01_aantal fasegeleiders
 	Connector 01 Aantal Polen	Integer	NLRS_E_c01_aantal polen
 	Connector 01 AC	Boolean	NLRS_E_c01_AC
@@ -42,39 +45,13 @@ PropertySet:	NLRS_Connector	I	IfcElement
 	Connector 01 ArbeidsfActor	Real	NLRS_E_c01_arbeidsfactor
 	Connector 01 Belastingsklasse	Integer	NLRS_E_c01_belastingsklasse
 	Connector 01 Belastingswaarde	Ratio	NLRS_E_c01_belastingswaarde
-	Connector 01 Belastingswaarde	Real	NLRS_P_c01_belastingswaarde
-	Connector 01 Belastingswaarde Eenheid	Label	NLRS_P_c01_belastingswaarde_eenheid
-	Connector 01 Belastingswaarde Omschrijving	Label	NLRS_P_c01_belastingswaarde_omschrijving
 	Connector 01 Breedte	Length	NLRS_E_c01_breedte
-	Connector 01 Breedte	Length	NLRS_M_c01_breedte
 	Connector 01 DC	Boolean	NLRS_E_c01_DC
-	Connector 01 Debiet	VolumetricFlowRate	NLRS_M_c01_debiet
-	Connector 01 DebietsfActor	Real	NLRS_M_c01_debietsfactor
-	Connector 01 DebietsfActor	Real	NLRS_P_c01_debietsfactor
 	Connector 01 Diameter	Length	NLRS_E_c01_diameter
-	Connector 01 Diameter	Length	NLRS_M_c01_diameter
-	Connector 01 Diameter	Length	NLRS_P_c01_diameter
-	Connector 01 Druk Statisch	Pressure	NLRS_P_c01_druk_statisch
-	Connector 01 Druktrap	Label	NLRS_P_c01_druktrap
-	Connector 01 Drukverlies Statisch	Pressure	NLRS_M_c01_drukverlies_statisch
-	Connector 01 Drukverlies Statisch	Pressure	NLRS_P_c01_drukverlies_statisch
-	Connector 01 Geluidsvermogenniveau	Integer	NLRS_M_c01_geluidsvermogenniveau
-	Connector 01 Hellingsaanpassingen	Boolean	NLRS_P_c01_hellingsaanpassingen
 	Connector 01 Hoek	PlaneAngle	NLRS_E_c01_hoek
-	Connector 01 Hoek	PlaneAngle	NLRS_M_c01_hoek
-	Connector 01 Hoek	PlaneAngle	NLRS_P_c01_hoek
 	Connector 01 Hoogte	Length	NLRS_E_c01_hoogte
-	Connector 01 Hoogte	Length	NLRS_M_c01_hoogte
-	Connector 01 Inhoud	Volume	NLRS_P_c01_inhoud
-	Connector 01 K Coëfficiënt	Real	NLRS_P_c01_k coëfficiënt
-	Connector 01 Normdebiet	Real	NLRS_P_c01_normdebiet
 	Connector 01 Omschrijving	Label	NLRS_E_c01_omschrijving
-	Connector 01 Omschrijving	Label	NLRS_M_c01_omschrijving
-	Connector 01 Omschrijving	Label	NLRS_P_c01_omschrijving
-	Connector 01 Opvoerhoogte	Pressure	NLRS_P_c01_opvoerhoogte
 	Connector 01 Radius	Length	NLRS_E_c01_radius
-	Connector 01 Radius	Length	NLRS_M_c01_radius
-	Connector 01 Radius	Length	NLRS_P_c01_radius
 	Connector 01 Schijnbaar Vermogen	Power	NLRS_E_c01_schijnbaar vermogen
 	Connector 01 Schijnbaar Vermogen Fase 01	Power	NLRS_E_c01_schijnbaar vermogen_fase 01
 	Connector 01 Schijnbaar Vermogen Fase 02	Power	NLRS_E_c01_schijnbaar vermogen_fase 02
@@ -82,14 +59,8 @@ PropertySet:	NLRS_Connector	I	IfcElement
 	Connector 01 Spanning	Real	NLRS_E_c01_spanning
 	Connector 01 Stroom	ElectricalCurrent	NLRS_E_c01_stroom
 	Connector 01 Subklasse Motor	Boolean	NLRS_E_c01_subklasse motor
-	Connector 01 Temperatuur	Real	NLRS_M_c01_temperatuur
-	Connector 01 Temperatuur	Real	NLRS_P_c01_temperatuur
 	Connector 01 Verbruiker Driehoek Geschakeld	Boolean	NLRS_E_c01_verbruiker driehoek geschakeld
 	Connector 01 Verbruiker Ster Geschakeld	Boolean	NLRS_E_c01_verbruiker ster geschakeld
-	Connector 01 Verliescoëfficiënt	Real	NLRS_M_c01_verliescoëfficiënt
-	Connector 01 Volumestroom	Real	NLRS_P_c01_volumestroom
-	Connector 01 Vrije Doorlaat	Real	NLRS_M_c01_vrije doorlaat
-	Connector 02 Aansluitmethode	Label	NLRS_P_c02_aansluitmethode
 	Connector 02 Aantal Fasegeleiders	Integer	NLRS_E_c02_aantal fasegeleiders
 	Connector 02 Aantal Polen	Integer	NLRS_E_c02_aantal polen
 	Connector 02 AC	Boolean	NLRS_E_c02_AC
@@ -97,39 +68,13 @@ PropertySet:	NLRS_Connector	I	IfcElement
 	Connector 02 Arbeidsfactor	Real	NLRS_E_c02_arbeidsfactor
 	Connector 02 Belastingsklasse	Integer	NLRS_E_c02_belastingsklasse
 	Connector 02 Belastingswaarde	Ratio	NLRS_E_c02_belastingswaarde
-	Connector 02 Belastingswaarde	Real	NLRS_P_c02_belastingswaarde
-	Connector 02 Belastingswaarde Eenheid	Label	NLRS_P_c02_belastingswaarde_eenheid
-	Connector 02 Belastingswaarde Omschrijving	Label	NLRS_P_c02_belastingswaarde_omschrijving
 	Connector 02 Breedte	Length	NLRS_E_c02_breedte
-	Connector 02 Breedte	Length	NLRS_M_c02_breedte
 	Connector 02 DC	Boolean	NLRS_E_c02_DC
-	Connector 02 Debiet	VolumetricFlowRate	NLRS_M_c02_debiet
-	Connector 02 DebietsfActor	Real	NLRS_M_c02_debietsfactor
-	Connector 02 DebietsfActor	Real	NLRS_P_c02_debietsfactor
 	Connector 02 Diameter	Length	NLRS_E_c02_diameter
-	Connector 02 Diameter	Length	NLRS_M_c02_diameter
-	Connector 02 Diameter	Length	NLRS_P_c02_diameter
-	Connector 02 Druk Statisch	Pressure	NLRS_P_c02_druk_statisch
-	Connector 02 Druktrap	Label	NLRS_P_c02_druktrap
-	Connector 02 Drukverlies Statisch	Pressure	NLRS_M_c02_drukverlies_statisch
-	Connector 02 Drukverlies Statisch	Pressure	NLRS_P_c02_drukverlies_statisch
-	Connector 02 Geluidsvermogenniveau	Integer	NLRS_M_c02_geluidsvermogenniveau
-	Connector 02 Hellingsaanpassingen	Boolean	NLRS_P_c02_hellingsaanpassingen
 	Connector 02 Hoek	PlaneAngle	NLRS_E_c02_hoek
-	Connector 02 Hoek	PlaneAngle	NLRS_M_c02_hoek
-	Connector 02 Hoek	PlaneAngle	NLRS_P_c02_hoek
 	Connector 02 Hoogte	Length	NLRS_E_c02_hoogte
-	Connector 02 Hoogte	Length	NLRS_M_c02_hoogte
-	Connector 02 Inhoud	Volume	NLRS_P_c02_inhoud
-	Connector 02 K Coëfficiënt	Real	NLRS_P_c02_k coëfficiënt
-	Connector 02 Normdebiet	Real	NLRS_P_c02_normdebiet
 	Connector 02 Omschrijving	Label	NLRS_E_c02_omschrijving
-	Connector 02 Omschrijving	Label	NLRS_M_c02_omschrijving
-	Connector 02 Omschrijving	Label	NLRS_P_c02_omschrijving
-	Connector 02 Opvoerhoogte	Pressure	NLRS_P_c02_opvoerhoogte
 	Connector 02 Radius	Length	NLRS_E_c02_radius
-	Connector 02 Radius	Length	NLRS_M_c02_radius
-	Connector 02 Radius	Length	NLRS_P_c02_radius
 	Connector 02 Schijnbaar Vermogen	Power	NLRS_E_c02_schijnbaar vermogen
 	Connector 02 Schijnbaar Vermogen Fase 01	Power	NLRS_E_c02_schijnbaar vermogen_fase 01
 	Connector 02 Schijnbaar Vermogen Fase 02	Power	NLRS_E_c02_schijnbaar vermogen_fase 02
@@ -137,14 +82,8 @@ PropertySet:	NLRS_Connector	I	IfcElement
 	Connector 02 Spanning	Real	NLRS_E_c02_spanning
 	Connector 02 Stroom	ElectricalCurrent	NLRS_E_c02_stroom
 	Connector 02 Subklasse Motor	Boolean	NLRS_E_c02_subklasse motor
-	Connector 02 Temperatuur	Real	NLRS_M_c02_temperatuur
-	Connector 02 Temperatuur	Real	NLRS_P_c02_temperatuur
 	Connector 02 Verbruiker Driehoek Geschakeld	Boolean	NLRS_E_c02_verbruiker driehoek geschakeld
 	Connector 02 Verbruiker Ster Geschakeld	Boolean	NLRS_E_c02_verbruiker ster geschakeld
-	Connector 02 Verliescoëfficiënt	Real	NLRS_M_c02_verliescoëfficiënt
-	Connector 02 Volumestroom	Real	NLRS_P_c02_volumestroom
-	Connector 02 Vrije Doorlaat	Real	NLRS_M_c02_vrije doorlaat
-	Connector 03 Aansluitmethode	Label	NLRS_P_c03_aansluitmethode
 	Connector 03 Aantal Fasegeleiders	Integer	NLRS_E_c03_aantal fasegeleiders
 	Connector 03 Aantal Polen	Integer	NLRS_E_c03_aantal polen
 	Connector 03 AC	Boolean	NLRS_E_c03_AC
@@ -152,54 +91,22 @@ PropertySet:	NLRS_Connector	I	IfcElement
 	Connector 03 ArbeidsfActor	Real	NLRS_E_c03_arbeidsfactor
 	Connector 03 Belastingsklasse	Integer	NLRS_E_c03_belastingsklasse
 	Connector 03 Belastingswaarde	Ratio	NLRS_E_c03_belastingswaarde
-	Connector 03 Belastingswaarde	Real	NLRS_P_c03_belastingswaarde
-	Connector 03 Belastingswaarde Eenheid	Label	NLRS_P_c03_belastingswaarde_eenheid
-	Connector 03 Belastingswaarde Omschrijving	Label	NLRS_P_c03_belastingswaarde_omschrijving
 	Connector 03 Breedte	Length	NLRS_E_c03_breedte
-	Connector 03 Breedte	Length	NLRS_M_c03_breedte
 	Connector 03 DC	Boolean	NLRS_E_c03_DC
-	Connector 03 Debiet	VolumetricFlowRate	NLRS_M_c03_debiet
-	Connector 03 DebietsfActor	Real	NLRS_M_c03_debietsfactor
-	Connector 03 DebietsfActor	Real	NLRS_P_c03_debietsfactor
 	Connector 03 Diameter	Length	NLRS_E_c03_diameter
-	Connector 03 Diameter	Length	NLRS_M_c03_diameter
-	Connector 03 Diameter	Length	NLRS_P_c03_diameter
-	Connector 03 Druk Statisch	Pressure	NLRS_P_c03_druk_statisch
-	Connector 03 Druktrap	Label	NLRS_P_c03_druktrap
-	Connector 03 Drukverlies Statisch	Pressure	NLRS_M_c03_drukverlies_statisch
-	Connector 03 Drukverlies Statisch	Pressure	NLRS_P_c03_drukverlies_statisch
-	Connector 03 Geluidsvermogenniveau	Integer	NLRS_M_c03_geluidsvermogenniveau
-	Connector 03 Hellingsaanpassingen	Boolean	NLRS_P_c03_hellingsaanpassingen
 	Connector 03 Hoek	PlaneAngle	NLRS_E_c03_hoek
-	Connector 03 Hoek	PlaneAngle	NLRS_M_c03_hoek
-	Connector 03 Hoek	PlaneAngle	NLRS_P_c03_hoek
 	Connector 03 Hoogte	Length	NLRS_E_c03_hoogte
-	Connector 03 Hoogte	Length	NLRS_M_c03_hoogte
-	Connector 03 Inhoud	Volume	NLRS_P_c03_inhoud
-	Connector 03 K Coëfficiënt	Real	NLRS_P_c03_k coëfficiënt
-	Connector 03 Normdebiet	Real	NLRS_P_c03_normdebiet
 	Connector 03 Omschrijving	Label	NLRS_E_c03_omschrijving
-	Connector 03 Omschrijving	Label	NLRS_M_c03_omschrijving
-	Connector 03 Omschrijving	Label	NLRS_P_c03_omschrijving
-	Connector 03 Opvoerhoogte	Pressure	NLRS_P_c03_opvoerhoogte
 	Connector 03 Radius	Length	NLRS_E_c03_radius
-	Connector 03 Radius	Length	NLRS_P_c03_radius
 	Connector 03 Schijnbaar Vermogen	Power	NLRS_E_c03_schijnbaar vermogen
 	Connector 03 Schijnbaar Vermogen Fase 01	Power	NLRS_E_c03_schijnbaar vermogen_fase 01
 	Connector 03 Schijnbaar Vermogen Fase 02	Power	NLRS_E_c03_schijnbaar vermogen_fase 02
 	Connector 03 Schijnbaar Vermogen Fase 03	Power	NLRS_E_c03_schijnbaar vermogen_fase 03
 	Connector 03 Spanning	Real	NLRS_E_c03_spanning
-	Connector 03 Straal	Length	NLRS_M_c03_straal
 	Connector 03 Stroom	ElectricalCurrent	NLRS_E_c03_stroom
 	Connector 03 Subklasse Motor	Boolean	NLRS_E_c03_subklasse motor
-	Connector 03 Temperatuur	Real	NLRS_M_c03_temperatuur
-	Connector 03 Temperatuur	Real	NLRS_P_c03_temperatuur
 	Connector 03 Verbruiker Driehoek Geschakeld	Boolean	NLRS_E_c03_verbruiker driehoek geschakeld
 	Connector 03 Verbruiker Ster Geschakeld	Boolean	NLRS_E_c03_verbruiker ster geschakeld
-	Connector 03 Verliescoëfficiënt	Real	NLRS_M_c03_verliescoëfficiënt
-	Connector 03 Volumestroom	Real	NLRS_P_c03_volumestroom
-	Connector 03 Vrije Doorlaat	Real	NLRS_M_c03_vrije doorlaat
-	Connector 04 Aansluitmethode	Label	NLRS_P_c04_aansluitmethode
 	Connector 04 Aantal Fasegeleiders	Integer	NLRS_E_c04_aantal fasegeleiders
 	Connector 04 Aantal Polen	Integer	NLRS_E_c04_aantal polen
 	Connector 04 AC	Boolean	NLRS_E_c04_AC
@@ -207,54 +114,22 @@ PropertySet:	NLRS_Connector	I	IfcElement
 	Connector 04 ArbeidsfActor	Real	NLRS_E_c04_arbeidsfactor
 	Connector 04 Belastingsklasse	Integer	NLRS_E_c04_belastingsklasse
 	Connector 04 Belastingswaarde	Ratio	NLRS_E_c04_belastingswaarde
-	Connector 04 Belastingswaarde	Real	NLRS_P_c04_belastingswaarde
-	Connector 04 Belastingswaarde Eenheid	Label	NLRS_P_c04_belastingswaarde_eenheid
-	Connector 04 Belastingswaarde Omschrijving	Label	NLRS_P_c04_belastingswaarde_omschrijving
 	Connector 04 Breedte	Length	NLRS_E_c04_breedte
-	Connector 04 Breedte	Length	NLRS_M_c04_breedte
 	Connector 04 DC	Boolean	NLRS_E_c04_DC
-	Connector 04 Debiet	VolumetricFlowRate	NLRS_M_c04_debiet
-	Connector 04 DebietsfActor	Real	NLRS_M_c04_debietsfactor
-	Connector 04 DebietsfActor	Real	NLRS_P_c04_debietsfactor
 	Connector 04 Diameter	Length	NLRS_E_c04_diameter
-	Connector 04 Diameter	Length	NLRS_M_c04_diameter
-	Connector 04 Diameter	Length	NLRS_P_c04_diameter
-	Connector 04 Druk Statisch	Pressure	NLRS_P_c04_druk_statisch
-	Connector 04 Druktrap	Label	NLRS_P_c04_druktrap
-	Connector 04 Drukverlies Statisch	Pressure	NLRS_M_c04_drukverlies_statisch
-	Connector 04 Drukverlies Statisch	Pressure	NLRS_P_c04_drukverlies_statisch
-	Connector 04 Geluidsvermogenniveau	Integer	NLRS_M_c04_geluidsvermogenniveau
-	Connector 04 Hellingsaanpassingen	Boolean	NLRS_P_c04_hellingsaanpassingen
 	Connector 04 Hoek	PlaneAngle	NLRS_E_c04_hoek
-	Connector 04 Hoek	PlaneAngle	NLRS_M_c04_hoek
-	Connector 04 Hoek	PlaneAngle	NLRS_P_c04_hoek
 	Connector 04 Hoogte	Length	NLRS_E_c04_hoogte
-	Connector 04 Hoogte	Length	NLRS_M_c04_hoogte
-	Connector 04 Inhoud	Volume	NLRS_P_c04_inhoud
-	Connector 04 K Coëfficiënt	Real	NLRS_P_c04_k coëfficiënt
-	Connector 04 Normdebiet	Real	NLRS_P_c04_normdebiet
 	Connector 04 Omschrijving	Label	NLRS_E_c04_omschrijving
-	Connector 04 Omschrijving	Label	NLRS_M_c04_omschrijving
-	Connector 04 Omschrijving	Label	NLRS_P_c04_omschrijving
-	Connector 04 Opvoerhoogte	Pressure	NLRS_P_c04_opvoerhoogte
 	Connector 04 Radius	Length	NLRS_E_c04_radius
-	Connector 04 Radius	Length	NLRS_P_c04_radius
 	Connector 04 Schijnbaar Vermogen	Power	NLRS_E_c04_schijnbaar vermogen
 	Connector 04 Schijnbaar Vermogen Fase 01	Power	NLRS_E_c04_schijnbaar vermogen_fase 01
 	Connector 04 Schijnbaar Vermogen Fase 02	Power	NLRS_E_c04_schijnbaar vermogen_fase 02
 	Connector 04 Schijnbaar Vermogen Fase 03	Power	NLRS_E_c04_schijnbaar vermogen_fase 03
 	Connector 04 Spanning	Real	NLRS_E_c04_spanning
-	Connector 04 Straal	Length	NLRS_M_c04_straal
 	Connector 04 Stroom	ElectricalCurrent	NLRS_E_c04_stroom
 	Connector 04 Subklasse Motor	Boolean	NLRS_E_c04_subklasse motor
-	Connector 04 Temperatuur	Real	NLRS_M_c04_temperatuur
-	Connector 04 Temperatuur	Real	NLRS_P_c04_temperatuur
 	Connector 04 Verbruiker Driehoek Geschakeld	Boolean	NLRS_E_c04_verbruiker driehoek geschakeld
 	Connector 04 Verbruiker Ster Geschakeld	Boolean	NLRS_E_c04_verbruiker ster geschakeld
-	Connector 04 Verliescoëfficiënt	Real	NLRS_M_c04_verliescoëfficiënt
-	Connector 04 Volumestroom	Real	NLRS_P_c04_volumestroom
-	Connector 04 Vrije Doorlaat	Real	NLRS_M_c04_vrije doorlaat
-	Connector 05 Aansluitmethode	Label	NLRS_P_c05_aansluitmethode
 	Connector 05 Aantal Fasegeleiders	Integer	NLRS_E_c05_aantal fasegeleiders
 	Connector 05 Aantal Polen	Integer	NLRS_E_c05_aantal polen
 	Connector 05 AC	Boolean	NLRS_E_c05_AC
@@ -262,53 +137,229 @@ PropertySet:	NLRS_Connector	I	IfcElement
 	Connector 05 ArbeidsfActor	Real	NLRS_E_c05_arbeidsfactor
 	Connector 05 Belastingsklasse	Integer	NLRS_E_c05_belastingsklasse
 	Connector 05 Belastingswaarde	Ratio	NLRS_E_c05_belastingswaarde
-	Connector 05 Belastingswaarde	Real	NLRS_P_c05_belastingswaarde
-	Connector 05 Belastingswaarde Eenheid	Label	NLRS_P_c05_belastingswaarde_eenheid
-	Connector 05 Belastingswaarde Omschrijving	Label	NLRS_P_c05_belastingswaarde_omschrijving
 	Connector 05 Breedte	Length	NLRS_E_c05_breedte
-	Connector 05 Breedte	Length	NLRS_M_c05_breedte
 	Connector 05 DC	Boolean	NLRS_E_c05_DC
-	Connector 05 Debiet	VolumetricFlowRate	NLRS_M_c05_debiet
-	Connector 05 DebietsfActor	Real	NLRS_M_c05_debietsfactor
-	Connector 05 DebietsfActor	Real	NLRS_P_c05_debietsfactor
 	Connector 05 Diameter	Length	NLRS_E_c05_diameter
-	Connector 05 Diameter	Length	NLRS_M_c05_diameter
-	Connector 05 Diameter	Length	NLRS_P_c05_diameter
-	Connector 05 Druk Statisch	Pressure	NLRS_P_c05_druk_statisch
-	Connector 05 Druktrap	Label	NLRS_P_c05_druktrap
-	Connector 05 Drukverlies Statisch	Pressure	NLRS_M_c05_drukverlies_statisch
-	Connector 05 Drukverlies Statisch	Pressure	NLRS_P_c05_drukverlies_statisch
-	Connector 05 Geluidsvermogenniveau	Integer	NLRS_M_c05_geluidsvermogenniveau
-	Connector 05 Hellingsaanpassingen	Boolean	NLRS_P_c05_hellingsaanpassingen
 	Connector 05 Hoek	PlaneAngle	NLRS_E_c05_hoek
-	Connector 05 Hoek	PlaneAngle	NLRS_M_c05_hoek
-	Connector 05 Hoek	PlaneAngle	NLRS_P_c05_hoek
 	Connector 05 Hoogte	Length	NLRS_E_c05_hoogte
-	Connector 05 Hoogte	Length	NLRS_M_c05_hoogte
-	Connector 05 Inhoud	Volume	NLRS_P_c05_inhoud
-	Connector 05 K Coëfficiënt	Real	NLRS_P_c05_k coëfficiënt
-	Connector 05 Normdebiet	Real	NLRS_P_c05_normdebiet
 	Connector 05 Omschrijving	Label	NLRS_E_c05_omschrijving
-	Connector 05 Omschrijving	Label	NLRS_M_c05_omschrijving
-	Connector 05 Omschrijving	Label	NLRS_P_c05_omschrijving
-	Connector 05 Opvoerhoogte	Pressure	NLRS_P_c05_opvoerhoogte
 	Connector 05 Radius	Length	NLRS_E_c05_radius
-	Connector 05 Radius	Length	NLRS_P_c05_radius
 	Connector 05 Schijnbaar Vermogen	Power	NLRS_E_c05_schijnbaar vermogen
 	Connector 05 Schijnbaar Vermogen Fase 01	Power	NLRS_E_c05_schijnbaar vermogen_fase 01
 	Connector 05 Schijnbaar Vermogen Fase 02	Power	NLRS_E_c05_schijnbaar vermogen_fase 02
 	Connector 05 Schijnbaar Vermogen Fase 03	Power	NLRS_E_c05_schijnbaar vermogen_fase 03
 	Connector 05 Spanning	Real	NLRS_E_c05_spanning
-	Connector 05 Straal	Length	NLRS_M_c05_straal
 	Connector 05 Stroom	ElectricalCurrent	NLRS_E_c05_stroom
 	Connector 05 Subklasse Motor	Boolean	NLRS_E_c05_subklasse motor
-	Connector 05 Temperatuur	Real	NLRS_M_c05_temperatuur
-	Connector 05 Temperatuur	Real	NLRS_P_c05_temperatuur
 	Connector 05 Verbruiker Driehoek Geschakeld	Boolean	NLRS_E_c05_verbruiker driehoek geschakeld
 	Connector 05 Verbruiker Ster Geschakeld	Boolean	NLRS_E_c05_verbruiker ster geschakeld
+	Frequentie	Frequency	NLRS_E_frequentie
+	GelijktijdigheidsfActor	Real	NLRS_E_gelijktijdigheidsfactor
+	Groep	Label	NLRS_E_groep
+	Lusnummer	Label	NLRS_E_lusnummer
+	Schakelcode	Label	NLRS_E_schakelcode
+	Spanning	Real	NLRS_E_spanning
+	Stroom	ElectricalCurrent	NLRS_E_stroom
+	Subklasse Motor	Boolean	NLRS_E_subklasse motor
+	Verlichtingsniveau	LuminousIntensity	NLRS_E_verlichtingsniveau
+	Afgifte Koeling	Real	NLRS_M_afgifte_koeling
+	Afgifte Koeling 01	Real	NLRS_M_afgifte_koeling_01
+	Afgifte Koeling 02	Real	NLRS_M_afgifte_koeling_02
+	Afgifte Koeling 03	Real	NLRS_M_afgifte_koeling_03
+	Afgifte Koeling 04	Real	NLRS_M_afgifte_koeling_04
+	Afgifte Koeling 05	Real	NLRS_M_afgifte_koeling_05
+	Afgifte Omschrijving	Label	NLRS_M_afgifte_omschrijving
+	Afgifte Omschrijving 01	Label	NLRS_M_afgifte_omschrijving_01
+	Afgifte Omschrijving 02	Label	NLRS_M_afgifte_omschrijving_02
+	Afgifte Omschrijving 03	Label	NLRS_M_afgifte_omschrijving_03
+	Afgifte Omschrijving 04	Label	NLRS_M_afgifte_omschrijving_04
+	Afgifte Omschrijving 05	Label	NLRS_M_afgifte_omschrijving_05
+	Afgifte Verwarming	Real	NLRS_M_afgifte_verwarming
+	Afgifte Verwarming 01	Real	NLRS_M_afgifte_verwarming_01
+	Afgifte Verwarming 02	Real	NLRS_M_afgifte_verwarming_02
+	Afgifte Verwarming 03	Real	NLRS_M_afgifte_verwarming_03
+	Afgifte Verwarming 04	Real	NLRS_M_afgifte_verwarming_04
+	Afgifte Verwarming 05	Real	NLRS_M_afgifte_verwarming_05
+	Binnentemperatuur Winter	Real	NLRS_M_binnentemperatuur winter
+	Binnentemperatuur Zomer	Real	NLRS_M_binnentemperatuur zomer
+	Connector 01 Breedte	Length	NLRS_M_c01_breedte
+	Connector 01 Debiet	VolumetricFlowRate	NLRS_M_c01_debiet
+	Connector 01 DebietsfActor	Real	NLRS_M_c01_debietsfactor
+	Connector 01 Diameter	Length	NLRS_M_c01_diameter
+	Connector 01 Drukverlies Statisch	Pressure	NLRS_M_c01_drukverlies_statisch
+	Connector 01 Geluidsvermogenniveau	Integer	NLRS_M_c01_geluidsvermogenniveau
+	Connector 01 Hoek	PlaneAngle	NLRS_M_c01_hoek
+	Connector 01 Hoogte	Length	NLRS_M_c01_hoogte
+	Connector 01 Omschrijving	Label	NLRS_M_c01_omschrijving
+	Connector 01 Radius	Length	NLRS_M_c01_radius
+	Connector 01 Temperatuur	Real	NLRS_M_c01_temperatuur
+	Connector 01 Verliescoëfficiënt	Real	NLRS_M_c01_verliescoëfficiënt
+	Connector 01 Vrije Doorlaat	Real	NLRS_M_c01_vrije doorlaat
+	Connector 02 Breedte	Length	NLRS_M_c02_breedte
+	Connector 02 Debiet	VolumetricFlowRate	NLRS_M_c02_debiet
+	Connector 02 DebietsfActor	Real	NLRS_M_c02_debietsfactor
+	Connector 02 Diameter	Length	NLRS_M_c02_diameter
+	Connector 02 Drukverlies Statisch	Pressure	NLRS_M_c02_drukverlies_statisch
+	Connector 02 Geluidsvermogenniveau	Integer	NLRS_M_c02_geluidsvermogenniveau
+	Connector 02 Hoek	PlaneAngle	NLRS_M_c02_hoek
+	Connector 02 Hoogte	Length	NLRS_M_c02_hoogte
+	Connector 02 Omschrijving	Label	NLRS_M_c02_omschrijving
+	Connector 02 Radius	Length	NLRS_M_c02_radius
+	Connector 02 Temperatuur	Real	NLRS_M_c02_temperatuur
+	Connector 02 Verliescoëfficiënt	Real	NLRS_M_c02_verliescoëfficiënt
+	Connector 02 Vrije Doorlaat	Real	NLRS_M_c02_vrije doorlaat
+	Connector 03 Breedte	Length	NLRS_M_c03_breedte
+	Connector 03 Debiet	VolumetricFlowRate	NLRS_M_c03_debiet
+	Connector 03 DebietsfActor	Real	NLRS_M_c03_debietsfactor
+	Connector 03 Diameter	Length	NLRS_M_c03_diameter
+	Connector 03 Drukverlies Statisch	Pressure	NLRS_M_c03_drukverlies_statisch
+	Connector 03 Geluidsvermogenniveau	Integer	NLRS_M_c03_geluidsvermogenniveau
+	Connector 03 Hoek	PlaneAngle	NLRS_M_c03_hoek
+	Connector 03 Hoogte	Length	NLRS_M_c03_hoogte
+	Connector 03 Omschrijving	Label	NLRS_M_c03_omschrijving
+	Connector 03 Straal	Length	NLRS_M_c03_straal
+	Connector 03 Temperatuur	Real	NLRS_M_c03_temperatuur
+	Connector 03 Verliescoëfficiënt	Real	NLRS_M_c03_verliescoëfficiënt
+	Connector 03 Vrije Doorlaat	Real	NLRS_M_c03_vrije doorlaat
+	Connector 04 Breedte	Length	NLRS_M_c04_breedte
+	Connector 04 Debiet	VolumetricFlowRate	NLRS_M_c04_debiet
+	Connector 04 DebietsfActor	Real	NLRS_M_c04_debietsfactor
+	Connector 04 Diameter	Length	NLRS_M_c04_diameter
+	Connector 04 Drukverlies Statisch	Pressure	NLRS_M_c04_drukverlies_statisch
+	Connector 04 Geluidsvermogenniveau	Integer	NLRS_M_c04_geluidsvermogenniveau
+	Connector 04 Hoek	PlaneAngle	NLRS_M_c04_hoek
+	Connector 04 Hoogte	Length	NLRS_M_c04_hoogte
+	Connector 04 Omschrijving	Label	NLRS_M_c04_omschrijving
+	Connector 04 Straal	Length	NLRS_M_c04_straal
+	Connector 04 Temperatuur	Real	NLRS_M_c04_temperatuur
+	Connector 04 Verliescoëfficiënt	Real	NLRS_M_c04_verliescoëfficiënt
+	Connector 04 Vrije Doorlaat	Real	NLRS_M_c04_vrije doorlaat
+	Connector 05 Breedte	Length	NLRS_M_c05_breedte
+	Connector 05 Debiet	VolumetricFlowRate	NLRS_M_c05_debiet
+	Connector 05 DebietsfActor	Real	NLRS_M_c05_debietsfactor
+	Connector 05 Diameter	Length	NLRS_M_c05_diameter
+	Connector 05 Drukverlies Statisch	Pressure	NLRS_M_c05_drukverlies_statisch
+	Connector 05 Geluidsvermogenniveau	Integer	NLRS_M_c05_geluidsvermogenniveau
+	Connector 05 Hoek	PlaneAngle	NLRS_M_c05_hoek
+	Connector 05 Hoogte	Length	NLRS_M_c05_hoogte
+	Connector 05 Omschrijving	Label	NLRS_M_c05_omschrijving
+	Connector 05 Straal	Length	NLRS_M_c05_straal
+	Connector 05 Temperatuur	Real	NLRS_M_c05_temperatuur
 	Connector 05 Verliescoëfficiënt	Real	NLRS_M_c05_verliescoëfficiënt
-	Connector 05 Volumestroom	Real	NLRS_P_c05_volumestroom
 	Connector 05 Vrije Doorlaat	Real	NLRS_M_c05_vrije doorlaat
+	Circulatievoud	Real	NLRS_M_circulatievoud
+	Debiet	VolumetricFlowRate	NLRS_M_debiet
+	Drukverlies Statisch	Pressure	NLRS_M_drukverlies_statisch
+	Geluidsvermogenniveau	Integer	NLRS_M_geluidsvermogenniveau
+	Kv Instelling	Integer	NLRS_M_kv instelling
+	Kv Waarde	Real	NLRS_M_kv waarde
+	Verlegafstand	Integer	NLRS_M_verlegafstand
+	Vermogen Per M2	Real	NLRS_M_vermogen per m2
+	Warmtelast Extern	Real	NLRS_M_warmtelast extern
+	Warmtelast Intern	Real	NLRS_M_warmtelast intern
+	Warmtelast Totaal	Real	NLRS_M_warmtelast totaal
+	Warmteverlies 75 65 20	Real	NLRS_M_warmteverlies 75 65 20
+	Warmteverlies Netto	Real	NLRS_M_warmteverlies netto
+	Warmteverlies Toeslag Heropwarming	Real	NLRS_M_warmteverlies toeslag heropwarming
+	Warmteverlies Totaal	Real	NLRS_M_warmteverlies totaal
+	Warmteverlies Transmissie	Real	NLRS_M_warmteverlies transmissie
+	Warmteverlies Ventilatie	Real	NLRS_M_warmteverlies ventilatie
+	Warmtewinst	Real	NLRS_M_warmtewinst
+	Connector 01 Aansluitmethode	Label	NLRS_P_c01_aansluitmethode
+	Connector 01 Belastingswaarde	Real	NLRS_P_c01_belastingswaarde
+	Connector 01 Belastingswaarde Eenheid	Label	NLRS_P_c01_belastingswaarde_eenheid
+	Connector 01 Belastingswaarde Omschrijving	Label	NLRS_P_c01_belastingswaarde_omschrijving
+	Connector 01 DebietsfActor	Real	NLRS_P_c01_debietsfactor
+	Connector 01 Diameter	Length	NLRS_P_c01_diameter
+	Connector 01 Druk Statisch	Pressure	NLRS_P_c01_druk_statisch
+	Connector 01 Druktrap	Label	NLRS_P_c01_druktrap
+	Connector 01 Drukverlies Statisch	Pressure	NLRS_P_c01_drukverlies_statisch
+	Connector 01 Hellingsaanpassingen	Boolean	NLRS_P_c01_hellingsaanpassingen
+	Connector 01 Hoek	PlaneAngle	NLRS_P_c01_hoek
+	Connector 01 Inhoud	Volume	NLRS_P_c01_inhoud
+	Connector 01 K Coëfficiënt	Real	NLRS_P_c01_k coëfficiënt
+	Connector 01 Normdebiet	Real	NLRS_P_c01_normdebiet
+	Connector 01 Omschrijving	Label	NLRS_P_c01_omschrijving
+	Connector 01 Opvoerhoogte	Pressure	NLRS_P_c01_opvoerhoogte
+	Connector 01 Radius	Length	NLRS_P_c01_radius
+	Connector 01 Temperatuur	Real	NLRS_P_c01_temperatuur
+	Connector 01 Volumestroom	Real	NLRS_P_c01_volumestroom
+	Connector 02 Aansluitmethode	Label	NLRS_P_c02_aansluitmethode
+	Connector 02 Belastingswaarde	Real	NLRS_P_c02_belastingswaarde
+	Connector 02 Belastingswaarde Eenheid	Label	NLRS_P_c02_belastingswaarde_eenheid
+	Connector 02 Belastingswaarde Omschrijving	Label	NLRS_P_c02_belastingswaarde_omschrijving
+	Connector 02 DebietsfActor	Real	NLRS_P_c02_debietsfactor
+	Connector 02 Diameter	Length	NLRS_P_c02_diameter
+	Connector 02 Druk Statisch	Pressure	NLRS_P_c02_druk_statisch
+	Connector 02 Druktrap	Label	NLRS_P_c02_druktrap
+	Connector 02 Drukverlies Statisch	Pressure	NLRS_P_c02_drukverlies_statisch
+	Connector 02 Hellingsaanpassingen	Boolean	NLRS_P_c02_hellingsaanpassingen
+	Connector 02 Hoek	PlaneAngle	NLRS_P_c02_hoek
+	Connector 02 Inhoud	Volume	NLRS_P_c02_inhoud
+	Connector 02 K Coëfficiënt	Real	NLRS_P_c02_k coëfficiënt
+	Connector 02 Normdebiet	Real	NLRS_P_c02_normdebiet
+	Connector 02 Omschrijving	Label	NLRS_P_c02_omschrijving
+	Connector 02 Opvoerhoogte	Pressure	NLRS_P_c02_opvoerhoogte
+	Connector 02 Radius	Length	NLRS_P_c02_radius
+	Connector 02 Temperatuur	Real	NLRS_P_c02_temperatuur
+	Connector 02 Volumestroom	Real	NLRS_P_c02_volumestroom
+	Connector 03 Aansluitmethode	Label	NLRS_P_c03_aansluitmethode
+	Connector 03 Belastingswaarde	Real	NLRS_P_c03_belastingswaarde
+	Connector 03 Belastingswaarde Eenheid	Label	NLRS_P_c03_belastingswaarde_eenheid
+	Connector 03 Belastingswaarde Omschrijving	Label	NLRS_P_c03_belastingswaarde_omschrijving
+	Connector 03 DebietsfActor	Real	NLRS_P_c03_debietsfactor
+	Connector 03 Diameter	Length	NLRS_P_c03_diameter
+	Connector 03 Druk Statisch	Pressure	NLRS_P_c03_druk_statisch
+	Connector 03 Druktrap	Label	NLRS_P_c03_druktrap
+	Connector 03 Drukverlies Statisch	Pressure	NLRS_P_c03_drukverlies_statisch
+	Connector 03 Hellingsaanpassingen	Boolean	NLRS_P_c03_hellingsaanpassingen
+	Connector 03 Hoek	PlaneAngle	NLRS_P_c03_hoek
+	Connector 03 Inhoud	Volume	NLRS_P_c03_inhoud
+	Connector 03 K Coëfficiënt	Real	NLRS_P_c03_k coëfficiënt
+	Connector 03 Normdebiet	Real	NLRS_P_c03_normdebiet
+	Connector 03 Omschrijving	Label	NLRS_P_c03_omschrijving
+	Connector 03 Opvoerhoogte	Pressure	NLRS_P_c03_opvoerhoogte
+	Connector 03 Radius	Length	NLRS_P_c03_radius
+	Connector 03 Temperatuur	Real	NLRS_P_c03_temperatuur
+	Connector 03 Volumestroom	Real	NLRS_P_c03_volumestroom
+	Connector 04 Aansluitmethode	Label	NLRS_P_c04_aansluitmethode
+	Connector 04 Belastingswaarde	Real	NLRS_P_c04_belastingswaarde
+	Connector 04 Belastingswaarde Eenheid	Label	NLRS_P_c04_belastingswaarde_eenheid
+	Connector 04 Belastingswaarde Omschrijving	Label	NLRS_P_c04_belastingswaarde_omschrijving
+	Connector 04 DebietsfActor	Real	NLRS_P_c04_debietsfactor
+	Connector 04 Diameter	Length	NLRS_P_c04_diameter
+	Connector 04 Druk Statisch	Pressure	NLRS_P_c04_druk_statisch
+	Connector 04 Druktrap	Label	NLRS_P_c04_druktrap
+	Connector 04 Drukverlies Statisch	Pressure	NLRS_P_c04_drukverlies_statisch
+	Connector 04 Hellingsaanpassingen	Boolean	NLRS_P_c04_hellingsaanpassingen
+	Connector 04 Hoek	PlaneAngle	NLRS_P_c04_hoek
+	Connector 04 Inhoud	Volume	NLRS_P_c04_inhoud
+	Connector 04 K Coëfficiënt	Real	NLRS_P_c04_k coëfficiënt
+	Connector 04 Normdebiet	Real	NLRS_P_c04_normdebiet
+	Connector 04 Omschrijving	Label	NLRS_P_c04_omschrijving
+	Connector 04 Opvoerhoogte	Pressure	NLRS_P_c04_opvoerhoogte
+	Connector 04 Radius	Length	NLRS_P_c04_radius
+	Connector 04 Temperatuur	Real	NLRS_P_c04_temperatuur
+	Connector 04 Volumestroom	Real	NLRS_P_c04_volumestroom
+	Connector 05 Aansluitmethode	Label	NLRS_P_c05_aansluitmethode
+	Connector 05 Belastingswaarde	Real	NLRS_P_c05_belastingswaarde
+	Connector 05 Belastingswaarde Eenheid	Label	NLRS_P_c05_belastingswaarde_eenheid
+	Connector 05 Belastingswaarde Omschrijving	Label	NLRS_P_c05_belastingswaarde_omschrijving
+	Connector 05 DebietsfActor	Real	NLRS_P_c05_debietsfactor
+	Connector 05 Diameter	Length	NLRS_P_c05_diameter
+	Connector 05 Druk Statisch	Pressure	NLRS_P_c05_druk_statisch
+	Connector 05 Druktrap	Label	NLRS_P_c05_druktrap
+	Connector 05 Drukverlies Statisch	Pressure	NLRS_P_c05_drukverlies_statisch
+	Connector 05 Hellingsaanpassingen	Boolean	NLRS_P_c05_hellingsaanpassingen
+	Connector 05 Hoek	PlaneAngle	NLRS_P_c05_hoek
+	Connector 05 Inhoud	Volume	NLRS_P_c05_inhoud
+	Connector 05 K Coëfficiënt	Real	NLRS_P_c05_k coëfficiënt
+	Connector 05 Normdebiet	Real	NLRS_P_c05_normdebiet
+	Connector 05 Omschrijving	Label	NLRS_P_c05_omschrijving
+	Connector 05 Opvoerhoogte	Pressure	NLRS_P_c05_opvoerhoogte
+	Connector 05 Radius	Length	NLRS_P_c05_radius
+	Connector 05 Temperatuur	Real	NLRS_P_c05_temperatuur
+	Connector 05 Volumestroom	Real	NLRS_P_c05_volumestroom
 	Connector 06 Aansluitmethode	Label	NLRS_P_c06_aansluitmethode
 	Connector 06 Belastingswaarde	Real	NLRS_P_c06_belastingswaarde
 	Connector 06 Belastingswaarde Eenheid	Label	NLRS_P_c06_belastingswaarde_eenheid
@@ -556,9 +607,20 @@ PropertySet:	NLRS_Connector	I	IfcElement
 	Connector 18 Radius	Length	NLRS_P_c18_radius
 	Connector 18 Temperatuur	Real	NLRS_P_c18_temperatuur
 	Connector 18 Volumestroom	Real	NLRS_P_c18_volumestroom
+	Temperatuur Omgeving Gemiddeld	Real	NLRS_P_temperatuur omgeving_gemiddeld
+	Temperatuur Regime Koeling Gemiddeld	Real	NLRS_P_temperatuur regime koeling_gemiddeld
+	Temperatuur Regime Verwarming Gemiddeld	Real	NLRS_P_temperatuur regime verwarming_gemiddeld
+	Volumestroom	Real	NLRS_P_volumestroom
+	Belastinghor	Real	NLRS_S_belastinghor
+	Belastingvert	Real	NLRS_S_belastingvert
+	Draagvermogen Druk	Real	NLRS_S_draagvermogen druk
+	Draagvermogen Trek	Real	NLRS_S_draagvermogen trek
+	Gewicht Bruto	Real	NLRS_S_gewicht_bruto
+	Gewicht Netto	Real	NLRS_S_gewicht_netto
 PropertySet:	NLRS_Documentatie	I	IfcElement
 	Asset Id	Label	NLRS_C_asset id
 	Asset Type	Label	NLRS_C_asset type
+	Bron	Label	NLRS_C_bron
 	Bloknummer	Label	NLRS_C_bloknummer
 	Bouwwerk Deel	Label	NLRS_C_bouwwerk_deel
 	Bouwwerk Laag	Label	NLRS_C_bouwwerk_laag
@@ -594,7 +656,7 @@ PropertySet:	NLRS_Documentatie	I	IfcElement
 	Leverancier Url	Label	NLRS_C_leverancier_url
 	Opdrachtgever Adres	Label	NLRS_C_opdrachtgever_adres
 	Opdrachtgever Bedrijfsnaam	Label	NLRS_C_opdrachtgever_bedrijfsnaam
-	Opdrachtgever ContActpersoon	Label	NLRS_C_opdrachtgever_contactpersoon
+	Opdrachtgever Contactpersoon	Label	NLRS_C_opdrachtgever_contactpersoon
 	Opdrachtgever Email	Label	NLRS_C_opdrachtgever_email
 	Opdrachtgever Plaats	Label	NLRS_C_opdrachtgever_plaats
 	Opdrachtgever Postcode	Label	NLRS_C_opdrachtgever_postcode
@@ -603,7 +665,7 @@ PropertySet:	NLRS_Documentatie	I	IfcElement
 	Opdrachtnemer Adres	Label	NLRS_C_opdrachtnemer_adres
 	Opdrachtnemer Bedrijfsnaam	Label	NLRS_C_opdrachtnemer_bedrijfsnaam
 	Opdrachtnemer Bestandsnaam	Label	NLRS_C_opdrachtnemer_bestandsnaam
-	Opdrachtnemer ContActpersoon	Label	NLRS_C_opdrachtnemer_contactpersoon
+	Opdrachtnemer Contactpersoon	Label	NLRS_C_opdrachtnemer_contactpersoon
 	Opdrachtnemer Plaats	Label	NLRS_C_opdrachtnemer_plaats
 	Opdrachtnemer Postcode	Label	NLRS_C_opdrachtnemer_postcode
 	Opdrachtnemer Telefoon	Label	NLRS_C_opdrachtnemer_telefoon
@@ -619,6 +681,7 @@ PropertySet:	NLRS_Documentatie	I	IfcElement
 	Project Postcode	Label	NLRS_C_project_postcode
 	Project Projectleider	Label	NLRS_C_project_projectleider
 	Project Telefoon	Label	NLRS_C_project_telefoon
+	Rustende Belasting       	Label	NLRS_C_rustende belasting       
 	Tekening Bladnummer	Label	NLRS_C_tekening_bladnummer
 	Tekening Bladnummer 01	Label	NLRS_C_tekening_bladnummer_01
 	Tekening Discipline	Label	NLRS_C_tekening_discipline
@@ -631,17 +694,9 @@ PropertySet:	NLRS_Documentatie	I	IfcElement
 	Tekening Onderwerp 04	Label	NLRS_C_tekening_onderwerp_04
 	Tekening Schaal	Label	NLRS_C_tekening_schaal
 	Tekening Schaal 01	Label	NLRS_C_tekening_schaal_01
-	Zichtbaar 01	Boolean	NLRS_C_zichtbaar_01
-	Zichtbaar 02	Boolean	NLRS_C_zichtbaar_02
-	Zichtbaar 03	Boolean	NLRS_C_zichtbaar_03
-	Zichtbaar 04	Boolean	NLRS_C_zichtbaar_04
-	Zichtbaar 05	Boolean	NLRS_C_zichtbaar_05
-	Zichtbaar 06	Boolean	NLRS_C_zichtbaar_06
-	Zichtbaar 07	Boolean	NLRS_C_zichtbaar_07
-	Zichtbaar 08	Boolean	NLRS_C_zichtbaar_08
-	Zichtbaar 09	Boolean	NLRS_C_zichtbaar_09
-	Zichtbaar 10	Boolean	NLRS_C_zichtbaar_10
 	Tekening Status	Label	NLRS_C_tekening_status
+	Veranderlijke Belasting          	Label	NLRS_C_veranderlijke belasting          
+	Vervangingskosten	Label	NLRS_C_vervangingskosten
 PropertySet:	NLRS_Eis	I	IfcElement
 	Rcwaarde Max	ThermalTransmittance	NLRS_B_Rcwaarde_max
 	Rcwaarde Min	ThermalTransmittance	NLRS_B_Rcwaarde_min
@@ -670,9 +725,9 @@ PropertySet:	NLRS_Eis	I	IfcElement
 	Brandwerendheid Eis	Label	NLRS_C_brandwerendheid_eis
 	Breedte Max	Length	NLRS_C_breedte_max
 	Breedte Min	Length	NLRS_C_breedte_min
-	Capaciteit Aantal Eis	Real	NLRS_C_Capaciteit aantal_eis
-	Capaciteit Dm3 Per Sec Eis	Real	NLRS_C_Capaciteit dm3 per sec_eis
-	Capaciteit M3 Per Uur Eis	Real	NLRS_C_Capaciteit m3 per uur_eis
+	Capaciteit Aantal Eis	Real	NLRS_C_capaciteit aantal_eis
+	Capaciteit Dm3 Per Sec Eis	Real	NLRS_C_capaciteit dm3 per sec_eis
+	Capaciteit M3 Per Uur Eis	Real	NLRS_C_capaciteit m3 per uur_eis
 	Circulatievoud Eis	Real	NLRS_C_circulatievoud_eis
 	Comfortklasse Eis	Label	NLRS_C_comfortklasse_eis
 	Consistentieklasse Eis	Label	NLRS_C_consistentieklasse_eis
@@ -846,7 +901,7 @@ PropertySet:	NLRS_Eis	I	IfcElement
 	ArbeidsfActor Eis	Real	NLRS_E_arbeidsfactor_eis
 	Belastingsklasse Eis	Integer	NLRS_E_belastingsklasse_eis
 	Belastingswaarde Eis	Ratio	NLRS_E_belastingswaarde_eis
-	Stroom Capaciteit Eis	Label	NLRS_E_stroom Capaciteit_eis
+	Stroom Capaciteit Eis	Label	NLRS_E_stroom capaciteit_eis
 	Stroom Max	ElectricalCurrent	NLRS_E_stroom_max
 	Afgifte Koeling Eis	Real	NLRS_M_afgifte_koeling_eis
 	Afgifte Verwarming Eis	Real	NLRS_M_afgifte_verwarming_eis
@@ -875,6 +930,9 @@ PropertySet:	NLRS_Eis	I	IfcElement
 PropertySet:	NLRS_Geometrie	I	IfcElement
 	Afhakniveau Tov Peil	Length	NLRS_C_afhakniveau tov peil
 	Afstortniveau Tov Peil	Length	NLRS_C_afstortniveau tov peil
+	Breedte Bruto	Length	NLRS_C_breedte_bruto
+	Breedte Netto	Length	NLRS_C_breedte_netto
+	Breedte Standaard	Length	NLRS_C_breedte_standaard
 	Breedte	Length	NLRS_C_breedte
 	Breedte 01	Length	NLRS_C_breedte_01
 	Breedte 02	Length	NLRS_C_breedte_02
@@ -886,6 +944,18 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Breedte 08	Length	NLRS_C_breedte_08
 	Breedte 09	Length	NLRS_C_breedte_09
 	Breedte 10	Length	NLRS_C_breedte_10
+	Dagmaat Breedte	Length	NLRS_C_dagmaat breedte
+	Dagmaat Hoogte	Length	NLRS_C_dagmaat hoogte
+	Deur Breedte	Length	NLRS_C_deur breedte
+	Deur Hoogte	Length	NLRS_C_deur hoogte
+	Dekking Binnen	Length	NLRS_C_dekking_binnen
+	Dekking Boven	Length	NLRS_C_dekking_boven
+	Dekking Buiten	Length	NLRS_C_dekking_buiten
+	Dekking Onder	Length	NLRS_C_dekking_onder
+	Dekking Zij	Length	NLRS_C_dekking_zij
+	Diameter Bruto	Length	NLRS_C_diameter_bruto
+	Diameter Netto	Length	NLRS_C_diameter_netto
+	Diameter Standaard	Length	NLRS_C_diameter_standaard
 	Diameter	Length	NLRS_C_diameter
 	Diameter 01	Length	NLRS_C_diameter_01
 	Diameter 02	Length	NLRS_C_diameter_02
@@ -897,6 +967,9 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Diameter 08	Length	NLRS_C_diameter_08
 	Diameter 09	Length	NLRS_C_diameter_09
 	Diameter 10	Length	NLRS_C_diameter_10
+	Diepte Bruto	Length	NLRS_C_diepte_bruto
+	Diepte Netto	Length	NLRS_C_diepte_netto
+	Diepte Standaard	Length	NLRS_C_diepte_standaard
 	Diepte	Length	NLRS_C_diepte
 	Diepte 01	Length	NLRS_C_diepte_01
 	Diepte 02	Length	NLRS_C_diepte_02
@@ -908,6 +981,9 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Diepte 08	Length	NLRS_C_diepte_08
 	Diepte 09	Length	NLRS_C_diepte_09
 	Diepte 10	Length	NLRS_C_diepte_10
+	Dikte Bruto	Length	NLRS_C_dikte_bruto
+	Dikte Netto	Length	NLRS_C_dikte_netto
+	Dikte Standaard	Length	NLRS_C_dikte_standaard
 	Dikte	Length	NLRS_C_dikte
 	Dikte 01	Length	NLRS_C_dikte_01
 	Dikte 02	Length	NLRS_C_dikte_02
@@ -919,6 +995,9 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Dikte 08	Length	NLRS_C_dikte_08
 	Dikte 09	Length	NLRS_C_dikte_09
 	Dikte 10	Length	NLRS_C_dikte_10
+	Helling	PlaneAngle	NLRS_C_helling
+	Helling Standaard	PlaneAngle	NLRS_C_helling_standaard
+	Hoek Standaard	PlaneAngle	NLRS_C_hoek_standaard
 	Hoek	PlaneAngle	NLRS_C_hoek
 	Hoek 01	PlaneAngle	NLRS_C_hoek_01
 	Hoek 02	PlaneAngle	NLRS_C_hoek_02
@@ -930,6 +1009,9 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Hoek 08	PlaneAngle	NLRS_C_hoek_08
 	Hoek 09	PlaneAngle	NLRS_C_hoek_09
 	Hoek 10	PlaneAngle	NLRS_C_hoek_10
+	Hoogte Bruto	Length	NLRS_C_hoogte_bruto
+	Hoogte Netto	Length	NLRS_C_hoogte_netto
+	Hoogte Standaard	Length	NLRS_C_hoogte_standaard
 	Hoogte	Length	NLRS_C_hoogte
 	Hoogte 01	Length	NLRS_C_hoogte_01
 	Hoogte 02	Length	NLRS_C_hoogte_02
@@ -941,6 +1023,14 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Hoogte 08	Length	NLRS_C_hoogte_08
 	Hoogte 09	Length	NLRS_C_hoogte_09
 	Hoogte 10	Length	NLRS_C_hoogte_10
+	Inhoud	Volume	NLRS_C_inhoud
+	Kozijn Breedte	Length	NLRS_C_kozijn breedte
+	Kozijn Hoogte	Length	NLRS_C_kozijn hoogte
+	Kozijn Profiel Breedte	Length	NLRS_C_kozijn profiel breedte
+	Kozijn Profiel Hoogte	Length	NLRS_C_kozijn profiel dikte
+	Lengte Bruto	Length	NLRS_C_lengte_bruto
+	Lengte Netto	Length	NLRS_C_lengte_netto
+	Lengte Standaard	Length	NLRS_C_lengte_standaard
 	Lengte	Length	NLRS_C_lengte
 	Lengte 01	Length	NLRS_C_lengte_01
 	Lengte 02	Length	NLRS_C_lengte_02
@@ -952,6 +1042,9 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Lengte 08	Length	NLRS_C_lengte_08
 	Lengte 09	Length	NLRS_C_lengte_09
 	Lengte 10	Length	NLRS_C_lengte_10
+	Offset Bruto	Length	NLRS_C_offset_bruto
+	Offset Netto	Length	NLRS_C_offset_netto
+	Offset Standaard	Length	NLRS_C_offset_standaard
 	Offset	Length	NLRS_C_offset
 	Offset 01	Length	NLRS_C_offset_01
 	Offset 02	Length	NLRS_C_offset_02
@@ -963,6 +1056,9 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Offset 08	Length	NLRS_C_offset_08
 	Offset 09	Length	NLRS_C_offset_09
 	Offset 10	Length	NLRS_C_offset_10
+	Omtrek Bruto	Length	NLRS_C_omtrek_bruto
+	Omtrek Netto	Length	NLRS_C_omtrek_netto
+	Omtrek Standaard	Length	NLRS_C_omtrek_standaard
 	Omtrek	Length	NLRS_C_omtrek
 	Omtrek 01	Length	NLRS_C_omtrek_01
 	Omtrek 02	Length	NLRS_C_omtrek_02
@@ -974,6 +1070,15 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Omtrek 08	Length	NLRS_C_omtrek_08
 	Omtrek 09	Length	NLRS_C_omtrek_09
 	Omtrek 10	Length	NLRS_C_omtrek_10
+	Oppervlakte Aeq	Area	NLRS_C_oppervlakte_Aeq
+	Oppervlakte Bruto	Area	NLRS_C_oppervlakte_bruto
+	Oppervlakte Bvo	Area	NLRS_C_oppervlakte_BVO
+	Oppervlakte Go	Area	NLRS_C_oppervlakte_GO
+	Oppervlakte Netto	Area	NLRS_C_oppervlakte_netto
+	Oppervlakte Nvo	Area	NLRS_C_oppervlakte_NVO
+	Oppervlakte Standaard	Area	NLRS_C_oppervlakte_standaard
+	Oppervlakte Vo	Area	NLRS_C_oppervlakte_VO
+	Oppervlakte Vvo	Area	NLRS_C_oppervlakte_VVO
 	Oppervlakte	Area	NLRS_C_oppervlakte
 	Oppervlakte 01	Area	NLRS_C_oppervlakte_01
 	Oppervlakte 02	Area	NLRS_C_oppervlakte_02
@@ -986,6 +1091,9 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Oppervlakte 09	Area	NLRS_C_oppervlakte_09
 	Oppervlakte 10	Area	NLRS_C_oppervlakte_10
 	Paalpuntniveau Tov Nap	Length	NLRS_C_paalpuntniveau tov NAP
+	Radius Bruto	Length	NLRS_C_radius_bruto
+	Radius Netto	Length	NLRS_C_radius_netto
+	Radius Standaard	Length	NLRS_C_radius_standaard
 	Radius	Length	NLRS_C_radius
 	Radius 01	Length	NLRS_C_radius_01
 	Radius 02	Length	NLRS_C_radius_02
@@ -997,6 +1105,14 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Radius 08	Length	NLRS_C_radius_08
 	Radius 09	Length	NLRS_C_radius_09
 	Radius 10	Length	NLRS_C_radius_10
+	Ruimte Onder Deur	Length	NLRS_C_ruimte onder deur
+	Sparing Breedte	Length	NLRS_C_sparing breedte
+	Sparing Hoogte	Length	NLRS_C_sparing hoogte
+	Sponning Diepte	Length	NLRS_C_sponning diepte
+	Sponning Breedte	Length	NLRS_C_sponning breedte
+	Stelruimte Bruto	Length	NLRS_C_stelruimte_bruto
+	Stelruimte Netto	Length	NLRS_C_stelruimte_netto
+	Stelruimte Standaard	Length	NLRS_C_stelruimte_standaard
 	Stelruimte	Length	NLRS_C_stelruimte
 	Stelruimte 01	Length	NLRS_C_stelruimte_01
 	Stelruimte 02	Length	NLRS_C_stelruimte_02
@@ -1008,6 +1124,9 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Stelruimte 08	Length	NLRS_C_stelruimte_08
 	Stelruimte 09	Length	NLRS_C_stelruimte_09
 	Stelruimte 10	Length	NLRS_C_stelruimte_10
+	Volume Bruto	Volume	NLRS_C_volume_bruto
+	Volume Netto	Volume	NLRS_C_volume_netto
+	Volume Standaard	Volume	NLRS_C_volume_standaard
 	Volume	Volume	NLRS_C_volume
 	Volume 01	Volume	NLRS_C_volume_01
 	Volume 02	Volume	NLRS_C_volume_02
@@ -1019,54 +1138,16 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Volume 08	Volume	NLRS_C_volume_08
 	Volume 09	Volume	NLRS_C_volume_09
 	Volume 10	Volume	NLRS_C_volume_10
-	Breedte Bruto	Length	NLRS_C_breedte_bruto
-	Breedte Netto	Length	NLRS_C_breedte_netto
-	Breedte Standaard	Length	NLRS_C_breedte_standaard
-	Dekking Binnen	Length	NLRS_C_dekking_binnen
-	Dekking Boven	Length	NLRS_C_dekking_boven
-	Dekking Buiten	Length	NLRS_C_dekking_buiten
-	Dekking Onder	Length	NLRS_C_dekking_onder
-	Dekking Zij	Length	NLRS_C_dekking_zij
-	Diameter Bruto	Length	NLRS_C_diameter_bruto
-	Diameter Netto	Length	NLRS_C_diameter_netto
-	Diameter Standaard	Length	NLRS_C_diameter_standaard
-	Diepte Bruto	Length	NLRS_C_diepte_bruto
-	Diepte Netto	Length	NLRS_C_diepte_netto
-	Diepte Standaard	Length	NLRS_C_diepte_standaard
-	Dikte Bruto	Length	NLRS_C_dikte_bruto
-	Dikte Netto	Length	NLRS_C_dikte_netto
-	Dikte Standaard	Length	NLRS_C_dikte_standaard
-	Hartafstand	Length	NLRS_C_hartafstand
-	Helling	PlaneAngle	NLRS_C_helling
-	Helling Standaard	PlaneAngle	NLRS_C_helling_standaard
-	Hoek Standaard	PlaneAngle	NLRS_C_hoek_standaard
-	Hoogte Bruto	Length	NLRS_C_hoogte_bruto
-	Hoogte Netto	Length	NLRS_C_hoogte_netto
-	Hoogte Standaard	Length	NLRS_C_hoogte_standaard
-	Inhoud	Volume	NLRS_C_inhoud
-	Omtrek Bruto	Length	NLRS_C_omtrek_bruto
-	Omtrek Netto	Length	NLRS_C_omtrek_netto
-	Omtrek Standaard	Length	NLRS_C_omtrek_standaard
-	Oppervlakte Aeq	Area	NLRS_C_oppervlakte_Aeq
-	Oppervlakte Bruto	Area	NLRS_C_oppervlakte_bruto
-	Oppervlakte Bvo	Area	NLRS_C_oppervlakte_BVO
-	Oppervlakte Go	Area	NLRS_C_oppervlakte_GO
-	Oppervlakte Netto	Area	NLRS_C_oppervlakte_netto
-	Oppervlakte Nvo	Area	NLRS_C_oppervlakte_NVO
-	Oppervlakte Standaard	Area	NLRS_C_oppervlakte_standaard
-	Oppervlakte Vo	Area	NLRS_C_oppervlakte_VO
-	Oppervlakte Vvo	Area	NLRS_C_oppervlakte_VVO
-	Radius Bruto	Length	NLRS_C_radius_bruto
-	Radius Netto	Length	NLRS_C_radius_netto
-	Radius Standaard	Length	NLRS_C_radius_standaard
-	Stek Lengte	Length	NLRS_C_stek_lengte
-	Stelruimte Bruto	Length	NLRS_C_stelruimte_bruto
-	Stelruimte Netto	Length	NLRS_C_stelruimte_netto
-	Stelruimte Standaard	Length	NLRS_C_stelruimte_standaard
-	Volume Bruto	Volume	NLRS_C_volume_bruto
-	Volume Netto	Volume	NLRS_C_volume_netto
-	Volume Standaard	Volume	NLRS_C_volume_standaard
-	Zeeg	Length	NLRS_C_zeeg
+	Zichtbaar 01	Boolean	NLRS_C_zichtbaar_01
+	Zichtbaar 02	Boolean	NLRS_C_zichtbaar_02
+	Zichtbaar 03	Boolean	NLRS_C_zichtbaar_03
+	Zichtbaar 04	Boolean	NLRS_C_zichtbaar_04
+	Zichtbaar 05	Boolean	NLRS_C_zichtbaar_05
+	Zichtbaar 06	Boolean	NLRS_C_zichtbaar_06
+	Zichtbaar 07	Boolean	NLRS_C_zichtbaar_07
+	Zichtbaar 08	Boolean	NLRS_C_zichtbaar_08
+	Zichtbaar 09	Boolean	NLRS_C_zichtbaar_09
+	Zichtbaar 10	Boolean	NLRS_C_zichtbaar_10
 PropertySet:	NLRS_Prestatie	I	IfcElement
 	Rcwaarde	ThermalTransmittance	NLRS_B_Rcwaarde
 	Soortelijke Warmte Medium 01	Real	NLRS_B_soortelijke warmte medium_01
@@ -1116,16 +1197,16 @@ PropertySet:	NLRS_Prestatie	I	IfcElement
 	Bliksembeveiligingsklasse Code	Label	NLRS_C_bliksembeveiligingsklasse_code
 	Bouwwerk Naam	Label	NLRS_C_bouwwerk_naam
 	Brandbaar	Boolean	NLRS_C_brandbaar
-	BranDCompartiment	Label	NLRS_C_brandcompartiment
-	BranDCompartimentering	Boolean	NLRS_C_brandcompartimentering
+	Brandcompartiment	Label	NLRS_C_brandcompartiment
+	Brandcompartimentering	Boolean	NLRS_C_brandcompartimentering
 	Brandklasse Code	Label	NLRS_C_brandklasse_code
 	Brandwerend	Boolean	NLRS_C_brandwerend
 	Brandwerendheid	Label	NLRS_C_brandwerendheid
 	Brandwerendheid Bezwijken	Label	NLRS_C_brandwerendheid bezwijken
 	Brandwerendheid Criteria	Label	NLRS_C_brandwerendheid criteria
 	Buiten	Boolean	NLRS_C_buiten
-	Capaciteit dm3 per sec	Real	NLRS_C_Capaciteit dm3 per sec
-	Capaciteit m3 per uur	Real	NLRS_C_Capaciteit m3 per uur
+	Capaciteit Dm3 Per Sec	Real	NLRS_C_capaciteit dm3 per sec
+	Capaciteit M3 Per Uur	Real	NLRS_C_capaciteit m3 per uur
 	Cbnl Code	Label	NLRS_C_CBNL_code
 	Centraalstaaf	Boolean	NLRS_C_centraalstaaf
 	Centraalstaaf Lengte	Length	NLRS_C_centraalstaaf lengte
@@ -1135,7 +1216,7 @@ PropertySet:	NLRS_Prestatie	I	IfcElement
 	Comfortklasse Code	Label	NLRS_C_comfortklasse_code
 	Complex Id	Label	NLRS_C_complex_id
 	Consistentieklasse Code	Label	NLRS_C_consistentieklasse_code
-	Contactgeluidsisolatie	Label	NLRS_C_contactgeluidsisolatie
+	ContActgeluidsisolatie	Label	NLRS_C_contactgeluidsisolatie
 	Dakkapel Id	Label	NLRS_C_dakkapel_id
 	Description	Label	NLRS_C_description
 	Deur Id	Label	NLRS_C_deur_id
@@ -1174,6 +1255,7 @@ PropertySet:	NLRS_Prestatie	I	IfcElement
 	Gmpklasse 	Label	NLRS_C_GMPklasse 
 	Gtin Code	Label	NLRS_C_gtin_code
 	Hang En Sluitwerk	Label	NLRS_C_hang en sluitwerk
+	Hartafstand	Length	NLRS_C_hartafstand
 	Inbraakwerend	Boolean	NLRS_C_inbraakwerend
 	Infiltratie	Real	NLRS_C_infiltratie
 	Installatiedatum	Label	NLRS_C_installatiedatum
@@ -1187,9 +1269,6 @@ PropertySet:	NLRS_Prestatie	I	IfcElement
 	Kozijn Id	Label	NLRS_C_kozijn_id
 	Kozijncombinatie Id	Label	NLRS_C_kozijncombinatie_id
 	Kwaliteitsklasse Code	Label	NLRS_C_kwaliteitsklasse_code
-	Lengte Bruto	Length	NLRS_C_lengte_bruto
-	Lengte Netto	Length	NLRS_C_lengte_netto
-	Lengte Standaard	Length	NLRS_C_lengte_standaard
 	Letselbeperkend        	Boolean	NLRS_C_letselbeperkend        
 	Levensduur	Label	NLRS_C_levensduur
 	Leverancier	Label	NLRS_C_leverancier
@@ -1282,9 +1361,6 @@ PropertySet:	NLRS_Prestatie	I	IfcElement
 	Nummer 08	Integer	NLRS_C_nummer_08
 	Nummer 09	Integer	NLRS_C_nummer_09
 	Nummer 10	Integer	NLRS_C_nummer_10
-	Offset Bruto	Length	NLRS_C_offset_bruto
-	Offset Netto	Length	NLRS_C_offset_netto
-	Offset Standaard	Length	NLRS_C_offset_standaard
 	Omschrijving	Label	NLRS_C_omschrijving
 	Omschrijving 01	Label	NLRS_C_omschrijving_01
 	Omschrijving 02	Label	NLRS_C_omschrijving_02
@@ -1337,6 +1413,7 @@ PropertySet:	NLRS_Prestatie	I	IfcElement
 	Slagvastheidsklasse Code	Label	NLRS_C_slagvastheidsklasse_code
 	Stabu Code	Label	NLRS_C_STABU_code
 	Status	Label	NLRS_C_status
+	Stek Lengte	Length	NLRS_C_stek_lengte
 	Stek Wapening	Label	NLRS_C_stek_wapening
 	Sterkteklasse Code	Label	NLRS_C_sterkteklasse_code
 	Sterkteklasse Code 01	Label	NLRS_C_sterkteklasse_code_01
@@ -1397,6 +1474,7 @@ PropertySet:	NLRS_Prestatie	I	IfcElement
 	Xyzcoordinaat	Label	NLRS_C_XYZcoordinaat
 	Ycoordinaat	Real	NLRS_C_Ycoordinaat
 	Zcoordinaat	Real	NLRS_C_Zcoordinaat
+	Zeeg	Length	NLRS_C_zeeg
 	Zelf Aangebrachte Voorziening	Boolean	NLRS_C_zelf aangebrachte voorziening
 	Zelfsluitend	Boolean	NLRS_C_zelfsluitend
 	Zonwering	Boolean	NLRS_C_zonwering
@@ -1413,70 +1491,6 @@ PropertySet:	NLRS_Prestatie	I	IfcElement
 	Vloerbelasting Lijn	Force	NLRS_S_vloerbelasting lijn
 	Vloerbelasting Punt	Real	NLRS_S_vloerbelasting punt
 	Vloerbelasting Vlak	Force	NLRS_S_vloerbelasting vlak
-	Temperatuur Omgeving Gemiddeld	Real	NLRS_P_temperatuur omgeving_gemiddeld
-	Temperatuur Regime Koeling Gemiddeld	Real	NLRS_P_temperatuur regime koeling_gemiddeld
-	Temperatuur Regime Verwarming Gemiddeld	Real	NLRS_P_temperatuur regime verwarming_gemiddeld
-	Volumestroom	Real	NLRS_P_volumestroom
-	Belastinghor	Real	NLRS_S_belastinghor
-	Belastingvert	Real	NLRS_S_belastingvert
-	Draagvermogen Druk	Real	NLRS_S_draagvermogen druk
-	Draagvermogen Trek	Real	NLRS_S_draagvermogen trek
-	Gewicht Bruto	Real	NLRS_S_gewicht_bruto
-	Gewicht Netto	Real	NLRS_S_gewicht_netto
-	Circulatievoud	Real	NLRS_M_circulatievoud
-	Debiet	VolumetricFlowRate	NLRS_M_debiet
-	Drukverlies Statisch	Pressure	NLRS_M_drukverlies_statisch
-	Geluidsvermogenniveau	Integer	NLRS_M_geluidsvermogenniveau
-	Kv Instelling	Integer	NLRS_M_kv instelling
-	Kv Waarde	Real	NLRS_M_kv waarde
-	Verlegafstand	Integer	NLRS_M_verlegafstand
-	Vermogen Per M2	Real	NLRS_M_vermogen per m2
-	Warmtelast Extern	Real	NLRS_M_warmtelast extern
-	Warmtelast Intern	Real	NLRS_M_warmtelast intern
-	Warmtelast Totaal	Real	NLRS_M_warmtelast totaal
-	Warmteverlies 75 65 20	Real	NLRS_M_warmteverlies 75 65 20
-	Warmteverlies Netto	Real	NLRS_M_warmteverlies netto
-	Warmteverlies Toeslag Heropwarming	Real	NLRS_M_warmteverlies toeslag heropwarming
-	Warmteverlies Totaal	Real	NLRS_M_warmteverlies totaal
-	Warmteverlies Transmissie	Real	NLRS_M_warmteverlies transmissie
-	Warmteverlies Ventilatie	Real	NLRS_M_warmteverlies ventilatie
-	Warmtewinst	Real	NLRS_M_warmtewinst
-	Frequentie	Frequency	NLRS_E_frequentie
-	GelijktijdigheidsfActor	Real	NLRS_E_gelijktijdigheidsfactor
-	Groep	Label	NLRS_E_groep
-	Lusnummer	Label	NLRS_E_lusnummer
-	Schakelcode	Label	NLRS_E_schakelcode
-	Spanning	Real	NLRS_E_spanning
-	Stroom	ElectricalCurrent	NLRS_E_stroom
-	Subklasse Motor	Boolean	NLRS_E_subklasse motor
-	Verlichtingsniveau	LuminousIntensity	NLRS_E_verlichtingsniveau
-	Afgifte Koeling	Real	NLRS_M_afgifte_koeling
-	Afgifte Koeling 01	Real	NLRS_M_afgifte_koeling_01
-	Afgifte Koeling 02	Real	NLRS_M_afgifte_koeling_02
-	Afgifte Koeling 03	Real	NLRS_M_afgifte_koeling_03
-	Afgifte Koeling 04	Real	NLRS_M_afgifte_koeling_04
-	Afgifte Koeling 05	Real	NLRS_M_afgifte_koeling_05
-	Afgifte Omschrijving	Label	NLRS_M_afgifte_omschrijving
-	Afgifte Omschrijving 01	Label	NLRS_M_afgifte_omschrijving_01
-	Afgifte Omschrijving 02	Label	NLRS_M_afgifte_omschrijving_02
-	Afgifte Omschrijving 03	Label	NLRS_M_afgifte_omschrijving_03
-	Afgifte Omschrijving 04	Label	NLRS_M_afgifte_omschrijving_04
-	Afgifte Omschrijving 05	Label	NLRS_M_afgifte_omschrijving_05
-	Afgifte Verwarming	Real	NLRS_M_afgifte_verwarming
-	Afgifte Verwarming 01	Real	NLRS_M_afgifte_verwarming_01
-	Afgifte Verwarming 02	Real	NLRS_M_afgifte_verwarming_02
-	Afgifte Verwarming 03	Real	NLRS_M_afgifte_verwarming_03
-	Afgifte Verwarming 04	Real	NLRS_M_afgifte_verwarming_04
-	Afgifte Verwarming 05	Real	NLRS_M_afgifte_verwarming_05
-	Binnentemperatuur Winter	Real	NLRS_M_binnentemperatuur winter
-	Binnentemperatuur Zomer	Real	NLRS_M_binnentemperatuur zomer
-	Metrisch	Boolean	NLRS_C_metrisch
-	ArbeidsfActor	Real	NLRS_E_arbeidsfactor
-	Belastingsklasse	Integer	NLRS_E_belastingsklasse
-	Belastingswaarde	Ratio	NLRS_E_belastingswaarde
-	Rustende Belasting       	Label	NLRS_C_rustende belasting       
-	Veranderlijke Belasting          	Label	NLRS_C_veranderlijke belasting          
-	Vervangingskosten	Label	NLRS_C_vervangingskosten
 PropertySet:	ILS_UVIP Aedes	I	IfcElement
 	Aandrijving	Label	NLRS_C_aandrijving
 	Aardlekschakelaar	Boolean	NLRS_C_aardlekschakelaar
@@ -1553,38 +1567,31 @@ PropertySet:	ILS_O&E	I	IfcElement
 	Akoestische eigenschappen	Label	NLRS_C_luchtgeluidsisolatie_eis
 	Bediening	Label	NLRS_C_regeling_eis
 	Binnen/ buitenruimte, In/ uitwendig	Boolean	NLRS_C_buiten
-	Binnen/ Buiten	Boolean	IsExternal
-	Binnen/ Buiten	Boolean	Function
 	BouwlaagCode	Label	NLRS_C_bouwwerk_laag
 	Bouwnummer	Label	NLRS_C_bouwwerk_nummer
 	Brandwerendheid	Label	NLRS_C_brandwerendheid criteria_eis
-	Brandwerendheid	Label	FireRating
 	Brandwerendheid	Label	NLRS_C_brandwerendheid_eis
-	Brandwerendheid hoofddraagconstructie	Label	NLRS_C_brandwerendheid bezwijken_eis
-	Capaciteit	Real	NLRS_C_Capaciteit m3 per uur_eis
-	Capaciteit	Label	NLRS_E_stroom Capaciteit_eis
+	Brandwerendheid (moment tot bezwijken)	Label	NLRS_C_brandwerendheid bezwijken_eis
+	Capaciteit	Real	NLRS_C_capaciteit m3 per uur_eis
+	Capaciteit	Label	NLRS_E_stroom capaciteit_eis
 	Capaciteit	ElectricalCurrent	NLRS_E_stroom_max
-	Capaciteit (aantal personen)	Real	NLRS_C_Capaciteit aantal_eis
-	Capaciteit, Ventilatierooster	Real	NLRS_C_Capaciteit dm3 per sec_eis
+	Capaciteit (aantal personen)	Real	NLRS_C_capaciteit aantal_eis
+	Capaciteit, Ventilatierooster	Real	NLRS_C_capaciteit dm3 per sec_eis
 	Codering - NL-SfB	Label	NLRS_C_SfB tabel 1_code
-	Codering - NL-SfB	Label	Assembly Code
-	Codering - NL-SfB omschrijving	Label	Assembly Description
 	Codering - NL-SfB	Label	NLRS_C_SfB tabel 3_code
 	Conservering	Label	NLRS_C_materiaal_conservering_eis
-	Conservering 01	Label	NLRS_C_materiaal_conservering_eis_01
-	Conservering 02	Label	NLRS_C_materiaal_conservering_eis_02
-	Conservering 03	Label	NLRS_C_materiaal_conservering_eis_03
-	Conservering 04	Label	NLRS_C_materiaal_conservering_eis_04
-	Conservering 05	Label	NLRS_C_materiaal_conservering_eis_05
-	Conservering 06	Label	NLRS_C_materiaal_conservering_eis_06
-	Conservering 07	Label	NLRS_C_materiaal_conservering_eis_07
-	Conservering 08	Label	NLRS_C_materiaal_conservering_eis_08
-	Conservering 09	Label	NLRS_C_materiaal_conservering_eis_09
-	Conservering 10	Label	NLRS_C_materiaal_conservering_eis_10
+	Conservering	Label	NLRS_C_materiaal_conservering_eis_01
+	Conservering	Label	NLRS_C_materiaal_conservering_eis_02
+	Conservering	Label	NLRS_C_materiaal_conservering_eis_03
+	Conservering	Label	NLRS_C_materiaal_conservering_eis_04
+	Conservering	Label	NLRS_C_materiaal_conservering_eis_05
+	Conservering	Label	NLRS_C_materiaal_conservering_eis_06
+	Conservering	Label	NLRS_C_materiaal_conservering_eis_07
+	Conservering	Label	NLRS_C_materiaal_conservering_eis_08
+	Conservering	Label	NLRS_C_materiaal_conservering_eis_09
+	Conservering	Label	NLRS_C_materiaal_conservering_eis_10
 	Draairichting	Label	NLRS_C_draairichting_eis
 	Dragend/ niet dragend	Boolean	NLRS_C_dragend
-	Dragend/ niet dragend	Boolean	Loadbearing
-	Dragend/ niet dragend	Boolean	Structural
 	Gebruiksklasse	Label	NLRS_C_gebruiksklasse_eis
 	Geintegreerde zonwering	Boolean	NLRS_C_zonwering_eis
 	Groepkast naam/ nummer	Label	NLRS_E_groepkast
@@ -1593,59 +1600,56 @@ PropertySet:	ILS_O&E	I	IfcElement
 	Inbraakwerendheid	Label	NLRS_C_PKVW_eis
 	Isolatie	Label	NLRS_C_brandklasse_eis
 	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis
-	Isolatiewaarde 01	ThermalTransmittance	NLRS_C_Rdwaarde_eis_01
-	Isolatiewaarde 02	ThermalTransmittance	NLRS_C_Rdwaarde_eis_02
-	Isolatiewaarde 03	ThermalTransmittance	NLRS_C_Rdwaarde_eis_03
-	Isolatiewaarde 04	ThermalTransmittance	NLRS_C_Rdwaarde_eis_04
-	Isolatiewaarde 05	ThermalTransmittance	NLRS_C_Rdwaarde_eis_05
-	Isolatiewaarde 06	ThermalTransmittance	NLRS_C_Rdwaarde_eis_06
-	Isolatiewaarde 07	ThermalTransmittance	NLRS_C_Rdwaarde_eis_07
-	Isolatiewaarde 08	ThermalTransmittance	NLRS_C_Rdwaarde_eis_08
-	Isolatiewaarde 09	ThermalTransmittance	NLRS_C_Rdwaarde_eis_09
-	Isolatiewaarde 10	ThermalTransmittance	NLRS_C_Rdwaarde_eis_10
+	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis_01
+	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis_02
+	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis_03
+	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis_04
+	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis_05
+	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis_06
+	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis_07
+	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis_08
+	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis_09
+	Isolatiewaarde	ThermalTransmittance	NLRS_C_Rdwaarde_eis_10
 	ITS (Integrale Toegankelijkheidsstandaard)	Boolean	NLRS_C_toegankelijk_eis
 	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur
-	Kleur, Kleur (binnenzijde, buitenzijde) 01	Label	NLRS_C_materiaal_kleur_01
-	Kleur, Kleur (binnenzijde, buitenzijde) 02	Label	NLRS_C_materiaal_kleur_02
-	Kleur, Kleur (binnenzijde, buitenzijde) 03	Label	NLRS_C_materiaal_kleur_03
-	Kleur, Kleur (binnenzijde, buitenzijde) 04	Label	NLRS_C_materiaal_kleur_04
-	Kleur, Kleur (binnenzijde, buitenzijde) 05	Label	NLRS_C_materiaal_kleur_05
-	Kleur, Kleur (binnenzijde, buitenzijde) 06	Label	NLRS_C_materiaal_kleur_06
-	Kleur, Kleur (binnenzijde, buitenzijde) 07	Label	NLRS_C_materiaal_kleur_07
-	Kleur, Kleur (binnenzijde, buitenzijde) 08	Label	NLRS_C_materiaal_kleur_08
-	Kleur, Kleur (binnenzijde, buitenzijde) 09	Label	NLRS_C_materiaal_kleur_09
-	Kleur, Kleur (binnenzijde, buitenzijde) 10	Label	NLRS_C_materiaal_kleur_10
+	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur_01
+	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur_02
+	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur_03
+	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur_04
+	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur_05
+	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur_06
+	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur_07
+	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur_08
+	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur_09
+	Kleur, Kleur (binnenzijde, buitenzijde)	Label	NLRS_C_materiaal_kleur_10
 	Leverancier/ fabrikant	Label	NLRS_C_fabrikant
 	Leverancier/ fabrikant	Label	NLRS_C_leverancier
-	Materiaal	Text	Structural Material
-	Materiaal	Text	Material
-	Materiaal	Text	RoofMaterial
 	Materiaal	Label	NLRS_C_materiaal
-	Materiaal 01	Label	NLRS_C_materiaal_01
-	Materiaal 02	Label	NLRS_C_materiaal_02
-	Materiaal 03	Label	NLRS_C_materiaal_03
-	Materiaal 04	Label	NLRS_C_materiaal_04
-	Materiaal 05	Label	NLRS_C_materiaal_05
-	Materiaal 06	Label	NLRS_C_materiaal_06
-	Materiaal 07	Label	NLRS_C_materiaal_07
-	Materiaal 08	Label	NLRS_C_materiaal_08
-	Materiaal 09	Label	NLRS_C_materiaal_09
-	Materiaal 10	Label	NLRS_C_materiaal_10
+	Materiaal	Label	NLRS_C_materiaal_01
+	Materiaal	Label	NLRS_C_materiaal_02
+	Materiaal	Label	NLRS_C_materiaal_03
+	Materiaal	Label	NLRS_C_materiaal_04
+	Materiaal	Label	NLRS_C_materiaal_05
+	Materiaal	Label	NLRS_C_materiaal_06
+	Materiaal	Label	NLRS_C_materiaal_07
+	Materiaal	Label	NLRS_C_materiaal_08
+	Materiaal	Label	NLRS_C_materiaal_09
+	Materiaal	Label	NLRS_C_materiaal_10
 	Max. aantal pers. in Verblijfsgebied	Integer	NLRS_C_aantal personen VG_max
 	Merk, Kozijnmerk	Label	NLRS_C_merk
 	Merk, Kozijnmerk	Label	NLRS_C_merk type
 	Metselwerkverband	Label	NLRS_C_verband
 	Milieuklasse	Label	NLRS_C_milieuklasse_eis
-	Milieuklasse 01	Label	NLRS_C_milieuklasse_eis_01
-	Milieuklasse 02	Label	NLRS_C_milieuklasse_eis_02
-	Milieuklasse 03	Label	NLRS_C_milieuklasse_eis_03
-	Milieuklasse 04	Label	NLRS_C_milieuklasse_eis_04
-	Milieuklasse 05	Label	NLRS_C_milieuklasse_eis_05
-	Milieuklasse 06	Label	NLRS_C_milieuklasse_eis_06
-	Milieuklasse 07	Label	NLRS_C_milieuklasse_eis_07
-	Milieuklasse 08	Label	NLRS_C_milieuklasse_eis_08
-	Milieuklasse 09	Label	NLRS_C_milieuklasse_eis_09
-	Milieuklasse 10	Label	NLRS_C_milieuklasse_eis_10
+	Milieuklasse	Label	NLRS_C_milieuklasse_eis_01
+	Milieuklasse	Label	NLRS_C_milieuklasse_eis_02
+	Milieuklasse	Label	NLRS_C_milieuklasse_eis_03
+	Milieuklasse	Label	NLRS_C_milieuklasse_eis_04
+	Milieuklasse	Label	NLRS_C_milieuklasse_eis_05
+	Milieuklasse	Label	NLRS_C_milieuklasse_eis_06
+	Milieuklasse	Label	NLRS_C_milieuklasse_eis_07
+	Milieuklasse	Label	NLRS_C_milieuklasse_eis_08
+	Milieuklasse	Label	NLRS_C_milieuklasse_eis_09
+	Milieuklasse	Label	NLRS_C_milieuklasse_eis_10
 	Oppervlakteklasse	Label	NLRS_C_oppervlakteklasse_eis
 	Optrede	Length	NLRS_C_trap_optrede_eis
 	Paalnummer, Liftnummer	Integer	NLRS_C_nummer
@@ -1659,30 +1663,30 @@ PropertySet:	ILS_O&E	I	IfcElement
 	Rookwerendheid	Label	NLRS_C_rookwerendheid_eis
 	Ruimtefunctie	Label	NLRS_C_ruimtefunctie
 	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code
-	Staalkwaliteit, Sterkteklasse 01	Label	NLRS_C_sterkteklasse_code_01
-	Staalkwaliteit, Sterkteklasse 02	Label	NLRS_C_sterkteklasse_code_02
-	Staalkwaliteit, Sterkteklasse 03	Label	NLRS_C_sterkteklasse_code_03
-	Staalkwaliteit, Sterkteklasse 04	Label	NLRS_C_sterkteklasse_code_04
-	Staalkwaliteit, Sterkteklasse 05	Label	NLRS_C_sterkteklasse_code_05
-	Staalkwaliteit, Sterkteklasse 06	Label	NLRS_C_sterkteklasse_code_06
-	Staalkwaliteit, Sterkteklasse 07	Label	NLRS_C_sterkteklasse_code_07
-	Staalkwaliteit, Sterkteklasse 08	Label	NLRS_C_sterkteklasse_code_08
-	Staalkwaliteit, Sterkteklasse 09	Label	NLRS_C_sterkteklasse_code_09
-	Staalkwaliteit, Sterkteklasse 10	Label	NLRS_C_sterkteklasse_code_10
+	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code_01
+	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code_02
+	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code_03
+	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code_04
+	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code_05
+	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code_06
+	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code_07
+	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code_08
+	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code_09
+	Staalkwaliteit, Sterkteklasse	Label	NLRS_C_sterkteklasse_code_10
 	Stekken	Label	NLRS_C_wapeningskwaliteit_code
 	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte
-	Stelruimte t.o.v. hoofddraagconstructie 01	Length	NLRS_C_stelruimte_01
-	Stelruimte t.o.v. hoofddraagconstructie 02	Length	NLRS_C_stelruimte_02
-	Stelruimte t.o.v. hoofddraagconstructie 03	Length	NLRS_C_stelruimte_03
-	Stelruimte t.o.v. hoofddraagconstructie 04	Length	NLRS_C_stelruimte_04
-	Stelruimte t.o.v. hoofddraagconstructie 05	Length	NLRS_C_stelruimte_05
-	Stelruimte t.o.v. hoofddraagconstructie 06	Length	NLRS_C_stelruimte_06
-	Stelruimte t.o.v. hoofddraagconstructie 07	Length	NLRS_C_stelruimte_07
-	Stelruimte t.o.v. hoofddraagconstructie 08	Length	NLRS_C_stelruimte_08
-	Stelruimte t.o.v. hoofddraagconstructie 09	Length	NLRS_C_stelruimte_09
-	Stelruimte t.o.v. hoofddraagconstructie 10	Length	NLRS_C_stelruimte_10
+	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte_01
+	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte_02
+	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte_03
+	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte_04
+	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte_05
+	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte_06
+	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte_07
+	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte_08
+	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte_09
+	Stelruimte t.o.v. hoofddraagconstructie	Length	NLRS_C_stelruimte_10
 	Systeemtype	Label	NLRS_C_system type
-	Afkorting systeemtype	Label	NLRS_C_sytem type_afkorting
+	Systeemtype	Label	NLRS_C_sytem type_afkorting
 	Toog/ zeeg	Length	NLRS_C_zeeg_max
 	Toog/ zeeg	Length	NLRS_C_zeeg_min
 	Voegtype, Type vlakvulling	Label	NLRS_C_type_01
@@ -1703,16 +1707,16 @@ PropertySet:	ILS_O&E	I	IfcElement
 	Volumieke massa	Real	NLRS_C_medium_soortelijk gewicht_05
 	Volumieke massa	Real	NLRS_S_soortelijk gewicht
 	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking
-	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling 01	Label	NLRS_C_materiaal_afwerking_01
-	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling 02	Label	NLRS_C_materiaal_afwerking_02
-	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling 03	Label	NLRS_C_materiaal_afwerking_03
-	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling 04	Label	NLRS_C_materiaal_afwerking_04
-	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling 05	Label	NLRS_C_materiaal_afwerking_05
-	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling 06	Label	NLRS_C_materiaal_afwerking_06
-	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling 07	Label	NLRS_C_materiaal_afwerking_07
-	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling 08	Label	NLRS_C_materiaal_afwerking_08
-	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling 09	Label	NLRS_C_materiaal_afwerking_09
-	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling 10	Label	NLRS_C_materiaal_afwerking_10
+	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking_01
+	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking_02
+	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking_03
+	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking_04
+	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking_05
+	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking_06
+	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking_07
+	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking_08
+	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking_09
+	Wandafwerking, Vloerafwerking, Plafondafwerking, Afwerking/ behandeling	Label	NLRS_C_materiaal_afwerking_10
 	Wapening	Boolean	NLRS_C_centraalstaaf
 	Wapening	Length	NLRS_C_centraalstaaf lengte
 	Wapening	Length	NLRS_C_dekking_binnen
@@ -1735,15 +1739,3 @@ PropertySet:	ILS_O&E	I	IfcElement
 	Zonering Vluchtroute	Label	NLRS_C_vluchtroute
 	ZTA	Label	NLRS_C_ZTA_max
 	ZTA	Label	NLRS_C_ZTA_min
-PropertySet:	Revit_Geometrie	I	IfcElement
-	Lengte	Length	Length
-	Breedte	Length	Width
-	Diepte	Length	Depth
-	Hoogte	Length	Height
-	Dikte	Length	Thickness
-	Oppervlak	Area	Area
-	Omtrek	Length	Perimeter
-	Volume	Volume	Volume
-	Hoogte tov verdieping	Length	Elevation from Level
-	Offset	Length	Offset from Host
-	Hoogte tov verdieping	Length	Default Elevation
