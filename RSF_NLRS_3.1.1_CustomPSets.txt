@@ -4,7 +4,7 @@
 # <tab> IFC Property <tab> IFC Datatype <tab> Revit parameter			
 # -----------------------------------------------------			
 #			
-PropertySet:	Sparingopgave	I	IfcElement
+PropertySet:	Sparingopgave	I	IfcBuildingElementProxy
 	IfcBuildingStorey	Label	Level
 	Plaatsingshoogte	Length	Elevation from Level
 	Type	Label	Type
@@ -1106,6 +1106,7 @@ PropertySet:	NLRS_Geometrie	I	IfcElement
 	Radius 09	Length	NLRS_C_radius_09
 	Radius 10	Length	NLRS_C_radius_10
 	Ruimte Onder Deur	Length	NLRS_C_ruimte onder deur
+	Ruimte Onder Deur Max	Length	NLRS_C_ruimte onder deur_max
 	Sparing Breedte	Length	NLRS_C_sparing breedte
 	Sparing Hoogte	Length	NLRS_C_sparing hoogte
 	Sponning Diepte	Length	NLRS_C_sponning diepte
